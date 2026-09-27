@@ -8,8 +8,10 @@ test('returns a successful response', function () {
     $response->assertOk();
 });
 
-test('hero card rotates through articles with cover images', function () {
-    $article = SiteContent::articles()->first(fn ($article) => $article['image']);
+test('hero card rotates through articles', function () {
+    // Articles with cover images when there are any, otherwise older articles.
+    $article = SiteContent::articles()->first(fn ($article) => $article['image'])
+        ?? SiteContent::articles()->slice(10)->first();
 
     $this->get(route('home'))
         ->assertOk()
