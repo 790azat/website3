@@ -229,9 +229,8 @@ Don't evaluate software solely on today's unit count.
 
 Create at least three scenarios:
 
-|  |  |
-| :-: | :-: |
-| \*\*Portfolio\*\* | \*\*Why Compare It\*\* |
+| Portfolio | Why Compare It |
+|---|---|
 | Current units | Measures today's cost |
 | 2-year target | Tests scalability |
 | Long-term target | Reveals potential pricing pressure |

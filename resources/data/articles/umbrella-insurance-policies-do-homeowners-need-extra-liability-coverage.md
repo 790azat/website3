@@ -150,9 +150,8 @@ An umbrella policy can provide substantially more liability protection and may b
 
 For example:
 
-|  |  |
-| :-: | :-: |
-| \*\*Coverage\*\* | \*\*Example\*\* |
+| Coverage | Example |
+|---|---|
 | Homeowners liability | $300,000 |
 | Personal umbrella | $1,000,000 |
 | Potential total layer | $1.3 million |

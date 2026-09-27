@@ -208,9 +208,8 @@ A useful owner statement can show:
 
 For example:
 
-|  |  |
-| :-: | :-: |
-| **Transaction** | **Amount** |
+| Transaction | Amount |
+|---|---|
 | Beginning owner balance | $2,500 |
 | Rent collected | +$2,000 |
 | Plumbing repair | -$350 |

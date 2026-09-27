@@ -151,9 +151,8 @@ These details can materially affect the qualifying income calculation.
 ## Bank Statement Loans vs. Conventional Mortgages
 The two approaches serve different borrower profiles.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Conventional Mortgage\*\* | \*\*Bank Statement Mortgage\*\* |
+| Feature | Conventional Mortgage | Bank Statement Mortgage |
+|---|---|---|
 | Primary income documentation | Tax returns and other documentation | Bank statements and lender-specific documentation |
 | Taxable deductions | Can reduce qualifying income | May have less direct impact |
 | Underwriting standards | Standardized agency guidelines may apply | Varies by lender |

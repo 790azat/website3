@@ -32,9 +32,8 @@ Insurers charge more when they assume responsibility for a greater share of smal
 
 For example, an insurer might offer:
 
-|  |  |
-| :-: | :-: |
-| \*\*Deductible\*\* | \*\*Annual Premium\*\* |
+| Deductible | Annual Premium |
+|---|---|
 | $500 | $2,100 |
 | $1,000 | $1,900 |
 | $2,500 | $1,650 |

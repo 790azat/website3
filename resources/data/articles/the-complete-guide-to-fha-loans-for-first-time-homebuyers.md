@@ -54,9 +54,8 @@ FHA loan limits vary according to property location and the number of units.
 
 For 2026, the national FHA forward mortgage limits range from:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Property Type\*\* | \*\*Low-Cost Area Floor\*\* | \*\*High-Cost Area Ceiling\*\* |
+| Property Type | Low-Cost Area Floor | High-Cost Area Ceiling |
+|---|---|---|
 | One unit | $541,287 | $1,249,125 |
 | Two units | $693,050 | $1,599,375 |
 | Three units | $837,700 | $1,933,200 |
@@ -206,9 +205,8 @@ The specific work permitted depends on the 203(k) program, property, contractor,
 ## FHA Loan vs. Conventional Mortgage
 First-time buyers often compare FHA and conventional financing.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*FHA Loan\*\* | \*\*Conventional Mortgage\*\* |
+| Feature | FHA Loan | Conventional Mortgage |
+|---|---|---|
 | Minimum down payment | Can be 3.5% for eligible borrowers | Varies by program |
 | Mortgage insurance | FHA mortgage insurance applies under program rules | PMI may apply depending on LTV |
 | Loan limits | Location and property dependent | Conforming limits apply to eligible conforming loans |

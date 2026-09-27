@@ -45,9 +45,8 @@ The CFPB notes that construction loans are usually short-term and generally have
 ## Land Loan vs. Construction Loan
 The primary difference is what the financing is intended to accomplish.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Land Loan\*\* | \*\*Construction Loan\*\* |
+| Feature | Land Loan | Construction Loan |
+|---|---|---|
 | Primary purpose | Purchase vacant land | Finance construction |
 | Finished home required | No | No at the beginning |
 | Construction plans required | Usually not | Generally yes |

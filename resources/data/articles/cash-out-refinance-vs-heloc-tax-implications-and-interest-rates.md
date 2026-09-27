@@ -144,9 +144,8 @@ A HELOC can be particularly useful for renovations where the final cost is uncer
 However, borrowers should understand that HELOC payments can change and that lenders may impose fees or restrictions on the line of credit.
 
 ## Cash-Out Refinance vs. HELOC: Key Differences
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Cash-Out Refinance\*\* | \*\*HELOC\*\* |
+| Feature | Cash-Out Refinance | HELOC |
+|---|---|---|
 | Existing mortgage | Replaced | Usually remains |
 | Cash access | Lump sum | Draw as needed |
 | Interest rate | Typically fixed for fixed-rate mortgage | Usually variable |

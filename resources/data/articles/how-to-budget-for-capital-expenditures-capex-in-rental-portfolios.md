@@ -38,9 +38,8 @@ Start by creating an asset inventory for each property.
 
 Record:
 
-|  |  |  |  |  |  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| \*\*Asset\*\* | \*\*Installation Date\*\* | \*\*Current Age\*\* | \*\*Estimated Useful Life\*\* | \*\*Replacement Cost\*\* | \*\*Condition\*\* |
+| Asset | Installation Date | Current Age | Estimated Useful Life | Replacement Cost | Condition |
+|---|---|---|---|---|---|
 | Roof | 2017 | 9 years | 20 years | $15,000 | Good |
 | HVAC | 2019 | 7 years | 15 years | $9,000 | Fair |
 | Water heater | 2023 | 3 years | 10 years | $1,500 | Good |
@@ -103,14 +102,13 @@ Shows the combined expected CapEx requirement across all properties.
 
 For example:
 
-|  |  |
-| :-: | :-: |
-| \*\*Property\*\* | \*\*Annual CapEx Reserve\*\* |
+| Property | Annual CapEx Reserve |
+|---|---|
 | Property A | $3,600 |
 | Property B | $4,200 |
 | Property C | $2,900 |
 | Property D | $5,100 |
-| \*\*Portfolio Total\*\* | \*\*$15,800\*\* |
+| **Portfolio Total** | **$15,800** |
 
 This allows an owner to identify whether one property is disproportionately consuming future capital.
 
@@ -185,9 +183,8 @@ A long-term schedule can reveal years in which several major expenses overlap.
 
 For example:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Year\*\* | \*\*Planned Projects\*\* | \*\*Estimated Cost\*\* |
+| Year | Planned Projects | Estimated Cost |
+|---|---|---|
 | 2027 | HVAC — Property A | $9,500 |
 | 2028 | Exterior — Property B | $12,000 |
 | 2029 | Roof — Property C | $21,000 |

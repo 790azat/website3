@@ -114,15 +114,14 @@ This distinction is one of the most important parts of the Closing Disclosure.
 
 A simplified example might look like this:
 
-|  |  |
-| :-: | :-: |
-| \*\*Item\*\* | \*\*Example Amount\*\* |
+| Item | Example Amount |
+|---|---|
 | Purchase price | $400,000 |
 | Down payment | $80,000 |
 | Closing costs | $10,000 |
 | Earnest money already paid | \\-$10,000 |
 | Seller credit | \\-$5,000 |
-| \*\*Approximate cash to close\*\* | \*\*$75,000\*\* |
+| **Approximate cash to close** | **$75,000** |
 
 The actual calculation can include additional adjustments, so buyers should rely on their final Closing Disclosure rather than a simple estimate.
 

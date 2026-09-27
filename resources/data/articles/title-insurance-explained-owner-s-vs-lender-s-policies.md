@@ -85,9 +85,8 @@ State rules and transaction-specific arrangements can affect how the costs are p
 ## Owner's vs. Lender's Title Insurance
 The simplest distinction is **who is protected**.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| **Feature** | **Owner's Policy** | **Lender's Policy** |
+| Feature | Owner's Policy | Lender's Policy |
+|---|---|---|
 | Protected party | Homeowner | Mortgage lender |
 | Usually required for mortgage? | Generally no | Generally yes |
 | Protects homeowner's equity | Yes, subject to policy terms | No |

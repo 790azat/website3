@@ -284,9 +284,8 @@ Useful metrics include:
 For example, if a virtual tour generates thousands of views but almost no applications, the problem may be the rental price, property presentation, listing quality, or applicant targeting rather than the tour itself.
 
 ## Virtual Tours vs. In-Person Showings
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Virtual Tour\*\* | \*\*In-Person Showing\*\* |
+| Feature | Virtual Tour | In-Person Showing |
+|---|---|---|
 | Geographic reach | Very high | Limited |
 | Staff time | Lower after creation | Higher |
 | Physical inspection | Limited | Strong |

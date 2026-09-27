@@ -151,15 +151,14 @@ Repairs: $850
 
 use an itemized record such as:
 
-|  |  |
-| :-: | :-: |
-| \*\*Deduction\*\* | \*\*Amount\*\* |
+| Deduction | Amount |
+|---|---|
 | Replace damaged interior door | $280 |
 | Repair wall damage | $175 |
 | Remove unauthorized fixture | $125 |
 | Cleaning beyond ordinary condition | $150 |
 | Unpaid rent | $120 |
-| \*\*Total deductions\*\* | \*\*$850\*\* |
+| **Total deductions** | **$850** |
 
 Keep supporting documentation such as invoices, receipts, photographs, inspection reports, and relevant communications.
 

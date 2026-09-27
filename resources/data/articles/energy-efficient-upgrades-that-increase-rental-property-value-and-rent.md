@@ -197,9 +197,8 @@ Eligibility for utility rebates, state programs, financing, and other incentives
 ## Which Upgrades Should Landlords Prioritize?
 A practical priority system is:
 
-|  |  |  |  |
-| :-: | :-: | :-: | :-: |
-| \*\*Upgrade\*\* | \*\*Potential Tenant Benefit\*\* | \*\*Capital Cost\*\* | \*\*Typical Priority\*\* |
+| Upgrade | Potential Tenant Benefit | Capital Cost | Typical Priority |
+|---|---|---|---|
 | Air sealing | Comfort, efficiency | Low–Medium | High |
 | Attic insulation | Comfort, efficiency | Medium | High |
 | Smart thermostat | Convenience, control | Low | High |

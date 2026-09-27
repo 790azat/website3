@@ -89,9 +89,8 @@ The fee helps support the VA home loan program and can generally be paid at clos
 
 Current VA funding-fee rates for purchase and construction loans depend on factors including whether it is the borrower's first use of the VA loan benefit and the size of the down payment. VA's current published rates include:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Use of VA Benefit\*\* | \*\*Down Payment\*\* | \*\*Funding Fee\*\* |
+| Use of VA Benefit | Down Payment | Funding Fee |
+|---|---|---|
 | First use | Less than 5% | 2.15% |
 | First use | 5% or more | 1.5% |
 | First use | 10% or more | 1.25% |
@@ -224,9 +223,8 @@ Homeowners considering major projects should confirm whether the specific improv
 ## VA Loan vs. Conventional Mortgage
 Buyers eligible for VA financing often compare it with conventional mortgages.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*VA Loan\*\* | \*\*Conventional Mortgage\*\* |
+| Feature | VA Loan | Conventional Mortgage |
+|---|---|---|
 | Down payment | Can be 0% for eligible borrowers | Varies |
 | Monthly PMI | Not required | May apply depending on LTV |
 | Funding fee | May apply | No VA funding fee |

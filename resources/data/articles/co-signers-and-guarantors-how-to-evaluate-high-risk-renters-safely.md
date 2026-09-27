@@ -125,9 +125,8 @@ Credit scores can be useful, but they are only one component of rental underwrit
 
 A landlord could consider a broader picture:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Factor\*\* | \*\*Primary Applicant\*\* | \*\*Guarantor\*\* |
+| Factor | Primary Applicant | Guarantor |
+|---|---|---|
 | Identity verification | Yes | Yes |
 | Income verification | Yes | Yes |
 | Credit history | Yes | Yes |

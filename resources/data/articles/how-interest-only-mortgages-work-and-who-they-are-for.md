@@ -83,9 +83,8 @@ The CFPB recommends examining whether the rate can change, how long the term las
 ## Interest-Only vs. Traditional Mortgage
 The main difference is principal repayment.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Interest-Only Mortgage\*\* | \*\*Fully Amortizing Mortgage\*\* |
+| Feature | Interest-Only Mortgage | Fully Amortizing Mortgage |
+|---|---|---|
 | Initial payment | Lower in many cases | Higher |
 | Principal reduction initially | None from required payment | Yes |
 | Equity from scheduled payments | Generally does not increase from principal repayment | Builds through principal payments |

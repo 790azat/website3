@@ -82,15 +82,14 @@ An income-and-expense report helps investors understand property performance.
 
 Common categories include:
 
-|  |  |
-| :-: | :-: |
-| \*\*Income\*\* | \*\*Expenses\*\* |
+| Income | Expenses |
+|---|---|
 | Rental income | Repairs |
 | Late fees | Maintenance |
 | Parking income | Management fees |
 | Application fees | Utilities |
 | Other property income | Insurance |
-|   | Property taxes |
+|  | Property taxes |
 
 Categorization is important because an investor may use the information to evaluate operating performance and prepare financial records.
 

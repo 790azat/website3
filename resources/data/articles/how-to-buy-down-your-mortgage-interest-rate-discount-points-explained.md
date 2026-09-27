@@ -29,9 +29,8 @@ Consider a hypothetical $400,000 30-year fixed-rate mortgage.
 
 Suppose your lender offers:
 
-|  |  |  |  |
-| :-: | :-: | :-: | :-: |
-| \*\*Option\*\* | \*\*Interest Rate\*\* | \*\*Points\*\* | \*\*Upfront Cost\*\* |
+| Option | Interest Rate | Points | Upfront Cost |
+|---|---|---|---|
 | No points | 6.50% | 0 | $0 |
 | Buy points | 6.25% | 1 | $4,000 |
 | Buy more points | 6.00% | 2 | $8,000 |
@@ -166,9 +165,8 @@ For example:
 
 Then calculate the cumulative savings over different periods.
 
-|  |  |  |  |
-| :-: | :-: | :-: | :-: |
-| \*\*Holding Period\*\* | \*\*Zero Points\*\* | \*\*1 Point Savings\*\* | \*\*2 Point Savings\*\* |
+| Holding Period | Zero Points | 1 Point Savings | 2 Point Savings |
+|---|---|---|---|
 | 2 years | — | Compare against $4,000 cost | Compare against $8,000 cost |
 | 5 years | — | Compare against $4,000 cost | Compare against $8,000 cost |
 | 10 years | — | Compare against $4,000 cost | Compare against $8,000 cost |

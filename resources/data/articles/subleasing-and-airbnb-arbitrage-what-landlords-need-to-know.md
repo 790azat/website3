@@ -211,9 +211,8 @@ and generates:
 
 The tenant's expenses might include:
 
-|  |  |
-| :-: | :-: |
-| \*\*Expense\*\* | \*\*Monthly Cost\*\* |
+| Expense | Monthly Cost |
+|---|---|
 | Rent | $2,000 |
 | Platform/payment fees | $400 |
 | Cleaning | $400 |
@@ -221,7 +220,7 @@ The tenant's expenses might include:
 | Supplies | $100 |
 | Insurance | $100 |
 | Maintenance | $150 |
-| \*\*Total\*\* | \*\*$3,400\*\* |
+| **Total** | **$3,400** |
 
 The tenant's estimated operating spread would be:
 

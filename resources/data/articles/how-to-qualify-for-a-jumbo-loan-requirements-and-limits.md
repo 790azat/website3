@@ -163,9 +163,8 @@ Borrowers should compare the interest rate, annual percentage rate (APR), points
 ## Jumbo Loan vs. Conventional Mortgage
 The main difference between a jumbo and conforming mortgage is the loan amount relative to the applicable conforming limit.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Conforming Mortgage\*\* | \*\*Jumbo Mortgage\*\* |
+| Feature | Conforming Mortgage | Jumbo Mortgage |
+|---|---|---|
 | Loan amount | Within applicable conforming limit | Above applicable conforming limit |
 | Standardization | More standardized | More lender-specific |
 | Credit requirements | Vary by program | Often more stringent |

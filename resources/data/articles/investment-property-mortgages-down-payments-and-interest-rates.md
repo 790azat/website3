@@ -35,9 +35,8 @@ The down payment depends on the property type and mortgage program.
 
 For conventional Freddie Mac financing, current maximum purchase LTV ratios are:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| **Property** | **Maximum LTV** | **Approximate Minimum Down Payment** |
+| Property | Maximum LTV | Approximate Minimum Down Payment |
+|---|---|---|
 | 1-unit investment property | 85% | 15% |
 | 2- to 4-unit investment property | 75% | 25% |
 
@@ -287,9 +286,8 @@ Investors should therefore confirm the source-of-funds rules with the lender bef
 ## Investment Property vs. Primary Residence Mortgage
 The difference can be summarized as follows:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| **Feature** | **Primary Residence** | **Investment Property** |
+| Feature | Primary Residence | Investment Property |
+|---|---|---|
 | Intended occupancy | Owner lives there | Primarily rented/investment use |
 | Down payment | Often lower | Generally higher |
 | Interest rate | Typically lower | Typically higher |

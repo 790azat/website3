@@ -218,9 +218,8 @@ A smart thermostat may provide value through energy management and HVAC monitori
 The financial case should therefore be based on the property's actual operating model.
 
 ## Smart Home Technology vs. Traditional Equipment
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Traditional System\*\* | \*\*Smart System\*\* |
+| Feature | Traditional System | Smart System |
+|---|---|---|
 | Physical keys | Usually required | Often reduced |
 | Remote access | Limited | Usually available |
 | Temporary contractor access | Difficult | Often available |

@@ -51,9 +51,8 @@ With a HELOC, the homeowner may be able to borrow portions of the available cred
 ## HELOC vs. Home Equity Loan
 The main differences can be summarized as follows:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*HELOC\*\* | \*\*Home Equity Loan\*\* |
+| Feature | HELOC | Home Equity Loan |
+|---|---|---|
 | Funding structure | Revolving credit line | Lump sum |
 | Access to funds | Draw as needed | Entire amount generally received upfront |
 | Interest rate | Often variable | Often fixed |

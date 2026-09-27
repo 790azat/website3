@@ -69,9 +69,8 @@ This structure can make 504 financing particularly relevant for businesses purch
 ## SBA 7(a) vs. SBA 504
 Although both programs can finance commercial real estate, their structures differ.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*SBA 7(a)\*\* | \*\*SBA 504\*\* |
+| Feature | SBA 7(a) | SBA 504 |
+|---|---|---|
 | Maximum program loan | $5 million | $5.5 million |
 | Real estate use | Purchase, refinance, improvements | Purchase, construction, renovation |
 | Working capital | Permitted | Generally not permitted |

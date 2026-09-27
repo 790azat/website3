@@ -11,9 +11,8 @@ A short-term rental can generate higher revenue during strong demand periods, bu
 The right model depends on the property, local regulations, financing, operating costs, and the owner's preferred level of involvement.
 
 ## Short-Term Rentals vs. Long-Term Leases at a Glance
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Factor\*\* | \*\*Short-Term Rental\*\* | \*\*Long-Term Lease\*\* |
+| Factor | Short-Term Rental | Long-Term Lease |
+|---|---|---|
 | Typical occupancy | Nightly or weekly | Usually several months to a year |
 | Revenue | Potentially higher gross revenue | More predictable monthly revenue |
 | Turnover | Frequent | Infrequent |

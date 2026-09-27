@@ -57,9 +57,8 @@ For example, suppose your water heater stops working because of an internal mech
 The NAIC specifically describes home warranties as covering mechanical breakdowns of individual parts of a home and notes that they generally do not cover the home's structure.
 
 ## Home Warranty vs. Homeowners Insurance
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Homeowners Insurance\*\* | \*\*Home Warranty\*\* |
+| Feature | Homeowners Insurance | Home Warranty |
+|---|---|---|
 | Primary purpose | Protect against covered property losses and liability | Help with covered system/appliance breakdowns |
 | House structure | Yes, for covered perils | Generally no |
 | Personal belongings | Typically yes, for covered losses | Generally no |

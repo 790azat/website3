@@ -202,9 +202,8 @@ Treat rental marketing as a measurable acquisition process.
 
 For each listing, track:
 
-|  |  |
-| :-: | :-: |
-| \*\*Metric\*\* | \*\*What It Tells You\*\* |
+| Metric | What It Tells You |
+|---|---|
 | Views | Listing visibility |
 | Inquiries | Interest generated |
 | Qualified leads | Lead quality |

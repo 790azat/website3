@@ -67,7 +67,7 @@ return [
         'marcus-kessler' => [
             'name' => 'Marcus Kessler',
             'role' => 'Home Maintenance & Systems Specialist',
-            'bio' => 'Marcus Kessler is a licensed master plumber and former property maintenance supervisor with hands-on experience troubleshooting residential HVAC, plumbing, and electrical issues. He writes about home maintenance, repair decisions, and the practical line between DIY work and professional service.',
+            'bio' => 'A licensed master plumber and former property maintenance supervisor, Marcus provides practical, troubleshoot-first content. He helps homeowners understand when a buzzing HVAC unit or a leaking pipe is a DIY fix and when it is time to call a professional before minor issues become expensive disasters.',
         ],
         'julian-vinter' => [
             'name' => 'Julian Vinter',
@@ -77,7 +77,7 @@ return [
         'elena-kovalska' => [
             'name' => 'Elena Kovalska',
             'role' => 'Home Remodeling & Contractor Relations Writer',
-            'bio' => 'Elena Kovalska is a former architectural draftsperson and project coordinator who worked with residential general contractors. She writes about property operations, home improvement projects, contractor relationships, and practical systems that help homeowners and property managers manage residential properties more effectively.',
+            'bio' => 'Elena worked as an architectural draftsperson and project coordinator for residential general contractors. She bridges the gap between homeowners and builders, offering insider advice on how to vet contractors, read complex estimates, structure payment schedules, and survive a major remodel without losing your sanity.',
         ],
     ],
 

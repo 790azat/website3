@@ -82,9 +82,8 @@ With recasting, the existing mortgage generally remains intact while the payment
 ## Recasting vs. Refinancing
 Recasting and refinancing can both change a homeowner's monthly mortgage costs, but they work differently.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Mortgage Recasting\*\* | \*\*Mortgage Refinancing\*\* |
+| Feature | Mortgage Recasting | Mortgage Refinancing |
+|---|---|---|
 | Existing mortgage | Generally remains in place | Replaced with a new loan |
 | Interest rate | Usually unchanged | May change |
 | Large principal payment | Generally required | Not necessarily required |

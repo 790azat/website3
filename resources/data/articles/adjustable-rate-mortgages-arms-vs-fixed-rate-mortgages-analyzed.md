@@ -87,9 +87,8 @@ For example, an ARM described as having a **2/2/5 cap structure** could have:
 Actual loan terms vary, so the cap structure should be confirmed in the Loan Estimate and mortgage documents.
 
 ## Fixed-Rate vs. ARM: Core Differences
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Fixed-Rate Mortgage\*\* | \*\*Adjustable-Rate Mortgage\*\* |
+| Feature | Fixed-Rate Mortgage | Adjustable-Rate Mortgage |
+|---|---|---|
 | Initial rate | Fixed | Usually fixed initially |
 | Rate after initial period | Does not change | Can change |
 | Principal-and-interest payment | Generally stable | Can increase or decrease |

@@ -164,9 +164,8 @@ An emergency vendor list should be accessible even outside normal business hours
 
 At minimum, record:
 
-|  |  |  |  |
-| :-: | :-: | :-: | :-: |
-| **Service** | **Vendor** | **Phone** | **Emergency Service** |
+| Service | Vendor | Phone | Emergency Service |
+|---|---|---|---|
 | Plumbing | ABC Plumbing | 555-0101 | Yes |
 | HVAC | Climate Services | 555-0102 | Yes |
 | Electrical | Power Pro | 555-0103 | Yes |
@@ -215,9 +214,8 @@ A portfolio-level number is useful, but property-level data is much more informa
 
 For example:
 
-|  |  |
-| :-: | :-: |
-| **Property** | **Annual Maintenance** |
+| Property | Annual Maintenance |
+|---|---|
 | Property A | $1,600 |
 | Property B | $2,100 |
 | Property C | $6,000 |

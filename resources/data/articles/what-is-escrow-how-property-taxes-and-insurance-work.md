@@ -260,9 +260,8 @@ Without escrow, homeowners retain more control over their cash and can potential
 
 However, they must also budget for large payments themselves.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*With Escrow\*\* | \*\*Without Escrow\*\* |
+| Feature | With Escrow | Without Escrow |
+|---|---|---|
 | Property taxes | Paid by servicer | Paid by homeowner |
 | Insurance | Often paid by servicer | Paid by homeowner |
 | Monthly budgeting | More predictable | Requires personal planning |

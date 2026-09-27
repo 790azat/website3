@@ -225,9 +225,8 @@ A standardized inspection report can include:
 
 Then record observations such as:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Area\*\* | \*\*Condition\*\* | \*\*Follow-Up\*\* |
+| Area | Condition | Follow-Up |
+|---|---|---|
 | Kitchen sink | No visible leak | None |
 | HVAC | Operating | Replace filter |
 | Bathroom ceiling | Small water stain | Investigate |

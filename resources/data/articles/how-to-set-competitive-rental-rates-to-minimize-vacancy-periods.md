@@ -133,9 +133,8 @@ Before listing a property, search current rental listings within the same neighb
 
 Create a simple comparison table:
 
-|  |  |  |  |  |  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| \*\*Property\*\* | \*\*Rent\*\* | \*\*Beds/Baths\*\* | \*\*Size\*\* | \*\*Condition\*\* | \*\*Concession\*\* |
+| Property | Rent | Beds/Baths | Size | Condition | Concession |
+|---|---|---|---|---|---|
 | Subject property | $2,000 | 2/2 | 1,050 sq. ft. | Renovated | None |
 | Comparable A | $1,950 | 2/2 | 1,000 sq. ft. | Good | None |
 | Comparable B | $2,100 | 2/2 | 1,075 sq. ft. | Renovated | 1 month free |

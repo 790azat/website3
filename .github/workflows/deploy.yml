@@ -1,4 +1,4 @@
-name: Deploy to SmartApe (rsync over SSH)
+name: Deploy to server (rsync over SSH)
 
 on:
   push:

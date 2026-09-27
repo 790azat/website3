@@ -40,9 +40,8 @@ Apartment managers need more than an occupancy percentage to understand how a pr
 
 A useful multifamily dashboard can include:
 
-|  |  |
-| :-: | :-: |
-| **Metric** | **What It Measures** |
+| Metric | What It Measures |
+|---|---|
 | Physical occupancy | Percentage of units occupied |
 | Economic occupancy | Actual rental revenue compared with potential revenue |
 | Renewal rate | Percentage of residents renewing |

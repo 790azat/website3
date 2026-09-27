@@ -147,9 +147,8 @@ Create a migration mapping document showing where each source field belongs in t
 
 For example:
 
-|  |  |
-| :-: | :-: |
-| \*\*Existing Data\*\* | \*\*New System\*\* |
+| Existing Data | New System |
+|---|---|
 | Tenant Name | Resident Profile |
 | Lease Start | Lease Record |
 | Monthly Rent | Recurring Charge |

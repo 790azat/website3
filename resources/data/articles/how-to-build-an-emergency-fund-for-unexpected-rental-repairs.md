@@ -175,9 +175,8 @@ For multiple rentals, track reserves at both the property and portfolio levels.
 
 For example:
 
-|  |  |  |  |
-| :-: | :-: | :-: | :-: |
-| **Property** | **Target** | **Current Reserve** | **Gap** |
+| Property | Target | Current Reserve | Gap |
+|---|---|---|---|
 | Property A | $8,000 | $7,200 | $800 |
 | Property B | $6,000 | $6,000 | $0 |
 | Property C | $10,000 | $5,500 | $4,500 |

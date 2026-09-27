@@ -13,9 +13,8 @@ Not every maintenance request requires an immediate after-hours response. An eme
 
 Common examples include:
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Situation\*\* | \*\*Typical Priority\*\* | \*\*Immediate Concern\*\* |
+| Situation | Typical Priority | Immediate Concern |
+|---|---|---|
 | Burst or uncontrolled water leak | Emergency | Water and structural damage |
 | No heat during dangerous weather | High | Health and habitability |
 | Gas smell | Emergency | Fire or explosion risk |

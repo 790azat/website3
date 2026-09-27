@@ -191,9 +191,8 @@ That does not make every non-QM loan unsuitable. It means the borrower should co
 ## Non-QM vs. Conventional Mortgage
 The most important comparison is often between an alternative loan and a conventional mortgage.
 
-|  |  |  |
-| :-: | :-: | :-: |
-| \*\*Feature\*\* | \*\*Conventional Mortgage\*\* | \*\*Non-QM Mortgage\*\* |
+| Feature | Conventional Mortgage | Non-QM Mortgage |
+|---|---|---|
 | Income documentation | Standardized underwriting methods | More flexible lender-specific methods |
 | Self-employed borrowers | Detailed income and tax-return analysis | May offer bank statement or other alternatives |
 | Investor financing | Conventional investment-property programs available | DSCR and other specialized options |

@@ -58,9 +58,8 @@ This distinction is important.
 The lender can still require an appraisal, title work, additional documentation, underwriting review, and other conditions before issuing a final commitment.
 
 ## Pre-Qualification vs. Pre-Approval: Side-by-Side
-|  |  |  |
-| :-: | :-: | :-: |
-| **Feature** | **Pre-Qualification** | **Pre-Approval** |
+| Feature | Pre-Qualification | Pre-Approval |
+|---|---|---|
 | Purpose | Early estimate of borrowing capacity | More detailed assessment before shopping |
 | Financial information | Often primarily borrower-provided | Generally supported by documentation |
 | Credit review | May or may not involve credit review | Typically involves credit evaluation |
