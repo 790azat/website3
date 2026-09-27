@@ -39,3 +39,4 @@ yarn-error.log
 /opencode.jsonc
 /dist
 /vite.local.config.js
+/.vercel-static
