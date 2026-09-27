@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'name' => 'HomeLedger',
+    'name' => 'Contractor-mag',
 
     // Public domain used for contact email addresses (hello@, editorial@).
-    'domain' => 'homeledger.site',
+    'domain' => 'contractor-mag.com',
 
     /*
     |--------------------------------------------------------------------------

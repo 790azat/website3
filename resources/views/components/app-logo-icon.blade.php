@@ -1,1 +1,1 @@
-<img src="/images/brand/logo-mark.svg" alt="" width="48" height="48" {{ $attributes->merge(['class' => 'object-contain']) }}>
+<img src="/images/brand/logo-mark.webp" alt="" width="240" height="133" {{ $attributes->merge(['class' => 'object-contain']) }}>
