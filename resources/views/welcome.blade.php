@@ -51,7 +51,7 @@
                 <h1 class="mt-6 font-display text-5xl leading-[1.02] font-extrabold tracking-tight text-balance sm:text-6xl lg:text-7xl">
                     {{ __('Smarter decisions for every') }}
                     <span class="relative whitespace-nowrap text-zest-400">
-                        {{ __('square foot') }}<svg class="absolute -bottom-2 left-0 w-full text-brand-500" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9c50-6 146-8 196-3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" /></svg>
+                        {{ __('square foot') }}<svg class="absolute -bottom-4 left-0 w-full text-brand-500" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9c50-6 146-8 196-3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" /></svg>
                     </span>
                 </h1>
                 <p class="mt-8 max-w-xl text-lg leading-relaxed text-navy-300">

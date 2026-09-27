@@ -50,10 +50,10 @@ class ArticleMarkdown
 
         $html = str_replace(['<table>', '</table>'], ['<div class="table-wrap"><table>', '</table></div>'], $html);
 
-        if (preg_match('/<h2 id="references">/', $html, $match, PREG_OFFSET_CAPTURE)) {
+        if (preg_match('/<h2 id="(references|referencias)">/', $html, $match, PREG_OFFSET_CAPTURE)) {
             $offset = $match[0][1];
             $html = substr($html, 0, $offset).'<div class="references">'.substr($html, $offset).'</div>';
-            $toc = array_values(array_filter($toc, fn (array $item) => $item['id'] !== 'references'));
+            $toc = array_values(array_filter($toc, fn (array $item) => ! in_array($item['id'], ['references', 'referencias'], true)));
         }
 
         return ['html' => $html, 'toc' => $toc];
