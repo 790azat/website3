@@ -168,7 +168,7 @@
         @apply font-bold text-ink;
     }
 
-    .article-body a {
+    .article-body a:not(.btn-primary) {
         @apply font-medium text-brand-700 underline decoration-zest-400 decoration-2 underline-offset-4 transition hover:decoration-brand-600 dark:text-brand-300 dark:decoration-brand-700 dark:hover:decoration-brand-400;
     }
 

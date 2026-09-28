@@ -1,7 +1,11 @@
 <?php
 
 /**
- * Site content data: sections, authors, and programs.
+ * Site content data: sections, authors, and main guides (programs).
+ *
+ * Main guides: settings here, text in resources/data/programs/{slug}.md
+ *   (front matter: title, intro), translations in programs/{es,fr}/.
+ *   A line with just [[CTA]] in the body becomes a button to cta_url.
  *
  * There is no database; this file and the Markdown files next to it are the
  * single source of truth, read through App\Support\SiteContent.
@@ -81,6 +85,47 @@ return [
         ],
     ],
 
-    'programs' => [],
+    'programs' => [
+        [
+            'slug' => 'home-repair-financing',
+            'section' => 'home-financing',
+            'date' => '2026-09-27',
+            'cta_label' => 'Learn More',
+            'cta_url' => 'https://website1-pink-delta.vercel.app/',
+            'hero_icon' => 'banknotes',
+            'hero_image' => 'programs/home-repair-financing.webp',
+            'related_slug' => 'financing-your-home-renovation-loans-lines-of-credit-and-cash-options',
+        ],
+        [
+            'slug' => 'gaf-roof-replacement',
+            'section' => 'home-contractors',
+            'date' => '2026-09-26',
+            'cta_label' => 'Learn More',
+            'cta_url' => 'https://website1-pink-delta.vercel.app/',
+            'hero_icon' => 'home',
+            'hero_image' => 'programs/gaf-roof-replacement.webp',
+            'related_slug' => 'roofing-contractors-how-to-choose-compare-estimates-and-plan-a-roof-project',
+        ],
+        [
+            'slug' => 'andersen-replacement-windows',
+            'section' => 'home-contractors',
+            'date' => '2026-09-25',
+            'cta_label' => 'Learn More',
+            'cta_url' => 'https://website1-pink-delta.vercel.app/',
+            'hero_icon' => 'home-modern',
+            'hero_image' => 'programs/andersen-replacement-windows.webp',
+            'related_slug' => 'window-contractors-how-to-choose-the-right-installer-for-your-home',
+        ],
+        [
+            'slug' => 'metronet-construction',
+            'section' => 'home-contractors',
+            'date' => '2026-09-24',
+            'cta_label' => 'Learn More',
+            'cta_url' => 'https://website1-pink-delta.vercel.app/',
+            'hero_icon' => 'signal',
+            'hero_image' => 'programs/metronet-construction.webp',
+            'related_slug' => null,
+        ],
+    ],
 
 ];

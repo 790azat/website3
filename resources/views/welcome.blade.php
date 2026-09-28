@@ -12,6 +12,7 @@
     $sideArticles = $allArticles->slice(1, 3)->values();
     $latestArticles = $allArticles->slice(4, 6)->values();
     $authors = SiteContent::authors();
+    $programs = SiteContent::programs();
 
     // "Trending" rotator: one article with a cover image per slide, mixing
     // topics round-robin.
@@ -216,6 +217,22 @@
             @endforeach
         </div>
     </section>
+
+    {{-- Main guides: the standalone in-depth guides --}}
+    @if ($programs->isNotEmpty())
+        <section id="main-guides" class="mx-auto max-w-7xl scroll-mt-36 px-6 pt-20 lg:px-8">
+            <div class="max-w-2xl">
+                <span class="eyebrow">{{ __('Main guides') }}</span>
+                <h2 class="mt-4 font-display text-4xl font-bold tracking-tight text-ink">{{ __('In-depth guides to start with') }}</h2>
+                <p class="mt-4 leading-relaxed text-body">{{ __('Our most complete guides to financing repairs, replacing a roof or windows, and what to expect when fiber construction reaches your street.') }}</p>
+            </div>
+            <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                @foreach ($programs as $program)
+                    @include('partials.program-card', ['program' => $program])
+                @endforeach
+            </div>
+        </section>
+    @endif
 
     {{-- Editor's pick: featured cover + side list --}}
     @if ($featuredArticle)

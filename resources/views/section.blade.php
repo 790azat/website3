@@ -23,6 +23,8 @@
 
     $otherCategories = SiteContent::categories()->where('id', '!=', $section);
 
+    $sectionPrograms = SiteContent::programs()->where('section', $section)->values();
+
     $title = $sectionMeta['title'];
     $description = $sectionMeta['description'] ?? __(':section articles from :site.', ['section' => $sectionMeta['title'], 'site' => $siteName]);
 @endphp
@@ -38,6 +40,17 @@
     ])
 
     <section class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+        @if ($sectionPrograms->isNotEmpty() && $page === 1)
+            <div class="mb-16">
+                <span class="eyebrow">{{ __('Main guides') }}</span>
+                <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                    @foreach ($sectionPrograms as $program)
+                        @include('partials.program-card', ['program' => $program])
+                    @endforeach
+                </div>
+            </div>
+        @endif
+
         @if ($pagedArticles->isNotEmpty())
             <div class="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
                 @foreach ($pagedArticles as $article)
