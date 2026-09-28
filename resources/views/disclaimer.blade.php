@@ -2,7 +2,7 @@
 
 @php
     $siteName = config('app.name', 'Laravel');
-    $siteDomain = ucfirst(\App\Support\SiteContent::domain());
+    $siteDomain = config('app.display_domain');
     $title = __('Disclaimer');
     $description = __('Read the :site disclaimer: our content is educational only and is not professional financial, legal, tax, or construction advice.', ['site' => $siteName]);
 
@@ -11,7 +11,7 @@
     $sections = [
         [
             'heading' => __('Educational Purposes Only'),
-            'body' => __('The content provided on :domain is for informational and educational purposes only and should not be construed as professional financial, legal, tax, or construction advice. The creators and editors of this site are not licensed financial advisors, attorneys, or contractors.', ['domain' => $siteDomain]),
+            'body' => __('The content provided on :domain is for informational and educational purposes only and should not be construed as professional financial, legal, tax, or construction advice. :domain is not a lender, law firm, or contracting company, and our articles do not replace advice from a licensed professional who can review your specific situation.', ['domain' => $siteDomain]),
         ],
         [
             'heading' => __('Costs, Rates, and Regulations Vary'),

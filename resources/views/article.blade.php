@@ -20,6 +20,7 @@
 
     $title = $article['title'];
     $description = Str::limit($article['excerpt'], 155);
+    $shareArticle = $article;
 @endphp
 
 @section('content')

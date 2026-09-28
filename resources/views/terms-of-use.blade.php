@@ -10,7 +10,7 @@
     $sections = [
         [
             'heading' => __('Acceptance of Terms'),
-            'body' => __('These Terms of Use ("Terms") govern your access to and use of :site, including our website, articles, and any account features we offer. By accessing or using :site, you agree to be bound by these Terms. If you do not agree, please do not use the site.', ['site' => $siteName]),
+            'body' => __('These Terms of Use ("Terms") govern your access to and use of :site, including our website and articles. By accessing or using :site, you agree to be bound by these Terms. If you do not agree, please do not use the site.', ['site' => $siteName]),
         ],
         [
             'heading' => __('Educational Use Only'),
@@ -21,15 +21,10 @@
             'body' => __('When using our site, you agree to:'),
             'list' => [
                 __('Use the site only for lawful purposes and in a manner consistent with these Terms.'),
-                __('Not attempt to gain unauthorized access to any part of the site, other accounts, or related systems.'),
+                __('Not attempt to gain unauthorized access to any part of the site or related systems.'),
                 __('Not interfere with or disrupt the site, its servers, or its networks.'),
                 __('Not scrape, copy, or republish substantial portions of our content without permission.'),
-                __('Provide accurate information if you create an account with us.'),
             ],
-        ],
-        [
-            'heading' => __('Accounts'),
-            'body' => __('If :site offers account or dashboard features, you are responsible for maintaining the confidentiality of your login credentials and for all activity that occurs under your account. Please notify us promptly if you suspect any unauthorized use of your account.', ['site' => $siteName]),
         ],
         [
             'heading' => __('Intellectual Property'),

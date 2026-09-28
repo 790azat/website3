@@ -30,7 +30,7 @@ test('disclaimer page is linked from the footer', function () {
     $this->get(route('disclaimer'))
         ->assertOk()
         ->assertSee('Costs, Rates, and Regulations Vary')
-        ->assertSee('Contractor-mag.com makes no representations');
+        ->assertSee('Contractor-Mag.com makes no representations');
 
     $this->get(route('home'))
         ->assertOk()

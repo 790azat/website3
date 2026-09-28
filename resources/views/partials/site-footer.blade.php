@@ -55,11 +55,11 @@
             </div>
         </div>
 
-        @php($siteDomain = ucfirst(\App\Support\SiteContent::domain()))
+        @php($siteDomain = config('app.display_domain'))
         <div class="mt-14 space-y-3 border-t border-navy-800 pt-8 text-xs leading-relaxed text-navy-400">
             <p>
                 <span class="font-bold text-navy-300">{{ __('Disclaimer:') }}</span>
-                {{ __('The content provided on :domain is for informational and educational purposes only and should not be construed as professional financial, legal, tax, or construction advice. The creators and editors of this site are not licensed financial advisors, attorneys, or contractors.', ['domain' => $siteDomain]) }}
+                {{ __('The content provided on :domain is for informational and educational purposes only and should not be construed as professional financial, legal, tax, or construction advice. :domain is not a lender, law firm, or contracting company, and our articles do not replace advice from a licensed professional who can review your specific situation.', ['domain' => $siteDomain]) }}
             </p>
             <p>{{ __('Loan terms, rates, costs, and regulations vary by lender, location, and property. Before making any financing, property, or repair decision, conduct your own research and consult a qualified, licensed professional who understands your specific situation.') }}</p>
             <p>{{ __(':domain makes no representations or warranties as to the accuracy, completeness, or suitability of the information contained herein, and assumes no liability for any losses or damages arising from the use of this content.', ['domain' => $siteDomain]) }}</p>

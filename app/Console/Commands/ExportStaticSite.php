@@ -89,6 +89,7 @@ class ExportStaticSite extends Command
         /** @var list<array{0: string, 1: array<string, string>}> $queue */
         $queue = [['/', []]];
         $pages = 0;
+        $sitemap = [];
 
         while ($queue !== []) {
             [$path, $query] = array_shift($queue);
@@ -111,6 +112,7 @@ class ExportStaticSite extends Command
                 $pages++;
                 $body = $this->rewriteLinks($body, $query['lang'] ?? null, $queue);
                 $target = $this->staticPath($path, $query);
+                $sitemap[] = $target;
                 $target = $target === '/' ? '/index.html' : $target.'.html';
             } else {
                 $target = $path;
@@ -123,6 +125,8 @@ class ExportStaticSite extends Command
         [, $notFound] = $this->render($kernel, '/__static-export-not-found__', []);
         $unused = [];
         $files->put($out.'/404.html', $this->rewriteLinks($notFound, null, $unused));
+
+        $this->writeSitemap($files, $out, $sitemap);
 
         // Plain static files: no framework detection or build step on Vercel.
         $files->put($out.'/vercel.json', json_encode([
@@ -244,6 +248,28 @@ class ExportStaticSite extends Command
             },
             $html,
         );
+    }
+
+    /**
+     * Writes sitemap.xml for the public domain and points robots.txt at it.
+     *
+     * @param  list<string>  $paths
+     */
+    protected function writeSitemap(Filesystem $files, string $out, array $paths): void
+    {
+        $base = 'https://'.config('app.domain');
+        $urls = collect($paths)
+            ->reject(fn (string $path) => str_contains($path, '/page/'))
+            ->unique()
+            ->sort()
+            ->map(fn (string $path) => '  <url><loc>'.e($base.($path === '/' ? '/' : $path)).'</loc></url>')
+            ->implode("\n");
+
+        $files->put($out.'/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>'."\n"
+            .'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'."\n".$urls."\n</urlset>\n");
+
+        $robots = is_file($out.'/robots.txt') ? rtrim((string) $files->get($out.'/robots.txt')) : "User-agent: *\nDisallow:";
+        $files->put($out.'/robots.txt', $robots."\n\nSitemap: {$base}/sitemap.xml\n");
     }
 
     /**

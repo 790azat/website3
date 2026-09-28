@@ -128,7 +128,7 @@
 
                 <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-navy-300">
                     <span class="flex -space-x-2">
-                        @foreach ($authors->take(5) as $author)
+                        @foreach ($authors->take(6) as $author)
                             @include('partials.avatar', ['author' => $author, 'class' => 'size-9 text-xs !ring-navy-900'])
                         @endforeach
                     </span>
@@ -341,7 +341,7 @@
                 </a>
             </div>
 
-            <div class="grid grid-cols-2 gap-px bg-brand-700/60 p-px">
+            <div class="grid gap-px sm:grid-cols-2 bg-brand-700/60 p-px">
                 @foreach ($authors->take(6) as $author)
                     <div class="flex items-center gap-3 bg-brand-600 p-5">
                         @include('partials.avatar', ['author' => $author, 'class' => 'size-12 text-sm !ring-brand-400'])

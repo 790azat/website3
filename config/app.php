@@ -13,10 +13,13 @@ return [
     |
     */
 
-    'name' => 'Contractor-mag',
+    'name' => 'Contractor-Mag',
 
     // Public domain used for contact email addresses (hello@, editorial@).
     'domain' => 'contractor-mag.com',
+
+    // How the domain is written in running text (disclaimers).
+    'display_domain' => 'Contractor-Mag.com',
 
     /*
     |--------------------------------------------------------------------------
