@@ -31,12 +31,12 @@
 
         <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-6 py-16 lg:grid-cols-2 lg:px-8 lg:py-24">
             <div>
-                <span class="eyebrow">{{ __('Our Editorial Team') }}</span>
+                <span class="eyebrow">Contractor-Mag.com</span>
                 <h1 class="mt-5 font-display text-5xl leading-[1.04] font-bold tracking-tight text-balance text-ink sm:text-6xl">
-                    {{ __(':site Editorial Team', ['site' => $siteName]) }}
+                    {{ __('Our Editorial Team') }}
                 </h1>
                 <p class="mt-7 text-lg leading-relaxed text-body">
-                    {{ __('The :site editorial team brings together writers and specialists with experience in mortgage lending, property management, home maintenance, remodeling, and construction. Our contributors focus on clear, practical explanations, combining research with real-world experience to help readers understand costs, requirements, and trade-offs before they borrow, rent, repair, or hire.', ['site' => $siteName]) }}
+                    {{ __('At Contractor-Mag.com, our editorial team brings together writers and industry-focused contributors with experience in home improvement, construction, property management, real estate, and home financing. We aim to make complicated projects easier to understand by sharing practical guidance, useful questions to ask contractors, and information homeowners can actually use.') }}
                 </p>
                 <a href="#team" class="btn-primary mt-9">
                     {{ __('Meet the editors') }}
@@ -98,11 +98,11 @@
                 <span class="eyebrow">{{ __('The editors') }}</span>
                 <h2 class="mt-4 font-display text-4xl font-bold tracking-tight text-ink">{{ __('Experience you can learn from') }}</h2>
                 <p class="mt-4 leading-relaxed text-body">
-                    {{ __('Our writers and analysts bring experience across consumer banking, credit, lending, wealth planning, and small-business finance.') }}
+                    {{ __('Our contributors approach each topic from a different perspective—from repairs and remodeling to contractor selection, property investment, and financing. We focus on clear, helpful content designed to help homeowners make informed decisions about their homes and projects.') }}
                 </p>
             </div>
 
-            <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 @foreach ($team as $member)
                     <div class="flex flex-col rounded-xl border border-line bg-paper p-7">
                         @include('partials.avatar', ['author' => $member, 'class' => 'size-20 text-xl'])

@@ -52,32 +52,32 @@ return [
         'maya-patel' => [
             'name' => 'Maya Patel',
             'role' => 'Home Financing & Real Estate Credit Analyst',
-            'bio' => 'Maya Patel spent five years working as a residential mortgage loan officer before moving into financial journalism. She writes about mortgage financing, home equity, interest rates, and the lending considerations that affect homeowners and prospective buyers.',
-        ],
-        'chloe-dubois' => [
-            'name' => 'Chloe Dubois',
-            'role' => 'Home Economics & Property Investment Editor',
-            'bio' => 'Chloe Dubois combines experience in real estate appraisal and consumer advocacy with a focus on homeownership and residential finance. She writes about home improvement costs, property investment, mortgage decisions, and the financial considerations that affect homeowners.',
+            'bio' => 'Maya spent five years working as a residential mortgage loan officer before moving into financial journalism. She specializes in mortgage products, interest-rate changes, home insurance, and practical guidance for first-time buyers and homeowners.',
         ],
         'david-galarza' => [
             'name' => 'David Galarza',
             'role' => 'Rental Operations & Landlord Contributor',
-            'bio' => 'David Galarza has managed a small portfolio of residential rental properties for more than 10 years. His writing focuses on landlord operations, tenant management, property maintenance, rental technology, and the practical financial decisions involved in running residential investment properties.',
+            'bio' => 'David has managed a portfolio of residential rental properties for more than 10 years. He focuses on landlord operations, tenant relationships, property maintenance, rental regulations, and the practical challenges of managing investment properties.',
         ],
         'marcus-kessler' => [
             'name' => 'Marcus Kessler',
             'role' => 'Home Maintenance & Systems Specialist',
-            'bio' => 'A licensed master plumber and former property maintenance supervisor, Marcus provides practical, troubleshoot-first content. He helps homeowners understand when a buzzing HVAC unit or a leaking pipe is a DIY fix and when it is time to call a professional before minor issues become expensive disasters.',
-        ],
-        'julian-vinter' => [
-            'name' => 'Julian Vinter',
-            'role' => 'Structural Repair & Exterior Specialist',
-            'bio' => 'Having spent years working hands-on in exterior construction and storm-damage restoration, Julian focuses on high-stakes home investments. His work helps homeowners evaluate structural wear-and-tear, choose durable materials, and navigate insurance claims for major roof and siding replacements.',
+            'bio' => 'Marcus is a licensed master plumber and former property maintenance supervisor. His expertise covers plumbing, HVAC, electrical systems, home repairs, troubleshooting, preventive maintenance, and deciding when a homeowner should call a professional.',
         ],
         'elena-kovalska' => [
             'name' => 'Elena Kovalska',
             'role' => 'Home Remodeling & Contractor Relations Writer',
-            'bio' => 'Elena worked as an architectural draftsperson and project coordinator for residential general contractors. She bridges the gap between homeowners and builders, offering insider advice on how to vet contractors, read complex estimates, structure payment schedules, and survive a major remodel without losing your sanity.',
+            'bio' => 'Elena is a former architectural draftsperson and project coordinator who worked with residential general contractors. She specializes in remodeling projects, contractor selection, construction estimates, project planning, payment schedules, and managing renovation work.',
+        ],
+        'julian-vinter' => [
+            'name' => 'Julian Vinter',
+            'role' => 'Structural Repair & Exterior Specialist',
+            'bio' => 'Julian has hands-on experience in exterior construction and storm-damage restoration. His focus includes structural wear, roofing and siding, exterior repairs, durable construction materials, storm damage, and insurance-related restoration projects.',
+        ],
+        'chloe-dubois' => [
+            'name' => 'Chloe Dubois',
+            'role' => 'Home Economics & Property Investment Editor',
+            'bio' => 'Chloe has a background in real estate appraisal and consumer advocacy. She covers the financial side of homeownership, including renovation ROI, property investment, home-related debt, household costs, and strategies for building and managing residential assets.',
         ],
     ],
 
