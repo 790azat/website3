@@ -48,14 +48,17 @@
                 <span class="inline-flex items-center gap-2.5 text-[11px] font-extrabold tracking-[0.22em] text-zest-400 uppercase before:size-2.5 before:rotate-45 before:bg-brand-500">
                     {{ __('Home & property, explained') }}
                 </span>
-                <h1 class="mt-6 font-display text-5xl leading-[1.02] font-extrabold tracking-tight text-balance sm:text-6xl lg:text-7xl">
-                    {{ __('Smarter decisions for every') }}
-                    <span class="relative whitespace-nowrap text-zest-400">
-                        {{ __('square foot') }}<svg class="absolute -bottom-4 left-0 w-full text-brand-500" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9c50-6 146-8 196-3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" /></svg>
+                <h1 class="mt-6 font-display text-5xl leading-[1.02] font-extrabold tracking-tight text-balance sm:text-6xl">
+                    {{ __('A closer look at homes, projects, and') }}
+                    <span class="text-zest-400">
+                        {{ __('the people behind them.') }}
                     </span>
                 </h1>
                 <p class="mt-8 max-w-xl text-lg leading-relaxed text-navy-300">
-                    {{ __(':site breaks down mortgages, rentals, repairs, and contractor hiring into plain-English guides — researched carefully and free for everyone.', ['site' => $siteName]) }}
+                    {{ __('Contractor-Mag covers the practical side of homeownership and property—from mortgages and rentals to repairs, renovations, materials, and working with contractors.') }}
+                </p>
+                <p class="mt-4 max-w-xl text-lg leading-relaxed text-navy-300">
+                    {{ __('Our articles explore the costs, processes, terminology, and considerations that come up throughout a home project, with information presented in a straightforward format.') }}
                 </p>
 
                 {{-- Article search: filters an inline index of this locale's articles as you type.
