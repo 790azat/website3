@@ -1,7 +1,6 @@
 {{--
     Entry gate (press-and-hold captcha) shown over the site until the visitor
-    completes it. The pass is kept in localStorage for 24 hours; add ?gate=1
-    to any URL to show it again. Legal pages stay open so the gate's own links work.
+    completes it. It shows on every page load; nothing is remembered. Legal pages stay open so the gate's own links work.
     After passing, the visitor is sent to one of the main guides (random).
 --}}
 <script>window.__gateGuides = @json(\App\Support\SiteContent::programs()->pluck('slug')->values());</script>
@@ -36,9 +35,7 @@
         animation: cm-scan 3.2s linear infinite;
     }
     @keyframes cm-scan { to { top: 110%; } }
-    .cm-brand { font-weight: 800; font-size: 15px; letter-spacing: .02em; text-transform: uppercase; color: #cbd5e1; }
-    .cm-brand b { color: #fb7025; }
-    .cm-kicker { display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: #fda06c; }
+    .cm-kicker { display: inline-flex; align-items: center; gap: 8px; margin-top: 0; font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: #fda06c; }
     .cm-kicker i { width: 8px; height: 8px; background: #fb7025; border-radius: 1px; animation: cm-blink 1s steps(2) infinite; }
     @keyframes cm-blink { 50% { opacity: .2; } }
     .cm-title { margin: 10px 0 0; font-size: 26px; line-height: 1.2; font-weight: 800; letter-spacing: -.01em; }
@@ -75,10 +72,11 @@
 </style>
 <script>
 (function () {
-    var KEY = 'cm_gate_pass', TTL = 864e5, HOLD = 1600, root = document.documentElement;
-    try { if (/[?&]gate=1\b/.test(location.search)) localStorage.removeItem(KEY); } catch (e) {}
+    var KEY = 'cm_gate_pass', HOLD = 1600, root = document.documentElement;
+    // No lasting pass: the gate shows on every page load. Passing it lets only
+    // the main guide it opens next through, once.
     var passed = false;
-    try { passed = Number(localStorage.getItem(KEY)) > Date.now() - TTL; } catch (e) {}
+    try { passed = sessionStorage.getItem(KEY) === '1'; sessionStorage.removeItem(KEY); } catch (e) {}
     if (passed || /\/(terms-of-use|privacy-policy)(\.html)?$/.test(location.pathname)) return;
     root.classList.add('gate-on');
 
@@ -88,10 +86,18 @@
         fr: { kick: 'Vérification de la connexion', title: 'Confirmez que vous êtes humain', sub: "Maintenez le bouton appuyé jusqu'à ce que l'anneau soit plein.", hold: 'Maintenir', keep: 'Continuez', ok: 'Terminé', hint: 'Relâché trop tôt ? Réessayez.', s1: "Analyse de l'accès", s2: "Vérification de l'intégrité", s3: 'Ouverture du site', wait: 'Veuillez patienter', foot: "Le contenu suivant est informatif et éducatif et ne constitue pas un conseil financier, juridique ou professionnel.", agree: 'En continuant, vous acceptez nos {t} et notre {p}.', t: "Conditions d'utilisation", p: 'Politique de confidentialité' }
     };
     var lang = (root.lang || 'en').slice(0, 2), t = T[lang] || T.en, pre = T[lang] && lang !== 'en' ? '/' + lang : '';
-    var brand = '<div class="cm-brand">Contractor-<b>Mag</b></div>';
     var finger = '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fda06c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 11V5a1.5 1.5 0 0 1 3 0v6"/><path d="M15 10.5a1.5 1.5 0 0 1 3 0V12"/><path d="M18 11.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-2a6 6 0 0 1-5-2.7L4.3 14.2a1.5 1.5 0 0 1 2.4-1.8L9 15V8a1.5 1.5 0 0 1 3 0"/></svg>';
 
+    var TITLES = { en: 'Security check', es: 'Verificación de seguridad', fr: 'Vérification de sécurité' };
+    var pageTitle = '', blankIcon = document.createElement('link');
+    blankIcon.rel = 'icon';
+    blankIcon.href = 'data:,';
+
     function build() {
+        // Keep the site's name and icon out of the browser tab while the gate is up.
+        pageTitle = document.title;
+        document.title = TITLES[lang] || TITLES.en;
+        document.head.appendChild(blankIcon);
         var g = document.createElement('div');
         g.id = 'cm-gate';
         g.setAttribute('role', 'dialog');
@@ -99,7 +105,7 @@
         g.setAttribute('aria-labelledby', 'cm-q');
         var agree = t.agree.replace('{t}', '<a href="' + pre + '/terms-of-use">' + t.t + '</a>').replace('{p}', '<a href="' + pre + '/privacy-policy">' + t.p + '</a>');
         g.innerHTML =
-            '<div class="cm-card">' + brand +
+            '<div class="cm-card">' +
                 '<div class="cm-kicker"><i></i>' + t.kick + '</div>' +
                 '<h2 class="cm-title" id="cm-q">' + t.title + '</h2>' +
                 '<p class="cm-sub">' + t.sub + '</p>' +
@@ -151,9 +157,8 @@
             btn.classList.remove('is-holding');
             btn.classList.add('is-done');
             lbl.textContent = t.ok;
-            try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {}
             setTimeout(function () {
-                card.innerHTML = brand +
+                card.innerHTML =
                     '<div class="cm-kicker"><i></i>' + t.kick + '</div>' +
                     '<ul class="cm-steps" role="status"><li>' + '<s></s>' + t.s1 + '</li><li><s></s>' + t.s2 + '</li><li><s></s>' + t.s3 + '</li></ul>' +
                     '<div class="cm-wait">' + t.wait + '</div>';
@@ -166,9 +171,12 @@
             setTimeout(function () {
                 var guides = window.__gateGuides || [];
                 if (guides.length && !/\/programs\//.test(location.pathname)) {
+                    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
                     location.replace(pre + '/programs/' + guides[Math.floor(Math.random() * guides.length)]);
                     return;
                 }
+                document.title = pageTitle;
+                blankIcon.remove();
                 g.classList.add('is-leaving');
                 root.classList.remove('gate-on');
                 setTimeout(function () { g.remove(); }, 460);
