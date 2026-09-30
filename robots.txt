@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://contractor-mag.com/sitemap.xml
