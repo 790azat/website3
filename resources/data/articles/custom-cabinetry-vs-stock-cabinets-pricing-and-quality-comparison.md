@@ -6,7 +6,7 @@ date: 2026-04-08
 ---
 Cabinetry is one of the largest expenses in a kitchen remodel, and the choice between custom and stock cabinets affects much more than the appearance of the finished room. Cabinet dimensions, construction materials, storage configuration, hardware, installation requirements, and lead time can all change the final cost.
 
-In 2026, published estimates generally place **stock cabinets around** **100–****400 per linear foot installed**, while **custom cabinets commonly run about** **500–****1,200 per linear foot installed**. Semi-custom cabinetry falls between those ranges and can provide additional sizing and finish options without the full price of bespoke construction. ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/))
+In 2026, published estimates generally place **stock cabinets around** **100–****400 per linear foot installed**, while **custom cabinets commonly run about** **500–****1,200 per linear foot installed**. Semi-custom cabinetry falls between those ranges and can provide additional sizing and finish options without the full price of bespoke construction. ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/?utm_source=chatgpt.com))
 
 The important question is not simply whether custom cabinets are more expensive. It is what the additional money actually provides.
 
@@ -19,7 +19,7 @@ Cabinet pricing is usually quoted by **linear foot**, rather than by square foot
 | Semi-custom | 150–700 | About 4–8 weeks | Moderate |
 | Custom | 500–1,200+ | About 6–16 weeks | Extensive |
 
-These are broad 2026 planning ranges rather than guaranteed contractor prices. Location, cabinet manufacturer, materials, installation complexity, hardware, and project size can move the actual price substantially. ([HomeGuide](https://homeguide.com/costs/kitchen-cabinets-cost))
+These are broad 2026 planning ranges rather than guaranteed contractor prices. Location, cabinet manufacturer, materials, installation complexity, hardware, and project size can move the actual price substantially. ([HomeGuide](https://homeguide.com/costs/kitchen-cabinets-cost?utm_source=chatgpt.com))
 
 For perspective, a kitchen with approximately 20 linear feet of cabinetry could therefore have a cabinet-and-installation budget ranging from several thousand dollars for stock products to well over $20,000 for custom cabinetry.
 
@@ -70,7 +70,7 @@ Cabinet boxes can be made from plywood, particleboard, MDF, or combinations of t
 
 Plywood is widely used in higher-priced cabinetry because it provides good structural strength and screw-holding ability. However, particleboard and engineered materials are not automatically unsuitable; some manufacturers produce durable cabinet systems using engineered panels and protective laminates.
 
-The important step is to identify exactly what material is used for the sides, bottom, shelves, back, and structural components rather than relying on marketing terms such as "premium" or "solid wood." ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/))
+The important step is to identify exactly what material is used for the sides, bottom, shelves, back, and structural components rather than relying on marketing terms such as "premium" or "solid wood." ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/?utm_source=chatgpt.com))
 
 ### Drawer Construction
 Drawers receive considerable daily wear, making their construction worth examining.
@@ -121,7 +121,7 @@ Custom cabinetry can provide considerably more control over:
 
 However, more choices also create more opportunities for the project price to increase.
 
-Premium wood species, specialty finishes, inset construction, decorative details, and integrated panels can substantially increase the custom cabinetry budget. ([Angi](https://www.angi.com/articles/stock-custom-how-choose-best-cabinets.htm))
+Premium wood species, specialty finishes, inset construction, decorative details, and integrated panels can substantially increase the custom cabinetry budget. ([Angi](https://www.angi.com/articles/stock-custom-how-choose-best-cabinets.htm?utm_source=chatgpt.com))
 
 ## Installation Can Change the Price
 Comparing cabinet prices without considering installation can produce misleading results.
@@ -139,12 +139,12 @@ A stock cabinet quote may cover the cabinet boxes but exclude:
 
 A custom cabinet quote may include a much broader package.
 
-When comparing contractors or cabinet suppliers, ask each one to provide an itemized proposal covering the same scope. HomeAdvisor also notes that measuring, appliance relocation, installation, and potential project-related fees can affect the final cabinet budget. ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/))
+When comparing contractors or cabinet suppliers, ask each one to provide an itemized proposal covering the same scope. HomeAdvisor also notes that measuring, appliance relocation, installation, and potential project-related fees can affect the final cabinet budget. ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/?utm_source=chatgpt.com))
 
 ## Lead Time and Project Scheduling
 Stock cabinets have a major scheduling advantage because standard products can often be obtained relatively quickly.
 
-Custom cabinetry requires a design, measurement, approval, manufacturing, finishing, delivery, and installation process. Current industry estimates commonly place custom lead times around **6–16 weeks**, although individual cabinet shops can fall outside that range. ([Cabinetshop.com](https://cabinetshop.com/guides/custom-cabinet-cost/))
+Custom cabinetry requires a design, measurement, approval, manufacturing, finishing, delivery, and installation process. Current industry estimates commonly place custom lead times around **6–16 weeks**, although individual cabinet shops can fall outside that range. ([Cabinetshop.com](https://cabinetshop.com/guides/custom-cabinet-cost/?utm_source=chatgpt.com))
 
 That matters because cabinetry usually needs to arrive at a specific stage of a larger remodeling project. A delayed cabinet order can postpone countertops, backsplash installation, plumbing connections, appliance installation, and final trim work.
 
@@ -184,7 +184,7 @@ The additional cost should be evaluated against the actual improvements being pu
 ## Final Considerations
 The difference between stock and custom cabinetry is fundamentally a trade-off between **price, flexibility, construction specifications, and project complexity**.
 
-Stock cabinets offer standardized dimensions and lower costs, while custom cabinetry allows the cabinets to be designed around the room rather than forcing the room to accommodate predetermined sizes. Semi-custom products provide another option for homeowners who need additional finishes or sizing flexibility without moving entirely into custom pricing. ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/))
+Stock cabinets offer standardized dimensions and lower costs, while custom cabinetry allows the cabinets to be designed around the room rather than forcing the room to accommodate predetermined sizes. Semi-custom products provide another option for homeowners who need additional finishes or sizing flexibility without moving entirely into custom pricing. ([HomeAdvisor](https://www.homeadvisor.com/cost/cabinets/?utm_source=chatgpt.com))
 
 Before signing a cabinet contract, compare complete installed proposals rather than cabinet-box prices alone. Examine the box material, drawer construction, hardware, finish, accessories, installation, warranty, and delivery schedule.
 

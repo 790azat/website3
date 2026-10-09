@@ -28,7 +28,7 @@ La terminologie et les critères d'analyse de crédit varient selon le prêteur.
 ## Qu'est-ce qu'un prêt de construction ?
 Un prêt de construction fournit un financement à court terme pour construire une maison ou compléter un projet de construction majeur.
 
-Le prêteur ne remet généralement pas la totalité du montant du prêt à l'emprunteur d'un seul coup. Les fonds sont plutôt débloqués par des **tirages** à mesure que la construction atteint des étapes précisées. Le prêteur peut exiger des inspections avant de débloquer des fonds supplémentaires. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Le prêteur ne remet généralement pas la totalité du montant du prêt à l'emprunteur d'un seul coup. Les fonds sont plutôt débloqués par des **tirages** à mesure que la construction atteint des étapes précisées. Le prêteur peut exiger des inspections avant de débloquer des fonds supplémentaires. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 Les prêts de construction peuvent financer des dépenses telles que :
 
@@ -40,7 +40,7 @@ Les prêts de construction peuvent financer des dépenses telles que :
 
 Certains prêts de construction ne couvrent que la période de construction. D'autres sont structurés comme des **prêts de construction à permanent**, se convertissant en hypothèque à long terme une fois la maison achevée.
 
-Le CFPB (Consumer Financial Protection Bureau) note que les prêts de construction sont habituellement à court terme et ont généralement des taux d'intérêt plus élevés que les prêts hypothécaires à plus long terme utilisés pour acheter des maisons achevées. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Le CFPB (Consumer Financial Protection Bureau) note que les prêts de construction sont habituellement à court terme et ont généralement des taux d'intérêt plus élevés que les prêts hypothécaires à plus long terme utilisés pour acheter des maisons achevées. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 ## Prêt terrain contre prêt de construction
 La principale différence réside dans ce que le financement est destiné à accomplir.
@@ -91,7 +91,7 @@ Les prêteurs veulent généralement une preuve que le projet est réaliste avan
 
 Les prêteurs de construction doivent comprendre non seulement la valeur du terrain, mais aussi la valeur attendue de la propriété achevée.
 
-Les directives actuelles sur les prêts de construction impliquent couramment un financement par étapes et des inspections à mesure que la construction progresse. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Les directives actuelles sur les prêts de construction impliquent couramment un financement par étapes et des inspections à mesure que la construction progresse. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 ## Un prêt de construction peut-il inclure le terrain ?
 Oui. Certains prêts de construction peuvent financer à la fois l'achat du lot et le coût de la construction de la maison.
@@ -100,7 +100,7 @@ Cela peut être attrayant, car l'emprunteur peut éviter de contracter un prêt 
 
 Une structure de construction à permanent peut combiner le financement de construction et l'éventuelle hypothèque permanente en une seule transaction globale, selon le prêteur et le programme.
 
-Les directives actuelles de Fannie Mae en matière de construction à permanent prévoient spécifiquement le financement de l'acquisition d'un lot non aménagé conjointement avec la construction d'une résidence dans le cadre de transactions admissibles. Le prêteur évalue la propriété achevée et les exigences de ratio prêt-valeur applicables. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-01/conversion-construction-permanent-financing-overview))
+Les directives actuelles de Fannie Mae en matière de construction à permanent prévoient spécifiquement le financement de l'acquisition d'un lot non aménagé conjointement avec la construction d'une résidence dans le cadre de transactions admissibles. Le prêteur évalue la propriété achevée et les exigences de ratio prêt-valeur applicables. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-01/conversion-construction-permanent-financing-overview?utm_source=chatgpt.com))
 
 Cette structure peut simplifier le financement, mais elle exige généralement que l'emprunteur soit prêt à aller de l'avant avec la construction, plutôt que de simplement conserver le terrain.
 
@@ -140,7 +140,7 @@ l'emprunteur peut utiliser :
 
 La phase de construction fournit des fonds par tirages, tandis que la phase permanente devient l'hypothèque à long terme une fois la maison achevée.
 
-La structure de construction à permanent à clôture unique de Fannie Mae peut inclure l'acquisition du lot et la construction de la résidence. Le calcul du ratio prêt-valeur pour une transaction d'achat est basé sur le moindre du coût d'acquisition/construction applicable ou de la valeur évaluée de la propriété achevée, sous réserve des exigences du programme. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions))
+La structure de construction à permanent à clôture unique de Fannie Mae peut inclure l'acquisition du lot et la construction de la résidence. Le calcul du ratio prêt-valeur pour une transaction d'achat est basé sur le moindre du coût d'acquisition/construction applicable ou de la valeur évaluée de la propriété achevée, sous réserve des exigences du programme. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions?utm_source=chatgpt.com))
 
 Cela peut réduire le besoin d'une deuxième clôture hypothécaire, mais l'admissibilité peut être plus complexe, car le prêteur doit approuver à la fois l'achat du terrain et la construction proposée.
 
@@ -205,7 +205,7 @@ Par exemple, les tirages pourraient se produire après :
 
 Le calendrier de tirage exact dépend du contrat de construction et du prêteur.
 
-Des inspections peuvent être requises avant le déblocage des fonds. Le CFPB décrit le financement de construction comme fournissant typiquement de l'argent par une série d'avances à mesure que la construction progresse. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Des inspections peuvent être requises avant le déblocage des fonds. Le CFPB décrit le financement de construction comme fournissant typiquement de l'argent par une série d'avances à mesure que la construction progresse. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 Ce système aide le prêteur à contrôler la manière dont les fonds empruntés sont utilisés et garantit que le financement correspond à l'avancement du projet.
 
@@ -214,7 +214,7 @@ Si vous possédez déjà le lot, vous pourriez être en mesure d'utiliser sa val
 
 Le traitement dépend du prêteur et du programme de construction à permanent.
 
-Par exemple, Fannie Mae distingue les transactions d'achat, où l'emprunteur ne possède pas le lot au moment de la première avance de construction, des transactions de refinancement avec retrait de capital limité, où l'emprunteur possède déjà le lot. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions))
+Par exemple, Fannie Mae distingue les transactions d'achat, où l'emprunteur ne possède pas le lot au moment de la première avance de construction, des transactions de refinancement avec retrait de capital limité, où l'emprunteur possède déjà le lot. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions?utm_source=chatgpt.com))
 
 Le montant de valeur nette disponible peut donc affecter le montant de liquidités que vous devez apporter au projet de construction.
 
@@ -223,7 +223,7 @@ Les prêts terrain et de construction peuvent avoir une tarification différente
 
 Il n'existe pas de mise de fonds ou de taux d'intérêt universel qui s'applique à chaque prêt terrain ou prêt de construction. Les prêteurs tiennent compte du bien, des finances de l'emprunteur, du ratio prêt-valeur, du risque du projet, et d'autres facteurs.
 
-Les prêts de construction ont également généralement des taux d'intérêt plus élevés que les hypothèques conventionnelles sur des maisons achevées, car ce sont des produits de financement à court terme comportant un risque de construction supplémentaire. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Les prêts de construction ont également généralement des taux d'intérêt plus élevés que les hypothèques conventionnelles sur des maisons achevées, car ce sont des produits de financement à court terme comportant un risque de construction supplémentaire. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 Le financement de terrain peut également être plus coûteux que les hypothèques résidentielles conventionnelles, car un terrain vacant peut être plus difficile à liquider pour un prêteur après un défaut.
 

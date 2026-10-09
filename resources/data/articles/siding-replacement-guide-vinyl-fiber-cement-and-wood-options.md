@@ -155,7 +155,7 @@ Poorly maintained wood siding can deteriorate significantly faster than properly
 ## How Much Does Siding Replacement Cost?
 Siding replacement prices vary significantly according to material, wall area, home height, architectural complexity, removal requirements, insulation, trim, and local labor rates.
 
-Current national estimates generally place professionally installed siding around **$5,000 to $20,000**, with many projects falling near the middle of that range. Vinyl tends to be among the lower-cost options, while fiber cement and premium wood installations can cost considerably more. ([angi.com](https://www.angi.com/articles/how-much-does-it-cost-to-install-siding.htm))
+Current national estimates generally place professionally installed siding around **$5,000 to $20,000**, with many projects falling near the middle of that range. Vinyl tends to be among the lower-cost options, while fiber cement and premium wood installations can cost considerably more. ([angi.com](https://www.angi.com/articles/how-much-does-it-cost-to-install-siding.htm?utm_source=chatgpt.com))
 
 Current material-and-installation estimates commonly fall into approximate ranges such as:
 
@@ -165,7 +165,7 @@ Current material-and-installation estimates commonly fall into approximate range
 | Fiber cement | About 6–15/sq. ft. |
 | Wood | About 6–15/sq. ft. |
 
-These are broad budgeting ranges, not contractor quotes. Actual prices can vary substantially by region and project complexity. ([angi.com](https://www.angi.com/articles/how-much-does-it-cost-to-install-siding.htm))
+These are broad budgeting ranges, not contractor quotes. Actual prices can vary substantially by region and project complexity. ([angi.com](https://www.angi.com/articles/how-much-does-it-cost-to-install-siding.htm?utm_source=chatgpt.com))
 
 ## Don't Forget Siding Removal
 If existing siding must be removed, disposal and labor can add significantly to the project.
@@ -218,7 +218,7 @@ Depending on the construction, these can include:
   - Proper clearances
   - Caulk where specifically required
 
-The U.S. Department of Energy's Building America guidance emphasizes the importance of water-managed wall assemblies, including properly installed flashing and drainage strategies. ([energy.gov](https://www.energy.gov/eere/buildings/articles/building-america-best-practices-series-volume-7-water-management))
+The U.S. Department of Energy's Building America guidance emphasizes the importance of water-managed wall assemblies, including properly installed flashing and drainage strategies. ([energy.gov](https://www.energy.gov/eere/buildings/articles/building-america-best-practices-series-volume-7-water-management?utm_source=chatgpt.com))
 
 If water is entering around windows, doors, roof intersections, or other penetrations, simply replacing siding may not eliminate the leak.
 

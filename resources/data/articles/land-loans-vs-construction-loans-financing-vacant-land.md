@@ -28,7 +28,7 @@ The terminology and underwriting criteria vary by lender.
 ## What Is a Construction Loan?
 A construction loan provides short-term financing for building a home or completing a major construction project.
 
-The lender typically does not give the entire loan amount to the borrower at once. Instead, funds are released through **draws** as construction reaches specified stages. The lender may require inspections before additional funds are released. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+The lender typically does not give the entire loan amount to the borrower at once. Instead, funds are released through **draws** as construction reaches specified stages. The lender may require inspections before additional funds are released. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 Construction loans can finance expenses such as:
 
@@ -40,7 +40,7 @@ Construction loans can finance expenses such as:
 
 Some construction loans cover only the construction period. Others are structured as **construction-to-permanent loans**, converting into a long-term mortgage after the home is completed.
 
-The CFPB notes that construction loans are usually short-term and generally have higher interest rates than longer-term mortgage loans used to purchase completed homes. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+The CFPB notes that construction loans are usually short-term and generally have higher interest rates than longer-term mortgage loans used to purchase completed homes. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 ## Land Loan vs. Construction Loan
 The primary difference is what the financing is intended to accomplish.
@@ -91,7 +91,7 @@ Lenders commonly want evidence that the project is realistic before committing c
 
 Construction lenders need to understand not only the value of the land but also what the completed property is expected to be worth.
 
-Current construction-loan guidance commonly involves staged funding and inspections as construction progresses. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Current construction-loan guidance commonly involves staged funding and inspections as construction progresses. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 ## Can a Construction Loan Include the Land?
 Yes. Some construction loans can finance both the purchase of the lot and the cost of constructing the home.
@@ -100,7 +100,7 @@ This can be attractive because the borrower may avoid taking out one loan to pur
 
 A construction-to-permanent structure can combine the construction financing and eventual permanent mortgage into one overall transaction, depending on the lender and program.
 
-Fannie Mae's current construction-to-permanent guidelines specifically provide for financing the acquisition of an unimproved lot together with construction of a residence in qualifying transactions. The lender evaluates the completed property and applicable loan-to-value requirements. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-01/conversion-construction-permanent-financing-overview))
+Fannie Mae's current construction-to-permanent guidelines specifically provide for financing the acquisition of an unimproved lot together with construction of a residence in qualifying transactions. The lender evaluates the completed property and applicable loan-to-value requirements. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-01/conversion-construction-permanent-financing-overview?utm_source=chatgpt.com))
 
 This structure can simplify financing, but it generally requires the borrower to be ready to move forward with construction rather than simply holding the land.
 
@@ -140,7 +140,7 @@ the borrower may use:
 
 The construction phase provides funds through draws, while the permanent phase becomes the long-term mortgage after the home is completed.
 
-Fannie Mae's single-closing construction-to-permanent structure can include the acquisition of the lot and construction of the residence. The loan-to-value calculation for a purchase transaction is based on the lesser of the applicable acquisition/construction cost or the property's as-completed appraised value, subject to program requirements. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions))
+Fannie Mae's single-closing construction-to-permanent structure can include the acquisition of the lot and construction of the residence. The loan-to-value calculation for a purchase transaction is based on the lesser of the applicable acquisition/construction cost or the property's as-completed appraised value, subject to program requirements. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions?utm_source=chatgpt.com))
 
 This can reduce the need for a second mortgage closing, but qualification can be more involved because the lender must approve both the land purchase and the proposed construction.
 
@@ -205,7 +205,7 @@ For example, draws might occur after:
 
 The exact draw schedule depends on the construction contract and lender.
 
-Inspections can be required before funds are released. The CFPB describes construction financing as typically providing money in a series of advances as construction progresses. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Inspections can be required before funds are released. The CFPB describes construction financing as typically providing money in a series of advances as construction progresses. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 This system helps the lender control how borrowed funds are used and ensures financing corresponds to progress on the project.
 
@@ -214,7 +214,7 @@ If you already own the lot, you may be able to use its equity as part of the ove
 
 The treatment depends on the lender and construction-to-permanent program.
 
-For example, Fannie Mae distinguishes between purchase transactions, where the borrower does not own the lot at the time of the first construction advance, and limited cash-out refinance transactions, where the borrower already owns the lot. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions))
+For example, Fannie Mae distinguishes between purchase transactions, where the borrower does not own the lot at the time of the first construction advance, and limited cash-out refinance transactions, where the borrower already owns the lot. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions?utm_source=chatgpt.com))
 
 The amount of equity available can therefore affect how much cash you need to contribute toward the construction project.
 
@@ -223,7 +223,7 @@ Land and construction loans can have different pricing from traditional mortgage
 
 There is no universal down payment or interest rate that applies to every land loan or construction loan. Lenders consider the property, borrower's finances, loan-to-value ratio, project risk, and other factors.
 
-Construction loans also typically have higher interest rates than conventional mortgages on completed homes because they are short-term financing products with additional construction risk. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
+Construction loans also typically have higher interest rates than conventional mortgages on completed homes because they are short-term financing products with additional construction risk. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
 
 Land financing can also be more expensive than conventional residential mortgages because vacant land may be harder for a lender to liquidate after default.
 

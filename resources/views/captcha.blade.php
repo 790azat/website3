@@ -14,11 +14,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-    /* Neon age gate, blue edition: the electric blue takes the accent role, cyan stays the second light. */
+    /* Neon age gate: blue screen, red YES disc, cyan as the second light. */
     :root {
         --bg: #02060f;
         --screen: #030812;
-        --disc: #061230;
         --blue: #3d8bff;
         --cyan: #00dfe8;
         --white: #f7fbff;
@@ -34,6 +33,12 @@
         --blue-a34: rgba(61, 139, 255, .34);
         --blue-a30: rgba(61, 139, 255, .3);
         --blue-a22: rgba(61, 139, 255, .22);
+        --red: #ff3b4e;
+        --red-disc: #1c0610;
+        --red-a80: rgba(255, 59, 78, .8);
+        --red-a65: rgba(255, 59, 78, .65);
+        --red-a34: rgba(255, 59, 78, .34);
+        --red-a30: rgba(255, 59, 78, .3);
         --cyan-a90: rgba(0, 223, 232, .9);
         --cyan-a75: rgba(0, 223, 232, .75);
         --cyan-a45: rgba(0, 223, 232, .45);
@@ -98,12 +103,12 @@
     }
     .yes:focus-visible { outline: 2px solid var(--cyan); outline-offset: 10px; border-radius: 50%; }
     .yes.pressed { transform: scale(.93); }
-    .yes .halo { position: absolute; inset: -30px; border-radius: 50%; background: radial-gradient(circle, var(--blue-a34), transparent 68%); animation: halo 2400ms ease-in-out infinite; }
+    .yes .halo { position: absolute; inset: -30px; border-radius: 50%; background: radial-gradient(circle, var(--red-a34), transparent 68%); animation: halo 2400ms ease-in-out infinite; }
     .yes .sweep {
         position: absolute; inset: -6px; border-radius: 50%; filter: blur(3px);
         background: conic-gradient(from 0deg, transparent 0deg, var(--cyan-a90) 40deg, transparent 96deg); animation: spin 3400ms linear infinite;
     }
-    .yes .disc { position: absolute; inset: 0; border-radius: 50%; background: var(--disc); border: 2px solid var(--blue); box-shadow: 0 0 22px var(--blue-a80), inset 0 0 34px var(--blue-a30); }
+    .yes .disc { position: absolute; inset: 0; border-radius: 50%; background: var(--red-disc); border: 2px solid var(--red); box-shadow: 0 0 22px var(--red-a80), inset 0 0 34px var(--red-a30); }
     .yes .inner-ring { position: absolute; inset: 16px; border-radius: 50%; border: 1px solid var(--cyan-a45); animation: creep 2400ms ease-in-out infinite; }
     .yes .ripple { position: absolute; inset: 0; border-radius: 50%; border: 2px solid var(--cyan-a75); pointer-events: none; opacity: 0; transform: scale(.62); }
     .yes .ripple.armed { opacity: .95; transform: scale(.62); transition: none; }
@@ -111,7 +116,7 @@
     .yes .label {
         position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
         font-size: clamp(38px, 12vw, 52px); font-weight: 800; letter-spacing: -0.04em; color: var(--white);
-        text-shadow: 0 0 6px var(--white), 0 0 22px var(--blue), 0 0 54px var(--blue-a65);
+        text-shadow: 0 0 6px var(--white), 0 0 22px var(--red), 0 0 54px var(--red-a65);
     }
 
     /* Redirect loader: fades in as the gate opens and stays until the next page paints. */
