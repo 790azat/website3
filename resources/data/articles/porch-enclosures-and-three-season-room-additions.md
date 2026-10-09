@@ -11,7 +11,7 @@ A **three-season room** sits between an open porch and a fully conditioned four-
 The biggest financial advantage is that an existing porch may already provide a roof, floor, foundation, and structural framing. However, homeowners should never assume that the existing structure is automatically suitable for enclosure. The foundation, framing, roof, drainage, windows, and connection to the house all need to be evaluated before construction.
 
 ## How Much Does It Cost to Enclose a Porch?
-Current 2026 estimates from Angi put the average cost of enclosing a porch at approximately **$17,815**, with a broad range of roughly **$2,050 to $50,000** depending on size, materials, and the level of enclosure. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+Current 2026 estimates from Angi put the average cost of enclosing a porch at approximately **$17,815**, with a broad range of roughly **$2,050 to $50,000** depending on size, materials, and the level of enclosure. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 The type of enclosure makes a major difference:
 
@@ -22,14 +22,14 @@ The type of enclosure makes a major difference:
 | Year-round sunroom | 16,000–70,000 |
 | New multi-season porch | 20,000–70,000 |
 
-These figures are national planning ranges. A simple screen installation over an existing porch is fundamentally different from converting the structure into an insulated room with windows, electrical systems, and finished walls. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+These figures are national planning ranges. A simple screen installation over an existing porch is fundamentally different from converting the structure into an insulated room with windows, electrical systems, and finished walls. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 ## Screened Porch vs. Three-Season Room
 A screened porch is generally the least expensive enclosure option.
 
 Screens allow airflow while keeping insects out, but they provide limited protection from temperature extremes. A three-season room uses windows or other solid glazing instead, providing significantly greater protection from wind, rain, and cooler temperatures.
 
-Angi's 2026 comparison estimates that adding screens to an existing porch can cost around **$2,000 to $4,000**, while a three-season room generally costs substantially more because of the additional framing, glazing, electrical work, and weather protection. ([angi.com](https://www.angi.com/articles/screened-in-porch-vs-three-season-room.htm?utm_source=chatgpt.com))
+Angi's 2026 comparison estimates that adding screens to an existing porch can cost around **$2,000 to $4,000**, while a three-season room generally costs substantially more because of the additional framing, glazing, electrical work, and weather protection. ([angi.com](https://www.angi.com/articles/screened-in-porch-vs-three-season-room.htm))
 
 A simple decision framework is:
 
@@ -76,7 +76,7 @@ Existing porch floors may be constructed from:
 
 The existing floor may need modifications to accommodate walls, windows, insulation, or finished flooring.
 
-For a new porch rather than an enclosure, Angi's 2026 data estimates foundations at approximately **$2 to $10 per square foot for concrete** and **$7 to $12 per square foot for pier-and-beam construction**, although actual costs vary by site and structural design. ([angi.com](https://www.angi.com/articles/cost-of-porch.htm?utm_source=chatgpt.com))
+For a new porch rather than an enclosure, Angi's 2026 data estimates foundations at approximately **$2 to $10 per square foot for concrete** and **$7 to $12 per square foot for pier-and-beam construction**, although actual costs vary by site and structural design. ([angi.com](https://www.angi.com/articles/cost-of-porch.htm))
 
 A porch enclosure that can reuse a sound existing foundation may therefore avoid one of the largest expenses associated with new construction.
 
@@ -115,7 +115,7 @@ The moment homeowners begin adding substantial insulation and permanent HVAC sys
 
 That distinction matters because conditioned additions can trigger additional building-code and energy-code requirements.
 
-ENERGY STAR emphasizes that insulation and air sealing should be considered together when improving a home's building envelope. ([energystar.gov](https://www.energystar.gov/saveathome/seal_insulate?utm_source=chatgpt.com))
+ENERGY STAR emphasizes that insulation and air sealing should be considered together when improving a home's building envelope. ([energystar.gov](https://www.energystar.gov/saveathome/seal_insulate))
 
 ## Heating a Three-Season Room
 Most three-season rooms are not designed to maintain normal indoor temperatures throughout winter.
@@ -166,7 +166,7 @@ Common additions include:
   - USB charging outlets
   - Small appliances
 
-Angi's 2026 porch-enclosure data estimates electrical work at approximately **$300 to $6,000**, depending on the amount of new wiring and the complexity of the installation. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+Angi's 2026 porch-enclosure data estimates electrical work at approximately **$300 to $6,000**, depending on the amount of new wiring and the complexity of the installation. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 Plan electrical locations before the walls are finished. Adding outlets after the enclosure is complete can require opening finished walls.
 
@@ -190,7 +190,7 @@ If the space is not fully conditioned, materials should not be chosen solely bec
 ## Permits and Zoning Requirements
 Enclosing a porch can trigger permit requirements because the project changes the structure and potentially its use.
 
-Angi's current 2026 guidance recommends budgeting for permits and notes that permanent three-season and year-round enclosures may involve structural modifications, electrical work, insulation, inspections, and building-code requirements. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+Angi's current 2026 guidance recommends budgeting for permits and notes that permanent three-season and year-round enclosures may involve structural modifications, electrical work, insulation, inspections, and building-code requirements. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 Local authorities may evaluate:
 
@@ -244,14 +244,14 @@ The difference is primarily functional.
 | Comfort in winter | Limited | Designed for regular use |
 | Cost | \~7,000–55,000 | \~16,000–70,000+ |
 
-Angi's 2026 data places three-season rooms at approximately **$7,000 to $55,000**, compared with **$16,000 to $70,000** for year-round sunrooms. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+Angi's 2026 data places three-season rooms at approximately **$7,000 to $55,000**, compared with **$16,000 to $70,000** for year-round sunrooms. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 The choice should therefore be based on intended use rather than appearance alone.
 
 ## Does Enclosing a Porch Add Home Value?
 A well-designed enclosure can increase the functional appeal of a property, but homeowners should avoid assuming that construction cost will be recovered dollar-for-dollar at resale.
 
-Angi's 2026 analysis estimates a typical ROI of approximately **40% to 60%** for porch-enclosure projects, with potential home-value increases of roughly 3% to 10%. These figures are broad estimates rather than guarantees for an individual property. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+Angi's 2026 analysis estimates a typical ROI of approximately **40% to 60%** for porch-enclosure projects, with potential home-value increases of roughly 3% to 10%. These figures are broad estimates rather than guarantees for an individual property. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 Local buyer preferences, neighborhood standards, workmanship, and whether the enclosure is legally permitted can all affect how the improvement is viewed.
 
@@ -271,7 +271,7 @@ Porch enclosures offer a useful middle ground between an open outdoor space and 
 
 A screened enclosure can provide inexpensive insect protection and better outdoor usability. A three-season room adds windows and greater weather protection without necessarily requiring the complete insulation and HVAC infrastructure of a four-season addition.
 
-Current 2026 estimates put three-season room construction at approximately **$7,000 to $55,000**, while enclosing an existing porch averages around **$17,815** across a broad range of projects. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm?utm_source=chatgpt.com))
+Current 2026 estimates put three-season room construction at approximately **$7,000 to $55,000**, while enclosing an existing porch averages around **$17,815** across a broad range of projects. ([angi.com](https://www.angi.com/articles/cost-to-enclose-porch.htm))
 
 The biggest potential savings come from **reusing a structurally adequate porch, foundation, roof, and floor**. But those components should be inspected before they are incorporated into the new room.
 

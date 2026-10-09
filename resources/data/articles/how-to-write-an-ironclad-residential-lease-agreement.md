@@ -154,7 +154,7 @@ Specify:
 
 However, landlords should distinguish ordinary pets from assistance animals where applicable. Federal fair-housing requirements can affect how housing providers handle reasonable accommodation requests involving assistance animals.
 
-The U.S. Department of Housing and Urban Development provides guidance on housing providers' responsibilities under federal fair-housing law. ([hud.gov](https://www.hud.gov/fair-housing?utm_source=chatgpt.com))
+The U.S. Department of Housing and Urban Development provides guidance on housing providers' responsibilities under federal fair-housing law. ([hud.gov](https://www.hud.gov/fair-housing))
 
 ## Include a Clear Alterations Clause
 Tenants should understand what they can and cannot change.
@@ -218,9 +218,9 @@ Additional disclosures or addenda may be legally required depending on the prope
 
 One important federal example concerns lead-based paint.
 
-For most residential housing constructed before 1978, federal law requires landlords and property managers to disclose known information about lead-based paint and lead-based paint hazards, provide available records and reports, provide the EPA-approved lead-hazard information pamphlet, and include the required lead warning statement before the lease is signed. ([epa.gov](https://www.epa.gov/lead/what-information-can-i-get-about-lead-based-paint-home-i-buy-or-rent-it?utm_source=chatgpt.com))
+For most residential housing constructed before 1978, federal law requires landlords and property managers to disclose known information about lead-based paint and lead-based paint hazards, provide available records and reports, provide the EPA-approved lead-hazard information pamphlet, and include the required lead warning statement before the lease is signed. ([epa.gov](https://www.epa.gov/lead/what-information-can-i-get-about-lead-based-paint-home-i-buy-or-rent-it))
 
-EPA updated its sample lead disclosure forms in 2024, so landlords using federal forms should make sure they are working from current materials. ([epa.gov](https://www.epa.gov/chemicals-under-tsca/epa-releases-updated-resources-ensure-renters-and-buyers-are-informed-lead?utm_source=chatgpt.com))
+EPA updated its sample lead disclosure forms in 2024, so landlords using federal forms should make sure they are working from current materials. ([epa.gov](https://www.epa.gov/chemicals-under-tsca/epa-releases-updated-resources-ensure-renters-and-buyers-are-informed-lead))
 
 Other disclosures can depend on state, local, property, or program-specific requirements.
 
@@ -273,7 +273,7 @@ A cleaner structure can use separate addenda for matters such as:
   - Community rules
   - Housing-program requirements
 
-For example, HUD's Housing Choice Voucher program uses a tenancy addendum that supplements the landlord's lease and takes precedence when its provisions conflict with the underlying lease. ([hud.gov](https://www.hud.gov/helping-americans/housing-choice-vouchers-landlord-forms?utm_source=chatgpt.com))
+For example, HUD's Housing Choice Voucher program uses a tenancy addendum that supplements the landlord's lease and takes precedence when its provisions conflict with the underlying lease. ([hud.gov](https://www.hud.gov/helping-americans/housing-choice-vouchers-landlord-forms))
 
 The important point is to identify every incorporated addendum clearly and make sure tenants receive the documents that apply to their tenancy.
 

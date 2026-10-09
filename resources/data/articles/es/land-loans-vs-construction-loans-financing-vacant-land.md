@@ -28,7 +28,7 @@ La terminología y los criterios de suscripción varían según el prestamista.
 ## ¿Qué Es un Préstamo de Construcción?
 Un préstamo de construcción proporciona financiamiento a corto plazo para construir una casa o completar un proyecto de construcción importante.
 
-El prestamista típicamente no entrega el monto total del préstamo al prestatario de una vez. En cambio, los fondos se liberan a través de **desembolsos (draws)** a medida que la construcción alcanza etapas específicas. El prestamista puede requerir inspecciones antes de liberar fondos adicionales. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
+El prestamista típicamente no entrega el monto total del préstamo al prestatario de una vez. En cambio, los fondos se liberan a través de **desembolsos (draws)** a medida que la construcción alcanza etapas específicas. El prestamista puede requerir inspecciones antes de liberar fondos adicionales. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
 
 Los préstamos de construcción pueden financiar gastos como:
 
@@ -40,7 +40,7 @@ Los préstamos de construcción pueden financiar gastos como:
 
 Algunos préstamos de construcción cubren solo el período de construcción. Otros se estructuran como **préstamos de construcción a permanente**, convirtiéndose en una hipoteca a largo plazo después de que se completa la casa.
 
-La CFPB (Oficina de Protección Financiera del Consumidor) señala que los préstamos de construcción generalmente son a corto plazo y generalmente tienen tasas de interés más altas que los préstamos hipotecarios a más largo plazo usados para comprar casas terminadas. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
+La CFPB (Oficina de Protección Financiera del Consumidor) señala que los préstamos de construcción generalmente son a corto plazo y generalmente tienen tasas de interés más altas que los préstamos hipotecarios a más largo plazo usados para comprar casas terminadas. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
 
 ## Préstamo de Terreno vs. Préstamo de Construcción
 La diferencia principal es lo que el financiamiento pretende lograr.
@@ -91,7 +91,7 @@ Los prestamistas comúnmente quieren evidencia de que el proyecto es realista an
 
 Los prestamistas de construcción necesitan entender no solo el valor del terreno, sino también cuánto se espera que valga la propiedad terminada.
 
-La guía actual de préstamos de construcción comúnmente involucra financiamiento por etapas e inspecciones a medida que avanza la construcción. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
+La guía actual de préstamos de construcción comúnmente involucra financiamiento por etapas e inspecciones a medida que avanza la construcción. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
 
 ## ¿Puede un Préstamo de Construcción Incluir el Terreno?
 Sí. Algunos préstamos de construcción pueden financiar tanto la compra del lote como el costo de construir la casa.
@@ -100,7 +100,7 @@ Esto puede ser atractivo porque el prestatario puede evitar tomar un préstamo p
 
 Una estructura de construcción a permanente puede combinar el financiamiento de construcción y la eventual hipoteca permanente en una transacción general, dependiendo del prestamista y el programa.
 
-Las pautas actuales de construcción a permanente de Fannie Mae específicamente proporcionan financiamiento para la adquisición de un lote sin mejoras junto con la construcción de una residencia en transacciones calificadas. El prestamista evalúa la propiedad terminada y los requisitos de relación préstamo-valor aplicables. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-01/conversion-construction-permanent-financing-overview?utm_source=chatgpt.com))
+Las pautas actuales de construcción a permanente de Fannie Mae específicamente proporcionan financiamiento para la adquisición de un lote sin mejoras junto con la construcción de una residencia en transacciones calificadas. El prestamista evalúa la propiedad terminada y los requisitos de relación préstamo-valor aplicables. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-01/conversion-construction-permanent-financing-overview))
 
 Esta estructura puede simplificar el financiamiento, pero generalmente requiere que el prestatario esté listo para avanzar con la construcción en lugar de simplemente mantener el terreno.
 
@@ -140,7 +140,7 @@ el prestatario puede usar:
 
 La fase de construcción proporciona fondos a través de desembolsos, mientras que la fase permanente se convierte en la hipoteca a largo plazo después de que se completa la casa.
 
-La estructura de construcción a permanente de cierre único de Fannie Mae puede incluir la adquisición del lote y la construcción de la residencia. El cálculo de la relación préstamo-valor para una transacción de compra se basa en el menor entre el costo aplicable de adquisición/construcción o el valor de tasación de la propiedad una vez terminada, sujeto a los requisitos del programa. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions?utm_source=chatgpt.com))
+La estructura de construcción a permanente de cierre único de Fannie Mae puede incluir la adquisición del lote y la construcción de la residencia. El cálculo de la relación préstamo-valor para una transacción de compra se basa en el menor entre el costo aplicable de adquisición/construcción o el valor de tasación de la propiedad una vez terminada, sujeto a los requisitos del programa. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions))
 
 Esto puede reducir la necesidad de un segundo cierre hipotecario, pero la calificación puede ser más compleja porque el prestamista debe aprobar tanto la compra del terreno como la construcción propuesta.
 
@@ -205,7 +205,7 @@ Por ejemplo, los desembolsos podrían ocurrir después de:
 
 El calendario exacto de desembolsos depende del contrato de construcción y el prestamista.
 
-Se pueden requerir inspecciones antes de liberar los fondos. La CFPB describe el financiamiento de construcción como generalmente proporcionando dinero en una serie de adelantos a medida que avanza la construcción. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
+Se pueden requerir inspecciones antes de liberar los fondos. La CFPB describe el financiamiento de construcción como generalmente proporcionando dinero en una serie de adelantos a medida que avanza la construcción. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
 
 Este sistema ayuda al prestamista a controlar cómo se usan los fondos prestados y asegura que el financiamiento corresponda al progreso del proyecto.
 
@@ -214,7 +214,7 @@ Si ya es dueño del lote, puede ser capaz de usar su capital como parte de la es
 
 El tratamiento depende del prestamista y el programa de construcción a permanente.
 
-Por ejemplo, Fannie Mae distingue entre las transacciones de compra, donde el prestatario no es dueño del lote en el momento del primer adelanto de construcción, y las transacciones de refinanciamiento limitado con retiro de efectivo, donde el prestatario ya es dueño del lote. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions?utm_source=chatgpt.com))
+Por ejemplo, Fannie Mae distingue entre las transacciones de compra, donde el prestatario no es dueño del lote en el momento del primer adelanto de construcción, y las transacciones de refinanciamiento limitado con retiro de efectivo, donde el prestatario ya es dueño del lote. ([fanniemae.com](https://selling-guide.fanniemae.com/sel/b5-3.1-02/conversion-construction-permanent-financing-single-closing-transactions))
 
 Por lo tanto, la cantidad de capital disponible puede afectar cuánto efectivo necesita contribuir al proyecto de construcción.
 
@@ -223,7 +223,7 @@ Los préstamos de terreno y construcción pueden tener precios diferentes a las 
 
 No existe un pago inicial o tasa de interés universal que se aplique a cada préstamo de terreno o de construcción. Los prestamistas consideran la propiedad, las finanzas del prestatario, la relación préstamo-valor, el riesgo del proyecto y otros factores.
 
-Los préstamos de construcción también típicamente tienen tasas de interés más altas que las hipotecas convencionales en casas terminadas porque son productos de financiamiento a corto plazo con riesgo de construcción adicional. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/?utm_source=chatgpt.com))
+Los préstamos de construcción también típicamente tienen tasas de interés más altas que las hipotecas convencionales en casas terminadas porque son productos de financiamiento a corto plazo con riesgo de construcción adicional. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-a-construction-loan-en-108/))
 
 El financiamiento de terreno también puede ser más costoso que las hipotecas residenciales convencionales porque el terreno baldío puede ser más difícil de liquidar para un prestamista después de un incumplimiento.
 

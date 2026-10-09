@@ -13,7 +13,7 @@ No. Una caja eléctrica estándar diseñada solo para un artefacto de luz puede 
 
 Los ventiladores crean cargas dinámicas porque el motor y las aspas giran. Por lo tanto, la caja de soporte y el sistema de montaje deben estar diseñados para la instalación de ventiladores y fijados de forma segura a la estructura del edificio.
 
-El Código Eléctrico Nacional (National Electrical Code) requiere que las cajas de salida utilizadas para soportar ventiladores de aspas suspendidos del techo estén certificadas para ese propósito y marcadas con su peso máximo soportado. Los requisitos exactos de instalación también pueden depender del tipo de caja y del arreglo de soporte. ([nfpa.org](https://www.nfpa.org/news-and-research/publications-and-media/press-room/reporters-guide-to-fire-and-life-safety/ceiling-fans?utm_source=chatgpt.com))
+El Código Eléctrico Nacional (National Electrical Code) requiere que las cajas de salida utilizadas para soportar ventiladores de aspas suspendidos del techo estén certificadas para ese propósito y marcadas con su peso máximo soportado. Los requisitos exactos de instalación también pueden depender del tipo de caja y del arreglo de soporte. ([nfpa.org](https://www.nfpa.org/news-and-research/publications-and-media/press-room/reporters-guide-to-fire-and-life-safety/ceiling-fans))
 
 Antes de instalar un ventilador, inspeccione la caja existente en lugar de asumir que puede soportar uno.
 
@@ -48,7 +48,7 @@ El paso más importante en la instalación eléctrica es desconectar la energía
 
 No asuma que apagar el interruptor de pared es suficiente. Apague el disyuntor de circuito correspondiente y verifique que el circuito esté desenergizado con un probador apropiado antes de tocar los conductores.
 
-La Comisión de Seguridad de Productos de Consumo de EE. UU. (U.S. Consumer Product Safety Commission) recomienda apagar la energía en el disyuntor o fusible antes de trabajar en equipo eléctrico y enfatiza el uso de profesionales calificados para el trabajo eléctrico cuando sea apropiado. ([cpsc.gov](https://www.cpsc.gov/s3fs-public/pdfs/513.pdf?utm_source=chatgpt.com))
+La Comisión de Seguridad de Productos de Consumo de EE. UU. (U.S. Consumer Product Safety Commission) recomienda apagar la energía en el disyuntor o fusible antes de trabajar en equipo eléctrico y enfatiza el uso de profesionales calificados para el trabajo eléctrico cuando sea apropiado. ([cpsc.gov](https://www.cpsc.gov/s3fs-public/pdfs/513.pdf))
 
 Si no puede identificar con confianza el disyuntor correcto o verificar que la energía esté apagada, deténgase y contacte a un electricista.
 

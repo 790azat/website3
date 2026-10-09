@@ -191,7 +191,7 @@ Les propriétés commerciales peuvent être soumises à de nombreuses exigences 
 
 Les règles applicables dépendent du type de propriété, de la juridiction, des caractéristiques du bâtiment et des activités des locataires.
 
-Par exemple, l'Americans with Disabilities Act (ADA, loi sur les Américains handicapés) établit des exigences d'accessibilité pour de nombreux lieux d'accueil du public et installations commerciales. Le Department of Justice (DOJ, ministère de la Justice) explique que le titre III s'applique aux lieux d'accueil du public et aux installations commerciales exploités par des entités privées et établit des exigences d'accessibilité pour les propriétés couvertes. ([ada.gov](https://www.ada.gov/topics/title-iii/?utm_source=chatgpt.com))
+Par exemple, l'Americans with Disabilities Act (ADA, loi sur les Américains handicapés) établit des exigences d'accessibilité pour de nombreux lieux d'accueil du public et installations commerciales. Le Department of Justice (DOJ, ministère de la Justice) explique que le titre III s'applique aux lieux d'accueil du public et aux installations commerciales exploités par des entités privées et établit des exigences d'accessibilité pour les propriétés couvertes. ([ada.gov](https://www.ada.gov/topics/title-iii/))
 
 Les gestionnaires commerciaux devraient donc se coordonner avec des professionnels qualifiés lorsque des questions de conformité spécialisées se posent.
 

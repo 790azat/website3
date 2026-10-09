@@ -6,16 +6,16 @@ date: 2026-06-15
 ---
 Las canaletas son una de las partes más simples del sistema de drenaje de una casa, pero desempeñan un papel importante en controlar hacia dónde va la escorrentía del techo. Cuando las canaletas se obstruyen, se dañan o se desconectan, el agua puede caer directamente al lado de la cimentación en lugar de ser llevada lejos del edificio.
 
-Esa escorrentía concentrada puede contribuir a la humedad del sótano, la erosión del suelo, la filtración en la cimentación y otros problemas relacionados con el agua. La Extensión de la Universidad de Minnesota identifica las canaletas defectuosas, los bajantes faltantes, la mala nivelación y el drenaje inadecuado como contribuyentes comunes a los problemas de humedad en el sótano. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+Esa escorrentía concentrada puede contribuir a la humedad del sótano, la erosión del suelo, la filtración en la cimentación y otros problemas relacionados con el agua. La Extensión de la Universidad de Minnesota identifica las canaletas defectuosas, los bajantes faltantes, la mala nivelación y el drenaje inadecuado como contribuyentes comunes a los problemas de humedad en el sótano. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 Por lo tanto, el mantenimiento regular de las canaletas tiene menos que ver con mantenerlas visualmente limpias y más con mantener todo el sistema de drenaje del techo funcionando correctamente.
 
 ## Por Qué Importa el Mantenimiento de Canaletas para la Cimentación
 Un techo recolecta una gran cantidad de lluvia y la concentra a lo largo de los bordes del techo. Sin canaletas y bajantes que funcionen, esa agua puede caer directamente al lado de la cimentación.
 
-La Extensión de la Universidad de Minnesota señala que durante una lluvia de 1 pulgada, un techo de 2,000 pies cuadrados puede recibir aproximadamente 1,250 galones de agua. Sin canaletas, bajantes y nivelación apropiados, parte de esa agua puede moverse hacia la cimentación. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+La Extensión de la Universidad de Minnesota señala que durante una lluvia de 1 pulgada, un techo de 2,000 pies cuadrados puede recibir aproximadamente 1,250 galones de agua. Sin canaletas, bajantes y nivelación apropiados, parte de esa agua puede moverse hacia la cimentación. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
-La guía de control de humedad de la EPA (Agencia de Protección Ambiental de EE. UU.) también recomienda mantener un drenaje positivo alrededor de los edificios y dirigir el agua del techo lejos de las cimentaciones. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La guía de control de humedad de la EPA (Agencia de Protección Ambiental de EE. UU.) también recomienda mantener un drenaje positivo alrededor de los edificios y dirigir el agua del techo lejos de las cimentaciones. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 El objetivo es sencillo:
 
@@ -37,7 +37,7 @@ Como mínimo, inspeccione el sistema regularmente y preste atención particular:
   - Cuando las canaletas comienzan a desbordarse
   - Cuando aparece agua al lado de la cimentación
 
-La guía de la EPA recomienda inspeccionar las condiciones de drenaje exterior semestralmente y después de lluvias fuertes o deshielo rápido. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La guía de la EPA recomienda inspeccionar las condiciones de drenaje exterior semestralmente y después de lluvias fuertes o deshielo rápido. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 Para las propiedades de alquiler, agregar inspecciones de canaletas al calendario regular de mantenimiento de la propiedad puede evitar que la tarea se pase por alto.
 
@@ -100,14 +100,14 @@ Verifique que cada bajante:
   - No descargue directamente al lado de la cimentación
   - Tenga una extensión o conexión de drenaje apropiada
 
-La Extensión de la Universidad de Minnesota advierte específicamente que un bajante sin extensión o bloque de salpicadura (splash block) puede concentrar un gran volumen de escorrentía del techo cerca de la cimentación. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+La Extensión de la Universidad de Minnesota advierte específicamente que un bajante sin extensión o bloque de salpicadura (splash block) puede concentrar un gran volumen de escorrentía del techo cerca de la cimentación. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
-La guía de la EPA también recomienda conectar los bajantes a conductos inclinados que lleven el agua lejos de la cimentación, sujeto a los requisitos locales aplicables. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La guía de la EPA también recomienda conectar los bajantes a conductos inclinados que lleven el agua lejos de la cimentación, sujeto a los requisitos locales aplicables. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 ## Extienda los Bajantes Lejos de la Cimentación
 Una de las mejoras de drenaje más simples es extender la descarga del bajante más lejos del edificio.
 
-La distancia apropiada depende de las condiciones del sitio, la nivelación, los requisitos locales y el sistema de drenaje de la propiedad. La guía de control de humedad de la EPA proporciona ejemplos de dirigir los conductos de bajante al menos 10 pies desde la cimentación con una pendiente apropiada, mientras que otras guías de construcción usan distancias más cortas bajo condiciones específicas. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La distancia apropiada depende de las condiciones del sitio, la nivelación, los requisitos locales y el sistema de drenaje de la propiedad. La guía de control de humedad de la EPA proporciona ejemplos de dirigir los conductos de bajante al menos 10 pies desde la cimentación con una pendiente apropiada, mientras que otras guías de construcción usan distancias más cortas bajo condiciones específicas. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 El principio importante es que el agua no debe simplemente depositarse en la pared de la cimentación.
 
@@ -128,9 +128,9 @@ Inspeccione el área alrededor de la cimentación después de la lluvia. Busque:
   - Agua fluyendo hacia las ventanas del sótano
   - Áreas de descarga del bajante que permanecen mojadas
 
-La EPA recomienda mantener un drenaje positivo del sitio para que el agua se mueva lejos de los edificios y no se estanque en áreas bajas. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La EPA recomienda mantener un drenaje positivo del sitio para que el agua se mueva lejos de los edificios y no se estanque en áreas bajas. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
-La Extensión de la Universidad de Minnesota también recomienda corregir los problemas de nivelación y de canaleta/bajante antes de pasar a soluciones de drenaje subterráneo más extensas. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+La Extensión de la Universidad de Minnesota también recomienda corregir los problemas de nivelación y de canaleta/bajante antes de pasar a soluciones de drenaje subterráneo más extensas. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 ## Repare las Canaletas Hundidas o con Fugas
 Una canaleta que está hundida puede que ya no tenga la pendiente correcta.
@@ -146,7 +146,7 @@ Las mallas para canaletas pueden reducir la cantidad de hojas y escombros más g
 
 Los escombros pequeños, semillas, gránulos de techo y material orgánico todavía pueden acumularse sobre o debajo de algunos sistemas de mallas. Las mallas mal seleccionadas o instaladas también pueden interferir con el flujo de agua.
 
-Los materiales de la EPA sobre sistemas de aguas pluviales enfatizan que las mallas de hojas y dispositivos de filtración similares necesitan limpieza regular para seguir siendo efectivos. ([US EPA](https://19january2021snapshot.epa.gov/sites/static/files/2017-02/documents/npdesinspect-group2.pdf?utm_source=chatgpt.com))
+Los materiales de la EPA sobre sistemas de aguas pluviales enfatizan que las mallas de hojas y dispositivos de filtración similares necesitan limpieza regular para seguir siendo efectivos. ([US EPA](https://19january2021snapshot.epa.gov/sites/static/files/2017-02/documents/npdesinspect-group2.pdf))
 
 Si se instalan mallas para canaletas, inclúyalas en el calendario de inspección en lugar de asumir que eliminan el mantenimiento.
 
@@ -166,7 +166,7 @@ Busque:
   - Agua estancada persistente
   - Áreas húmedas alrededor de las ventanas del sótano
 
-La EPA recomienda inspeccionar las áreas de la cimentación en busca de filtraciones, manchas de agua, eflorescencia, crecimiento de moho y cambios en las grietas como parte del mantenimiento de control de humedad. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La EPA recomienda inspeccionar las áreas de la cimentación en busca de filtraciones, manchas de agua, eflorescencia, crecimiento de moho y cambios en las grietas como parte del mantenimiento de control de humedad. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 Estos síntomas no necesariamente significan que la cimentación en sí está fallando estructuralmente. Indican que el sistema de manejo de agua de la propiedad merece una investigación.
 
@@ -187,7 +187,7 @@ Considere contratar a un contratista o especialista en drenaje cuando:
 
 Un profesional puede necesitar evaluar las canaletas, los bajantes, la nivelación, el drenaje subterráneo, la impermeabilización de la cimentación u otros componentes como un solo sistema.
 
-La Extensión de la Universidad de Minnesota recomienda abordar las canaletas, los bajantes y la nivelación de la superficie antes de asumir que es necesario un extenso sistema de drenaje subterráneo. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+La Extensión de la Universidad de Minnesota recomienda abordar las canaletas, los bajantes y la nivelación de la superficie antes de asumir que es necesario un extenso sistema de drenaje subterráneo. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 ## Lista de Verificación de Mantenimiento de Canaletas
 Use esta lista de verificación durante las inspecciones rutinarias:
@@ -223,7 +223,7 @@ Para las propiedades de alquiler, fotografíe los defectos y reparaciones signif
 ## Consideraciones Finales
 La limpieza de canaletas es una tarea de mantenimiento relativamente simple, pero su propósito se extiende más allá de mantener ordenada la línea del techo. El objetivo más amplio es controlar la escorrentía del techo y evitar que el agua concentrada se acumule al lado de la cimentación.
 
-Las canaletas limpias, los bajantes que funcionan, las ubicaciones de descarga apropiadas y la nivelación positiva trabajan juntos como un sistema de drenaje. Tanto la guía de la EPA como la de la extensión universitaria enfatizan dirigir el agua lejos del edificio y mantener los componentes de drenaje que logran esto. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+Las canaletas limpias, los bajantes que funcionan, las ubicaciones de descarga apropiadas y la nivelación positiva trabajan juntos como un sistema de drenaje. Tanto la guía de la EPA como la de la extensión universitaria enfatizan dirigir el agua lejos del edificio y mantener los componentes de drenaje que logran esto. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 Para los propietarios y arrendadores, una rutina de mantenimiento práctica es inspeccionar las canaletas al menos dos veces al año y después de tormentas significativas, con limpiezas más frecuentes cuando los árboles contribuyen con escombros sustanciales. Aborde las fugas, las secciones hundidas, los bajantes bloqueados y las ubicaciones de descarga deficientes antes de que se conviertan en problemas de humedad más grandes.
 

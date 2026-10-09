@@ -22,7 +22,7 @@ Les dépenses les plus courantes payées à partir de l'entiercement sont :
 
 Le prestataire de services hypothécaire collecte une portion de ces dépenses attendues avec chaque paiement hypothécaire mensuel et utilise plus tard les fonds pour payer les factures lorsqu'elles arrivent à échéance.
 
-Le Consumer Financial Protection Bureau (CFPB, l'organisme fédéral américain de protection financière des consommateurs) explique que de nombreux paiements hypothécaires incluent de l'argent pour les taxes foncières et l'assurance habitation en plus du capital et des intérêts. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/?utm_source=chatgpt.com))
+Le Consumer Financial Protection Bureau (CFPB, l'organisme fédéral américain de protection financière des consommateurs) explique que de nombreux paiements hypothécaires incluent de l'argent pour les taxes foncières et l'assurance habitation en plus du capital et des intérêts. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/))
 
 ## Comment l'entiercement change votre paiement hypothécaire mensuel
 Considérez un propriétaire avec les dépenses annuelles suivantes :
@@ -122,7 +122,7 @@ Le paiement total pourrait donc augmenter à environ :
 
 Le taux d'intérêt hypothécaire n'a pas changé. L'exigence d'entiercement, si.
 
-Le CFPB note que les taxes foncières et l'assurance habitation font partie des coûts qui peuvent causer le changement du paiement hypothécaire total. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-can-my-monthly-mortgage-payment-change-en-1943/?utm_source=chatgpt.com))
+Le CFPB note que les taxes foncières et l'assurance habitation font partie des coûts qui peuvent causer le changement du paiement hypothécaire total. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-can-my-monthly-mortgage-payment-change-en-1943/))
 
 ## Qu'est-ce qu'une insuffisance d'entiercement ?
 Une **insuffisance d'entiercement** se produit lorsque le montant actuellement dans le compte d'entiercement est inférieur au montant nécessaire pour couvrir les factures futures attendues et le solde minimum requis.
@@ -142,7 +142,7 @@ La situation opposée est un **surplus d'entiercement**.
 
 Si le compte contient plus d'argent que requis après l'analyse du prestataire de services, le propriétaire pourrait avoir droit à un remboursement selon les règles applicables et la taille du surplus.
 
-Les règles fédérales régissant les comptes d'entiercement établissent des exigences pour la façon dont les prestataires de services calculent et gèrent les insuffisances et surplus. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/?utm_source=chatgpt.com))
+Les règles fédérales régissant les comptes d'entiercement établissent des exigences pour la façon dont les prestataires de services calculent et gèrent les insuffisances et surplus. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/))
 
 Le prestataire de services fournit généralement un relevé d'entiercement annuel expliquant l'activité du compte et les dépenses projetées.
 
@@ -167,7 +167,7 @@ Si les taxes et l'assurance restent relativement stables, le changement pourrait
 ## Pourquoi un coussin d'entiercement existe-t-il ?
 Les prestataires de services hypothécaires maintiennent généralement une réserve, ou **coussin**, dans le compte d'entiercement pour aider à couvrir les augmentations inattendues de factures ou les différences de synchronisation.
 
-Les réglementations fédérales permettent généralement à un prestataire de services de maintenir un coussin jusqu'à un sixième des débours d'entiercement annuels estimés, ou environ deux mois de paiements d'entiercement estimés, sous réserve des règles applicables et des documents de prêt. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/?utm_source=chatgpt.com))
+Les réglementations fédérales permettent généralement à un prestataire de services de maintenir un coussin jusqu'à un sixième des débours d'entiercement annuels estimés, ou environ deux mois de paiements d'entiercement estimés, sous réserve des règles applicables et des documents de prêt. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/))
 
 Le but est de réduire le risque que le compte devienne sous-financé lorsqu'une facture de taxe ou d'assurance est plus élevée que prévu.
 
@@ -178,7 +178,7 @@ Si l'entiercement est requis dépend de l'hypothèque, du prêteur, du type de p
 
 Certains emprunteurs pourraient être autorisés à renoncer à l'entiercement dans certaines circonstances, tandis que d'autres prêts ou transactions peuvent exiger un compte d'entiercement.
 
-Par exemple, les règles fédérales imposent des exigences d'entiercement pour certains prêts hypothécaires à prix plus élevé garantis par des privilèges de premier rang sur une résidence principale, sous réserve d'exceptions spécifiées. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1026/35/?utm_source=chatgpt.com))
+Par exemple, les règles fédérales imposent des exigences d'entiercement pour certains prêts hypothécaires à prix plus élevé garantis par des privilèges de premier rang sur une résidence principale, sous réserve d'exceptions spécifiées. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1026/35/))
 
 Même lorsque l'entiercement est optionnel, les propriétaires devraient considérer s'ils sont à l'aise de gérer eux-mêmes de grandes factures de taxes et d'assurance.
 
@@ -189,7 +189,7 @@ Les propriétaires devraient informer leur prestataire de services hypothécaire
 
 Si le prestataire de services ne reçoit pas de preuve de couverture adéquate, il pourrait acheter une assurance sur la propriété dans certaines circonstances. Ceci est communément appelé **assurance imposée par le prêteur (force-placed insurance)**.
 
-La couverture imposée par le prêteur peut être significativement plus coûteuse et pourrait fournir moins de protection que la police régulière d'un propriétaire. Le CFPB conseille aux emprunteurs de maintenir l'assurance habitation requise et de fournir des informations de police à jour à leur prestataire de services lorsque nécessaire. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-181/?utm_source=chatgpt.com))
+La couverture imposée par le prêteur peut être significativement plus coûteuse et pourrait fournir moins de protection que la police régulière d'un propriétaire. Le CFPB conseille aux emprunteurs de maintenir l'assurance habitation requise et de fournir des informations de police à jour à leur prestataire de services lorsque nécessaire. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-181/))
 
 Lors du changement d'assureurs, coordonnez soigneusement les dates d'entrée en vigueur afin qu'il n'y ait pas d'interruption de couverture.
 
@@ -272,7 +272,7 @@ Cependant, ils doivent également budgétiser eux-mêmes pour de grands paiement
 Aucune structure n'est automatiquement appropriée pour chaque emprunteur.
 
 ## Considérations finales
-Un compte d'entiercement est essentiellement un mécanisme de budgétisation et de paiement connecté à une hypothèque. Au lieu de payer les taxes foncières et l'assurance habitation directement lorsque les factures arrivent, de nombreux propriétaires contribuent vers ces dépenses chaque mois et le prestataire de services hypothécaire effectue les paiements à partir du compte d'entiercement. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/?utm_source=chatgpt.com))
+Un compte d'entiercement est essentiellement un mécanisme de budgétisation et de paiement connecté à une hypothèque. Au lieu de payer les taxes foncières et l'assurance habitation directement lorsque les factures arrivent, de nombreux propriétaires contribuent vers ces dépenses chaque mois et le prestataire de services hypothécaire effectue les paiements à partir du compte d'entiercement. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/))
 
 Le point le plus important à retenir est qu'une hypothèque à taux fixe ne signifie pas nécessairement un paiement mensuel **total** fixe. Les taxes foncières et primes d'assurance peuvent changer, causant l'augmentation ou la diminution de la portion d'entiercement — et donc du paiement hypothécaire total.
 
