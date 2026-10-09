@@ -1,88 +1,156 @@
-{{-- Captcha page (no site name or logo). Pass logic: window.Gate below; guard: partials/head. --}}
+{{-- Captcha page: neon "Are you 18 or older?" gate, blue (no site name or logo). Pass logic: window.Gate below; guard: partials/head. --}}
 @verbatim
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#02060f">
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer-when-downgrade">
-<title>Security check</title>
+<title>Age verification</title>
 <link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+    /* Neon age gate, blue edition: the electric blue takes the accent role, cyan stays the second light. */
+    :root {
+        --bg: #02060f;
+        --screen: #030812;
+        --disc: #061230;
+        --blue: #3d8bff;
+        --cyan: #00dfe8;
+        --white: #f7fbff;
+        --muted: #8f9db5;
+        --faint: #6b7890;
+        --lobby-a: #142a52;
+        --lobby-b: #0a1630;
+        --vignette: #01040a;
+        --blue-a85: rgba(61, 139, 255, .85);
+        --blue-a80: rgba(61, 139, 255, .8);
+        --blue-a65: rgba(61, 139, 255, .65);
+        --blue-a55: rgba(61, 139, 255, .55);
+        --blue-a34: rgba(61, 139, 255, .34);
+        --blue-a30: rgba(61, 139, 255, .3);
+        --blue-a22: rgba(61, 139, 255, .22);
+        --cyan-a90: rgba(0, 223, 232, .9);
+        --cyan-a75: rgba(0, 223, 232, .75);
+        --cyan-a45: rgba(0, 223, 232, .45);
+        --cyan-a38: rgba(0, 223, 232, .38);
+        --cyan-a20: rgba(0, 223, 232, .2);
+        --cyan-a14: rgba(0, 223, 232, .14);
+        --cyan-a075: rgba(0, 223, 232, .075);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--bg); }
+    body { font-family: Archivo, Helvetica, system-ui, sans-serif; -webkit-font-smoothing: antialiased; color: var(--white); }
 
-    html, body { margin: 0; background: #0d1424; }
-    #cm-gate {
-        visibility: visible; position: fixed; inset: 0; z-index: 2147483000;
-        display: flex; flex-direction: column; align-items: center; justify-content: center;
-        padding: 24px 16px; overflow-y: auto; color: #f1f5f9;
-        background:
-            linear-gradient(rgba(159, 176, 204, .06) 1px, transparent 1px) 0 0 / 32px 32px,
-            linear-gradient(90deg, rgba(159, 176, 204, .06) 1px, transparent 1px) 0 0 / 32px 32px,
-            radial-gradient(50rem 30rem at 50% -10%, #2b3c5e, transparent 70%),
-            #0d1424;
-        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-        transition: opacity .45s ease;
+    .gate {
+        position: relative; width: 100%; height: 100vh; height: 100dvh; overflow: hidden; background: var(--screen);
+        user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
     }
-    #cm-gate.is-leaving { opacity: 0; }
-    #cm-gate * { box-sizing: border-box; }
-    .cm-card {
-        position: relative; overflow: hidden; width: 100%; max-width: 420px; padding: 32px 26px 28px; text-align: center;
-        border-radius: 6px; background: #162036; border: 1px solid #2b3c5e; border-top: 4px solid #fb7025;
-        box-shadow: 0 30px 70px -25px rgba(0, 0, 0, .8);
-        animation: cm-rise .45s cubic-bezier(.2, .8, .2, 1) both;
+    /* Lobby: the blurred layer behind the door, it sharpens on unlock. */
+    .lobby {
+        position: absolute; inset: -40px; filter: blur(22px) saturate(1.2); transform: scale(1.16);
+        transition: filter 1100ms cubic-bezier(.2, .8, .2, 1), transform 1500ms cubic-bezier(.2, .8, .2, 1);
     }
-    @keyframes cm-rise { from { opacity: 0; transform: translateY(12px); } }
-    .cm-card::after {
-        content: ""; position: absolute; left: 0; right: 0; top: -40%; height: 40%; pointer-events: none;
-        background: linear-gradient(180deg, transparent, rgba(251, 112, 37, .10), transparent);
-        animation: cm-scan 3.2s linear infinite;
+    .gate.done .lobby { filter: blur(0) saturate(1.2); transform: scale(1); }
+    .lobby-stripes { position: absolute; inset: 0; background: repeating-linear-gradient(50deg, var(--lobby-a) 0 4px, var(--lobby-b) 4px 11px); }
+    .lobby-glow {
+        position: absolute; inset: 0;
+        background: radial-gradient(110% 55% at 70% 22%, var(--blue-a55), transparent 62%), radial-gradient(95% 50% at 20% 80%, var(--cyan-a38), transparent 66%);
     }
-    @keyframes cm-scan { to { top: 110%; } }
-    .cm-kicker { display: inline-flex; align-items: center; gap: 8px; margin-top: 0; font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: #fda06c; }
-    .cm-kicker i { width: 8px; height: 8px; background: #fb7025; border-radius: 1px; animation: cm-blink 1s steps(2) infinite; }
-    @keyframes cm-blink { 50% { opacity: .2; } }
-    .cm-title { margin: 10px 0 0; font-size: 26px; line-height: 1.2; font-weight: 800; letter-spacing: -.01em; }
-    .cm-sub { margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: #9fb0cc; }
-    .cm-hold {
-        position: relative; margin: 28px auto 8px; width: 150px; height: 150px; border: 0; padding: 0; border-radius: 50%;
-        cursor: pointer; background: none; color: #fff; font: inherit; touch-action: none;
-        -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+
+    .screen { position: absolute; inset: 0; z-index: 3; opacity: 1; transition: opacity 640ms ease 120ms; }
+    .gate.done .screen { opacity: 0; pointer-events: none; }
+    .screen-bg { position: absolute; inset: 0; background: var(--screen); }
+    .screen-grid {
+        position: absolute; inset: 0; background-size: 34px 34px;
+        background-image: linear-gradient(var(--cyan-a075) 1px, transparent 1px), linear-gradient(90deg, var(--cyan-a075) 1px, transparent 1px);
     }
-    .cm-hold:focus-visible { outline: 3px solid #fda06c; outline-offset: 4px; }
-    .cm-ring { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(#fb7025 calc(var(--p, 0) * 1%), #2b3c5e 0); }
-    .cm-core {
-        position: absolute; inset: 10px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
-        background: radial-gradient(circle at 50% 30%, #3b5078, #1f2c47 70%);
-        box-shadow: inset 0 2px 0 rgba(255, 255, 255, .12), 0 10px 24px -8px rgba(0, 0, 0, .7);
-        font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; transition: transform .15s ease;
+    .screen-glow {
+        position: absolute; inset: 0;
+        background: radial-gradient(80% 44% at 50% 8%, var(--blue-a30), transparent 70%), radial-gradient(70% 40% at 50% 100%, var(--cyan-a20), transparent 70%);
     }
-    .cm-hold.is-holding .cm-core { transform: scale(.94); }
-    .cm-hold.is-done .cm-ring { background: #22c55e; }
-    .cm-hold.is-shake { animation: cm-shake .35s ease; }
-    @keyframes cm-shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
-    .cm-hint { margin: 10px 0 0; font-size: 13px; color: #7489ad; }
-    .cm-steps { list-style: none; margin: 24px 0 0; padding: 0; text-align: left; display: grid; gap: 10px; }
-    .cm-steps li { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 4px; background: #1f2c47; font-size: 14px; color: #cbd5e1; opacity: .45; transition: opacity .25s ease; }
-    .cm-steps li.on { opacity: 1; }
-    .cm-steps li s { flex: none; width: 18px; height: 18px; border-radius: 50%; border: 2px solid #506891; }
-    .cm-steps li.on s { border-color: #fb7025; border-right-color: transparent; animation: cm-rot .7s linear infinite; }
-    .cm-steps li.ok s { animation: none; border: 0; background: #22c55e url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / 12px no-repeat; }
-    @keyframes cm-rot { to { transform: rotate(360deg); } }
-    .cm-wait { margin-top: 18px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: #7489ad; }
-    .cm-lang { display: flex; gap: 4px; margin-bottom: 18px; padding: 4px; border-radius: 6px; background: #162036; border: 1px solid #2b3c5e; }
-    .cm-lang a {
-        display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 6px;
-        color: #9fb0cc; text-decoration: none; font-size: 12px; font-weight: 700; letter-spacing: .08em;
-        transition: background-color .2s ease, color .2s ease;
+    .screen-scan {
+        position: absolute; left: 0; right: 0; top: -180px; height: 180px;
+        background: linear-gradient(180deg, transparent, var(--cyan-a14), transparent); animation: scan 7000ms linear infinite;
     }
-    .cm-lang a:hover { background: #1f2c47; color: #f1f5f9; }
-    .cm-lang a[aria-current] { background: #2b3c5e; color: #fff; }
-    .cm-lang a:focus-visible { outline: 2px solid #fda06c; outline-offset: 2px; }
-    .cm-lang svg { display: block; width: 20px; height: 14px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255, 255, 255, .2); }
-    .cm-foot { max-width: 420px; margin-top: 20px; font-size: 12px; line-height: 1.55; text-align: center; color: #7489ad; }
-    .cm-foot a { color: #fda06c; text-decoration: underline; text-underline-offset: 2px; }
-    @media (prefers-reduced-motion: reduce) { #cm-gate *, .cm-card::after { animation: none !important; } }
+    .screen-vignette { position: absolute; inset: 0; box-shadow: inset 0 0 140px var(--vignette); }
+    .screen-grid, .screen-glow, .screen-scan { transition: opacity 380ms ease; }
+    .gate.done .screen-grid, .gate.done .screen-glow, .gate.done .screen-scan { opacity: 0; }
+
+    .content {
+        position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        gap: clamp(40px, 9vh, 74px); padding: clamp(48px, 11vh, 96px) clamp(24px, 11vw, 46px) clamp(40px, 7vh, 64px);
+    }
+    .question {
+        font-size: clamp(30px, 8.5vw, 46px); font-weight: 800; letter-spacing: -0.045em; line-height: 1.05; text-align: center; color: var(--white);
+        text-shadow: 0 0 5px var(--white), 0 0 16px var(--blue), 0 0 42px var(--blue-a85), 0 0 84px var(--blue-a55);
+        animation: flick 5200ms linear infinite; text-wrap: pretty;
+    }
+
+    .yes {
+        position: relative; width: clamp(168px, 46vw, 208px); height: clamp(168px, 46vw, 208px); flex: none; padding: 0; border: 0;
+        background: none; color: inherit; font: inherit; cursor: pointer; touch-action: manipulation;
+        transform: scale(1); transition: transform 200ms cubic-bezier(.34, 1.4, .64, 1);
+    }
+    .yes:focus-visible { outline: 2px solid var(--cyan); outline-offset: 10px; border-radius: 50%; }
+    .yes.pressed { transform: scale(.93); }
+    .yes .halo { position: absolute; inset: -30px; border-radius: 50%; background: radial-gradient(circle, var(--blue-a34), transparent 68%); animation: halo 2400ms ease-in-out infinite; }
+    .yes .sweep {
+        position: absolute; inset: -6px; border-radius: 50%; filter: blur(3px);
+        background: conic-gradient(from 0deg, transparent 0deg, var(--cyan-a90) 40deg, transparent 96deg); animation: spin 3400ms linear infinite;
+    }
+    .yes .disc { position: absolute; inset: 0; border-radius: 50%; background: var(--disc); border: 2px solid var(--blue); box-shadow: 0 0 22px var(--blue-a80), inset 0 0 34px var(--blue-a30); }
+    .yes .inner-ring { position: absolute; inset: 16px; border-radius: 50%; border: 1px solid var(--cyan-a45); animation: creep 2400ms ease-in-out infinite; }
+    .yes .ripple { position: absolute; inset: 0; border-radius: 50%; border: 2px solid var(--cyan-a75); pointer-events: none; opacity: 0; transform: scale(.62); }
+    .yes .ripple.armed { opacity: .95; transform: scale(.62); transition: none; }
+    .yes .ripple.expand { opacity: 0; transform: scale(2.75); transition: transform 780ms cubic-bezier(.2, .8, .2, 1), opacity 780ms ease; }
+    .yes .label {
+        position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+        font-size: clamp(38px, 12vw, 52px); font-weight: 800; letter-spacing: -0.04em; color: var(--white);
+        text-shadow: 0 0 6px var(--white), 0 0 22px var(--blue), 0 0 54px var(--blue-a65);
+    }
+
+    /* Redirect loader: fades in as the gate opens and stays until the next page paints. */
+    .loader {
+        position: absolute; inset: 0; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px;
+        opacity: 0; pointer-events: none; transition: opacity 420ms ease 240ms;
+    }
+    .gate.done .loader { opacity: 1; }
+    .loader-ring {
+        width: 64px; height: 64px; border-radius: 50%; border: 3px solid var(--cyan-a20); border-top-color: var(--cyan);
+        box-shadow: 0 0 18px var(--blue-a34), inset 0 0 12px var(--blue-a22); animation: spin 900ms linear infinite;
+    }
+    .loader-label {
+        font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 11px; font-weight: 500; letter-spacing: .26em; text-transform: uppercase;
+        color: var(--cyan); text-shadow: 0 0 12px var(--cyan-a45); animation: creep 1800ms ease-in-out infinite;
+    }
+    .bloom {
+        position: absolute; inset: 0; z-index: 4; pointer-events: none; opacity: 0; transition: opacity 950ms ease;
+        background: radial-gradient(circle at 50% 63%, var(--white), var(--blue-a34) 34%, transparent 70%);
+    }
+    .bloom.on { opacity: 1; }
+
+    footer {
+        width: 100%; max-width: 560px; margin: 0 auto; padding: 28px 20px 36px;
+        font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 11px; line-height: 1.6; color: var(--faint); text-align: center;
+    }
+    footer p { margin-bottom: 8px; text-wrap: pretty; }
+    footer a { color: var(--cyan); text-decoration: none; border-bottom: 1px solid var(--cyan-a45); }
+    .legal-meta { margin-top: 12px; color: var(--muted); letter-spacing: .08em; }
+
+    @keyframes halo { 0%, 100% { opacity: .4; transform: scale(1); } 50% { opacity: .85; transform: scale(1.08); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes flick { 0%, 96%, 100% { opacity: 1; } 97% { opacity: .55; } 98.5% { opacity: .85; } }
+    @keyframes scan { 0% { transform: translateY(0); } 100% { transform: translateY(calc(100vh + 180px)); } }
+    @keyframes creep { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+        .question, .yes .halo, .yes .sweep, .yes .inner-ring, .screen-scan, .loader-label { animation: none; }
+        .lobby, .screen, .bloom, .yes, .yes .ripple { transition-duration: 1ms; }
+    }
 </style>
 <script>
 /*
@@ -98,47 +166,24 @@ window.Gate = (function () {
 
     var m = next.match(/^\/(es|fr)(?=[\/?#]|$)/) || next.match(/[?&]lang=(es|fr)\b/);
     var lang = m ? m[1] : 'en', pre = lang === 'en' ? '' : '/' + lang;
-    var TITLES = { en: 'Security check', es: 'Verificación de seguridad', fr: 'Vérification de sécurité' };
+    var TITLES = { en: 'Age verification', es: 'Verificación de edad', fr: "Vérification de l'âge" };
     document.documentElement.lang = lang;
     document.title = TITLES[lang];
 
     var FOOT = {
-        en: { foot: 'The following content is informational and educational and does not constitute financial, legal, medical, or professional advice. Results are not guaranteed; your experience may vary.', rights: 'All rights reserved.', agree: 'By continuing, you agree to our {t} and our {p}.', t: 'Terms of Use', p: 'Privacy Policy' },
-        es: { foot: 'El siguiente contenido es informativo y educativo y no constituye asesoramiento financiero, legal, médico ni profesional. Los resultados no están garantizados; tu experiencia puede variar.', rights: 'Todos los derechos reservados.', agree: 'Al continuar, aceptas nuestros {t} y nuestra {p}.', t: 'Términos de uso', p: 'Política de privacidad' },
-        fr: { foot: "Le contenu suivant est informatif et éducatif et ne constitue pas un conseil financier, juridique, médical ou professionnel. Les résultats ne sont pas garantis ; votre expérience peut varier.", rights: 'Tous droits réservés.', agree: 'En continuant, vous acceptez nos {t} et notre {p}.', t: "Conditions d'utilisation", p: 'Politique de confidentialité' }
+        en: { foot: 'The following content is informational and educational and does not constitute financial, legal, medical, or professional advice. Results are not guaranteed; your experience may vary.', rights: 'All rights reserved.', agree: 'By continuing, you agree to our {t} and our {p}', t: 'Terms of Use', p: 'Privacy Policy' },
+        es: { foot: 'El siguiente contenido es informativo y educativo y no constituye asesoramiento financiero, legal, médico ni profesional. Los resultados no están garantizados; tu experiencia puede variar.', rights: 'Todos los derechos reservados.', agree: 'Al continuar, aceptas nuestros {t} y nuestra {p}', t: 'Términos de uso', p: 'Política de privacidad' },
+        fr: { foot: "Le contenu suivant est informatif et éducatif et ne constitue pas un conseil financier, juridique, médical ou professionnel. Les résultats ne sont pas garantis ; votre expérience peut varier.", rights: 'Tous droits réservés.', agree: 'En continuant, vous acceptez nos {t} et notre {p}', t: "Conditions d'utilisation", p: 'Politique de confidentialité' }
     };
-
-    var FLAGS = {
-        en: '<svg viewBox="0 0 60 30" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L30,15 M60,0 L30,15 M60,30 L30,15 M0,30 L30,15" stroke="#C8102E" stroke-width="2"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></svg>',
-        es: '<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#AA151B"/><rect y="5" width="30" height="10" fill="#F1BF00"/></svg>',
-        fr: '<svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#FFFFFF"/><rect width="10" height="20" fill="#002654"/><rect x="20" width="10" height="20" fill="#CE1126"/></svg>'
-    };
-    var NAMES = { en: 'English', es: 'Español', fr: 'Français' };
-
-    // The page they asked for, in language l: "?lang=" links keep that form, others get the /es or /fr prefix.
-    function nextIn(l) {
-        var cut = next.search(/#/), hash = cut < 0 ? '' : next.slice(cut), url = cut < 0 ? next : next.slice(0, cut);
-        if (/[?&]lang=(?:en|es|fr)\b/.test(url)) return url.replace(/([?&]lang=)(?:en|es|fr)\b/, '$1' + l) + hash;
-        url = url.replace(/^\/(?:es|fr)(?=[\/?#]|$)/, '');
-        if (url === '' || url.charAt(0) === '?') url = '/' + url;
-        if (l !== 'en') url = '/' + l + (url.charAt(1) === '?' || url === '/' ? url.slice(1) : url);
-        return url + hash;
-    }
 
     return {
         lang: lang,
-        switcher: function (cls) {
-            return '<nav class="' + cls + '" aria-label="Language">' + ['en', 'es', 'fr'].map(function (l) {
-                return '<a href="' + location.pathname + '?next=' + encodeURIComponent(nextIn(l)) + '" hreflang="' + l + '" lang="' + l + '" title="' + NAMES[l] + '"' +
-                    (l === lang ? ' aria-current="true"' : '') + '>' + FLAGS[l] + l.toUpperCase() + '</a>';
-            }).join('') + '</nav>';
-        },
         footer: function () {
             var f = FOOT[lang];
-            return f.foot + '<br>' + f.agree
+            return '<p>' + f.foot + '</p><p>' + f.agree
                 .replace('{t}', '<a href="' + pre + '/terms-of-use">' + f.t + '</a>')
                 .replace('{p}', '<a href="' + pre + '/privacy-policy">' + f.p + '</a>') +
-                '<br>© ' + new Date().getFullYear() + ' - ' + f.rights;
+                '.</p><div class="legal-meta">© ' + new Date().getFullYear() + ' - ' + f.rights + '</div>';
         },
         go: function () {
             document.cookie = 'gate_pass=1; Max-Age=' + PASS_MINUTES * 60 + '; Path=/; SameSite=Lax' + (location.protocol === 'https:' ? '; Secure' : '');
@@ -149,97 +194,70 @@ window.Gate = (function () {
 </script>
 </head>
 <body>
+<main class="gate" id="gate">
+    <div class="lobby">
+        <div class="lobby-stripes"></div>
+        <div class="lobby-glow"></div>
+    </div>
+    <div class="screen">
+        <div class="screen-bg"></div>
+        <div class="screen-grid"></div>
+        <div class="screen-glow"></div>
+        <div class="screen-scan"></div>
+        <div class="screen-vignette"></div>
+        <div class="content">
+            <h1 class="question" id="q">Are you 18 or older?</h1>
+            <button class="yes" id="yes" type="button" aria-describedby="q">
+                <span class="halo" aria-hidden="true"></span>
+                <span class="sweep" aria-hidden="true"></span>
+                <span class="disc" aria-hidden="true"></span>
+                <span class="inner-ring" aria-hidden="true"></span>
+                <span class="ripple" id="ripple" aria-hidden="true"></span>
+                <span class="label" id="yes-label">YES</span>
+            </button>
+        </div>
+    </div>
+    <div class="loader" id="loader" role="status">
+        <span class="loader-ring" aria-hidden="true"></span>
+        <span class="loader-label" id="loader-label">Entering</span>
+    </div>
+    <div class="bloom" id="bloom" aria-hidden="true"></div>
+</main>
+<footer id="foot"></footer>
 <script>
-
 (function () {
-    var root = document.documentElement, HOLD = 1600;
-
     var T = {
-        en: { kick: 'Checking connection', title: 'Confirm you are human', sub: 'Press and hold the button until the ring is full.', hold: 'Hold', keep: 'Keep holding', ok: 'Done', hint: 'Released too early? Just try again.', s1: 'Scanning access', s2: 'Verifying integrity', s3: 'Opening the site', wait: 'Please wait' },
-        es: { kick: 'Comprobando conexión', title: 'Confirma que eres humano', sub: 'Mantén pulsado el botón hasta que el anillo se llene.', hold: 'Mantén', keep: 'Sigue', ok: 'Listo', hint: '¿Lo soltaste antes? Inténtalo de nuevo.', s1: 'Escaneando acceso', s2: 'Verificando integridad', s3: 'Abriendo el sitio', wait: 'Espera por favor' },
-        fr: { kick: 'Vérification de la connexion', title: 'Confirmez que vous êtes humain', sub: "Maintenez le bouton appuyé jusqu'à ce que l'anneau soit plein.", hold: 'Maintenir', keep: 'Continuez', ok: 'Terminé', hint: 'Relâché trop tôt ? Réessayez.', s1: "Analyse de l'accès", s2: "Vérification de l'intégrité", s3: 'Ouverture du site', wait: 'Veuillez patienter' }
+        en: { q: 'Are you 18 or older?', yes: 'YES', enter: 'Entering' },
+        es: { q: '¿Tienes 18 años o más?', yes: 'SÍ', enter: 'Entrando' },
+        fr: { q: 'Avez-vous 18 ans ou plus ?', yes: 'OUI', enter: 'Entrée' }
     };
-    var lang = Gate.lang, t = T[lang] || T.en;
-    var finger = '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fda06c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 11V5a1.5 1.5 0 0 1 3 0v6"/><path d="M15 10.5a1.5 1.5 0 0 1 3 0V12"/><path d="M18 11.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-2a6 6 0 0 1-5-2.7L4.3 14.2a1.5 1.5 0 0 1 2.4-1.8L9 15V8a1.5 1.5 0 0 1 3 0"/></svg>';
+    var t = T[Gate.lang] || T.en;
+    var gate = document.getElementById('gate'), yes = document.getElementById('yes'),
+        ripple = document.getElementById('ripple'), bloom = document.getElementById('bloom'), done = false;
+    document.getElementById('q').textContent = t.q;
+    document.getElementById('yes-label').textContent = t.yes;
+    document.getElementById('loader-label').textContent = t.enter;
+    document.getElementById('foot').innerHTML = Gate.footer();
 
-    function build() {
-        var g = document.createElement('div');
-        g.id = 'cm-gate';
-        g.setAttribute('role', 'dialog');
-        g.setAttribute('aria-modal', 'true');
-        g.setAttribute('aria-labelledby', 'cm-q');
-        g.innerHTML =
-            Gate.switcher('cm-lang') +
-            '<div class="cm-card">' +
-                '<div class="cm-kicker"><i></i>' + t.kick + '</div>' +
-                '<h2 class="cm-title" id="cm-q">' + t.title + '</h2>' +
-                '<p class="cm-sub">' + t.sub + '</p>' +
-                '<button type="button" class="cm-hold" aria-describedby="cm-q"><span class="cm-ring"></span><span class="cm-core">' + finger + '<span class="cm-lbl">' + t.hold + '</span></span></button>' +
-                '<p class="cm-hint" hidden>' + t.hint + '</p>' +
-            '</div>' +
-            '<p class="cm-foot">' + Gate.footer() + '</p>';
-        document.body.appendChild(g);
-
-        var card = g.querySelector('.cm-card'), btn = g.querySelector('.cm-hold'), ring = g.querySelector('.cm-ring'),
-            lbl = g.querySelector('.cm-lbl'), hint = g.querySelector('.cm-hint');
-        var start = 0, raf = 0, done = false, holding = false;
-        function tick(now) {
-            var p = Math.min(1, (now - start) / HOLD);
-            ring.style.setProperty('--p', (p * 100).toFixed(1));
-            if (p >= 1) return complete();
-            raf = requestAnimationFrame(tick);
-        }
-        function down(e) {
-            if (done || holding) return;
-            if (e && e.pointerId !== undefined) { try { btn.setPointerCapture(e.pointerId); } catch (x) {} }
-            holding = true;
-            btn.classList.add('is-holding');
-            lbl.textContent = t.keep;
-            start = performance.now();
-            raf = requestAnimationFrame(tick);
-        }
-        function up() {
-            if (done || !holding) return;
-            holding = false;
-            cancelAnimationFrame(raf);
-            btn.classList.remove('is-holding');
-            lbl.textContent = t.hold;
-            ring.style.setProperty('--p', 0);
-            hint.hidden = false;
-            btn.classList.remove('is-shake');
-            btn.offsetWidth;
-            btn.classList.add('is-shake');
-        }
-        btn.addEventListener('pointerdown', function (e) { e.preventDefault(); down(e); });
-        btn.addEventListener('pointerup', up);
-        btn.addEventListener('pointercancel', up);
-        btn.addEventListener('contextmenu', function (e) { e.preventDefault(); });
-        btn.addEventListener('keydown', function (e) { if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) { e.preventDefault(); down(); } });
-        btn.addEventListener('keyup', function (e) { if (e.key === ' ' || e.key === 'Enter') up(); });
-
-        function complete() {
-            done = true;
-            btn.classList.remove('is-holding');
-            btn.classList.add('is-done');
-            lbl.textContent = t.ok;
-            setTimeout(function () {
-                card.innerHTML =
-                    '<div class="cm-kicker"><i></i>' + t.kick + '</div>' +
-                    '<ul class="cm-steps" role="status"><li>' + '<s></s>' + t.s1 + '</li><li><s></s>' + t.s2 + '</li><li><s></s>' + t.s3 + '</li></ul>' +
-                    '<div class="cm-wait">' + t.wait + '</div>';
-                var li = card.querySelectorAll('.cm-steps li');
-                [0, 1, 2].forEach(function (i) {
-                    setTimeout(function () { li[i].classList.add('on'); }, i * 450);
-                    setTimeout(function () { li[i].classList.add('ok'); }, i * 450 + 420);
-                });
-            }, 450);
-            setTimeout(function () {
-                Gate.go();
-            }, 2400);
-        }
-    }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', build);
-    else build();
+    yes.addEventListener('pointerdown', function () { if (!done) yes.classList.add('pressed'); });
+    ['pointerup', 'pointerleave', 'pointercancel'].forEach(function (evt) {
+        yes.addEventListener(evt, function () { yes.classList.remove('pressed'); });
+    });
+    yes.addEventListener('click', function () {
+        if (done) return;
+        done = true;
+        yes.classList.remove('pressed');
+        // ripple: snap to the small ring, then expand out on the next frame
+        ripple.classList.add('armed');
+        requestAnimationFrame(function () { ripple.classList.remove('armed'); ripple.classList.add('expand'); });
+        // door opens: the screen fades, the lobby sharpens, a bloom flashes over the top
+        setTimeout(function () {
+            gate.classList.add('done');
+            bloom.classList.add('on');
+            setTimeout(function () { bloom.classList.remove('on'); }, 130);
+        }, 300);
+        setTimeout(Gate.go, 900);
+    });
 })();
 </script>
 </body>
