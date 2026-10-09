@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script>
+    (function () {
+        var p = location.pathname.replace(/\.html$/, '');
+        if (/^(?:\/(?:es|fr))?\/(?:captcha|terms-of-use|privacy-policy)$/.test(p)) return;
+        if (/(?:^|;\s*)gate_pass=1(?:;|$)/.test(document.cookie)) return;
+        document.documentElement.style.visibility = 'hidden';
+        location.replace('/captcha?next=' + encodeURIComponent(location.pathname + location.search + location.hash));
+    })();
+</script>
+<meta name="theme-color" content="#162036" />
+
+<title>
+    Cómo se Calculan las Tarifas del Seguro de Vivienda en Zonas de Alto Riesgo — Contractor-Mag
+</title>
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<style>
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-400-normal-Dhut76fR.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-400-normal-BDKaGhyp.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-500-normal-Bf-nb4oT.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-500-normal-DYtqi0QS.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-600-normal-DLTa1BUW.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-600-normal-BR_Ojra4.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-700-normal-CfpNZvy6.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-700-normal-DqEcQeE5.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-800-normal-CusIZhrK.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-800-normal-BRNHt2w0.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-500-normal-DEDBoLFO.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-500-normal-CV-uA8Lw.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-600-normal-nxTgbNFE.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-600-normal-Bw0J83-2.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-700-normal-gtcctNPv.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-700-normal-DvJDmrLu.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-800-normal-J50vIsBe.woff2") format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/build/assets/bricolage-grotesque-800-normal-Br4b-5gk.woff") format("woff");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+:root {
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-bricolage-grotesque: "Bricolage Grotesque";
+}
+
+.font-plus-jakarta-sans {
+  font-family: var(--font-plus-jakarta-sans);
+}
+
+.font-bricolage-grotesque {
+  font-family: var(--font-bricolage-grotesque);
+}
+</style>
+<link rel="preload" as="style" href="/build/assets/app-B-JHxTUo.css" /><link rel="modulepreload" as="script" href="/build/assets/app-BvRk9kiK.js" /><link rel="stylesheet" href="/build/assets/app-B-JHxTUo.css" data-navigate-track="reload" /><script type="module" src="/build/assets/app-BvRk9kiK.js" data-navigate-track="reload"></script><style>
+    :root.dark {
+        color-scheme: dark;
+    }
+</style>
+<script>
+    window.Flux = {
+        applyAppearance (appearance) {
+            let applyDark = () => document.documentElement.classList.add('dark')
+            let applyLight = () => document.documentElement.classList.remove('dark')
+
+            if (appearance === 'system') {
+                let media = window.matchMedia('(prefers-color-scheme: dark)')
+
+                window.localStorage.removeItem('flux.appearance')
+
+                media.matches ? applyDark() : applyLight()
+            } else if (appearance === 'dark') {
+                window.localStorage.setItem('flux.appearance', 'dark')
+
+                applyDark()
+            } else if (appearance === 'light') {
+                window.localStorage.setItem('flux.appearance', 'light')
+
+                applyLight()
+            }
+        }
+    }
+
+    window.Flux.applyAppearance(window.localStorage.getItem('flux.appearance') || 'system')
+</script>
+                    <meta name="description" content="Los propietarios en áreas expuestas a incendios forestales, huracanes, vientos severos, inundaciones, terremotos u otros peligros naturales pueden pagar pr..." />
+                        <meta property="og:site_name" content="Contractor-Mag" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Cómo se Calculan las Tarifas del Seguro de Vivienda en Zonas de Alto Riesgo" />
+                    <meta property="og:description" content="Los propietarios en áreas expuestas a incendios forestales, huracanes, vientos severos, inundaciones, terremotos u otros peligros naturales pueden pagar pr..." />
+                <meta property="og:image" content="https://contractor-mag.com/images/articles/how-home-insurance-rates-are-calculated-in-high-risk-zones.webp" />
+        <meta property="og:locale" content="es_ES" />
+        <meta name="twitter:card" content="summary_large_image" />
+                    <link rel="alternate" hreflang="en" href="/p/how-home-insurance-rates-are-calculated-in-high-risk-zones" />
+                    <link rel="alternate" hreflang="es" href="/es/p/how-home-insurance-rates-are-calculated-in-high-risk-zones" />
+                    <link rel="alternate" hreflang="fr" href="/fr/p/how-home-insurance-rates-are-calculated-in-high-risk-zones" />
+                <link rel="alternate" hreflang="x-default" href="/p/how-home-insurance-rates-are-calculated-in-high-risk-zones" />
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.list-item][wire\:loading\.list-item], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak="x-cloak"],[x-cloak=""] {display: none !important;}[wire\:cloak="wire:cloak"],[wire\:cloak=""] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+</head>
+    <body
+        x-data="{ mobileOpen: false }"
+        class="min-h-screen bg-paper font-sans text-ink antialiased selection:bg-zest-300 selection:text-navy-950"
+    >
+        <header class="sticky top-0 z-40">
+    <div class="bg-navy-950 text-white">
+        <div class="mx-auto flex h-18 max-w-7xl items-center justify-between gap-6 px-6 lg:px-8">
+            <a href="/es" wire:navigate class="shrink-0" aria-label="Inicio de Contractor-Mag">
+                <img src="/images/brand/logo.webp?v=3" alt="globus.fun" width="877" height="192" class="h-8 w-auto shrink-0">
+            </a>
+
+            <div class="flex items-center gap-2 sm:gap-5">
+                <nav class="hidden items-center gap-6 text-sm font-semibold text-navy-300 lg:flex">
+                    <a href="/es/our-team" wire:navigate class="transition hover:text-white">Nuestro equipo</a>
+                    <a href="/es/contact" wire:navigate class="transition hover:text-white">Contacto</a>
+                </nav>
+
+                <span class="hidden h-6 w-px bg-navy-700 lg:block"></span>
+
+                <div class="hidden sm:block">
+                    <div class="flex items-center gap-1" role="group" aria-label="Idioma">
+            <a
+            href="/p/how-home-insurance-rates-are-calculated-in-high-risk-zones"
+            hreflang="en"
+            lang="en"
+            title="English"
+            aria-label="English"
+                        class="flex items-center justify-center rounded-md p-1.5 transition opacity-60 hover:bg-navy-800 hover:opacity-100"
+        >
+                            <svg class="h-3.5 w-5 overflow-hidden rounded-[2px] ring-1 ring-white/20" viewBox="0 0 60 30" aria-hidden="true">
+                    <rect width="60" height="30" fill="#012169" />
+                    <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6" />
+                    <path d="M0,0 L30,15 M60,0 L30,15 M60,30 L30,15 M0,30 L30,15" stroke="#C8102E" stroke-width="2" />
+                    <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10" />
+                    <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6" />
+                </svg>
+                    </a>
+            <a
+            href="/es/p/how-home-insurance-rates-are-calculated-in-high-risk-zones"
+            hreflang="es"
+            lang="es"
+            title="Español"
+            aria-label="Español"
+             aria-current="true"             class="flex items-center justify-center rounded-md p-1.5 transition bg-navy-700"
+        >
+                            <svg class="h-3.5 w-5 overflow-hidden rounded-[2px] ring-1 ring-white/20" viewBox="0 0 30 20" aria-hidden="true">
+                    <rect width="30" height="20" fill="#AA151B" />
+                    <rect y="5" width="30" height="10" fill="#F1BF00" />
+                </svg>
+                    </a>
+            <a
+            href="/fr/p/how-home-insurance-rates-are-calculated-in-high-risk-zones"
+            hreflang="fr"
+            lang="fr"
+            title="Français"
+            aria-label="Français"
+                        class="flex items-center justify-center rounded-md p-1.5 transition opacity-60 hover:bg-navy-800 hover:opacity-100"
+        >
+                            <svg class="h-3.5 w-5 overflow-hidden rounded-[2px] ring-1 ring-white/20" viewBox="0 0 30 20" aria-hidden="true">
+                    <rect width="30" height="20" fill="#FFFFFF" />
+                    <rect width="10" height="20" fill="#002654" />
+                    <rect x="20" width="10" height="20" fill="#CE1126" />
+                </svg>
+                    </a>
+    </div>
+                </div>
+
+                <a href="/es/articles" wire:navigate class="hidden items-center gap-2 rounded-md bg-brand-500 px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-400 sm:inline-flex">
+                    <svg class="shrink-0 [:where(&amp;)]:size-5 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M10.75 16.82A7.462 7.462 0 0 1 15 15.5c.71 0 1.396.098 2.046.282A.75.75 0 0 0 18 15.06v-11a.75.75 0 0 0-.546-.721A9.006 9.006 0 0 0 15 3a8.963 8.963 0 0 0-4.25 1.065V16.82ZM9.25 4.065A8.963 8.963 0 0 0 5 3c-.85 0-1.673.118-2.454.339A.75.75 0 0 0 2 4.06v11a.75.75 0 0 0 .954.721A7.506 7.506 0 0 1 5 15.5c1.579 0 3.042.487 4.25 1.32V4.065Z"/>
+</svg>
+
+                            Todos los artículos
+                </a>
+
+                <button
+                    type="button"
+                    @click="mobileOpen = true"
+                    class="flex size-10 items-center justify-center rounded-md border border-navy-700 text-white transition hover:border-brand-400 lg:hidden"
+                    aria-label="Abrir menú"
+                >
+                    <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 7h16M4 12h16M10 17h10" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="hidden border-b border-line bg-surface/95 backdrop-blur-md lg:block">
+        <nav class="mx-auto flex h-12 max-w-7xl items-stretch gap-1 px-6 text-sm font-bold whitespace-nowrap lg:px-8">
+            <a href="/es" wire:navigate class="flex items-center gap-2 border-b-[3px] px-3 transition border-transparent text-muted hover:text-ink">
+                <svg class="shrink-0 [:where(&amp;)]:size-4 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z"/>
+</svg>
+
+                        Inicio
+            </a>
+                                            <a href="/es/c/home-financing" wire:navigate class="flex items-center gap-2 border-b-[3px] px-3 transition border-transparent text-muted hover:text-ink">
+                    <svg class="shrink-0 [:where(&amp;)]:size-4 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3Zm9 3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM11.5 6A.75.75 0 1 1 13 6a.75.75 0 0 1-1.5 0Z" clip-rule="evenodd"/>
+  <path d="M13 11.75a.75.75 0 0 0-1.5 0v.179c0 .15-.138.28-.306.255A65.277 65.277 0 0 0 1.75 11.5a.75.75 0 0 0 0 1.5c3.135 0 6.215.228 9.227.668A1.764 1.764 0 0 0 13 11.928v-.178Z"/>
+</svg>
+
+                            Financiación de vivienda
+                </a>
+                                            <a href="/es/c/property-management" wire:navigate class="flex items-center gap-2 border-b-[3px] px-3 transition border-transparent text-muted hover:text-ink">
+                    <svg class="shrink-0 [:where(&amp;)]:size-4 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M1.75 2a.75.75 0 0 0 0 1.5H2v9h-.25a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 .75-.75v-1.5a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v1.5c0 .414.336.75.75.75h.5a.75.75 0 0 0 .75-.75V3.5h.25a.75.75 0 0 0 0-1.5h-7.5ZM3.5 5.5A.5.5 0 0 1 4 5h.5a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5v-.5Zm.5 2a.5.5 0 0 0-.5.5v.5A.5.5 0 0 0 4 9h.5a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H4Zm2-2a.5.5 0 0 1 .5-.5H7a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-.5.5h-.5A.5.5 0 0 1 6 6v-.5Zm.5 2A.5.5 0 0 0 6 8v.5a.5.5 0 0 0 .5.5H7a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5h-.5ZM11.5 6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.75a.75.75 0 0 0 0-1.5H14v-5h.25a.75.75 0 0 0 0-1.5H11.5Zm.5 1.5h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 0 1-.5.5H12a.5.5 0 0 1-.5-.5V8a.5.5 0 0 1 .5-.5Zm0 2.5a.5.5 0 0 0-.5.5v.5a.5.5 0 0 0 .5.5h.5a.5.5 0 0 0 .5-.5v-.5a.5.5 0 0 0-.5-.5H12Z" clip-rule="evenodd"/>
+</svg>
+
+                            Administración de propiedades
+                </a>
+                                            <a href="/es/c/home-repair-services" wire:navigate class="flex items-center gap-2 border-b-[3px] px-3 transition border-transparent text-muted hover:text-ink">
+                    <svg class="shrink-0 [:where(&amp;)]:size-4 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M15 4.5A3.5 3.5 0 0 1 11.435 8c-.99-.019-2.093.132-2.7.913l-4.13 5.31a2.015 2.015 0 1 1-2.827-2.828l5.309-4.13c.78-.607.932-1.71.914-2.7L8 4.5a3.5 3.5 0 0 1 4.477-3.362c.325.094.39.497.15.736L10.6 3.902a.48.48 0 0 0-.033.653c.271.314.565.608.879.879a.48.48 0 0 0 .653-.033l2.027-2.027c.239-.24.642-.175.736.15.09.31.138.637.138.976ZM3.75 13a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" clip-rule="evenodd"/>
+  <path d="M11.5 9.5c.313 0 .62-.029.917-.084l1.962 1.962a2.121 2.121 0 0 1-3 3l-2.81-2.81 1.35-1.734c.05-.064.158-.158.426-.233.278-.078.639-.11 1.062-.102l.093.001ZM5 4l1.446 1.445a2.256 2.256 0 0 1-.047.21c-.075.268-.169.377-.233.427l-.61.474L4 5H2.655a.25.25 0 0 1-.224-.139l-1.35-2.7a.25.25 0 0 1 .047-.289l.745-.745a.25.25 0 0 1 .289-.047l2.7 1.35A.25.25 0 0 1 5 2.654V4Z"/>
+</svg>
+
+                            Reparaciones del hogar
+                </a>
+                                            <a href="/es/c/home-contractors" wire:navigate class="flex items-center gap-2 border-b-[3px] px-3 transition border-transparent text-muted hover:text-ink">
+                    <svg class="shrink-0 [:where(&amp;)]:size-4 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M11.986 3H12a2 2 0 0 1 2 2v6a2 2 0 0 1-1.5 1.937V7A2.5 2.5 0 0 0 10 4.5H4.063A2 2 0 0 1 6 3h.014A2.25 2.25 0 0 1 8.25 1h1.5a2.25 2.25 0 0 1 2.236 2ZM10.5 4v-.75a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0-.75.75V4h3Z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M2 7a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7Zm6.585 1.08a.75.75 0 0 1 .336 1.005l-1.75 3.5a.75.75 0 0 1-1.16.234l-1.75-1.5a.75.75 0 0 1 .977-1.139l1.02.875 1.321-2.64a.75.75 0 0 1 1.006-.336Z" clip-rule="evenodd"/>
+</svg>
+
+                            Contratistas para el hogar
+                </a>
+                    </nav>
+    </div>
+</header>
+
+
+<div x-show="mobileOpen" x-cloak class="fixed inset-0 z-50 lg:hidden" @keydown.escape.window="mobileOpen = false">
+    <div x-show="mobileOpen" x-transition.opacity class="fixed inset-0 bg-navy-950/70 backdrop-blur-sm" @click="mobileOpen = false"></div>
+    <div
+        x-show="mobileOpen"
+        x-transition:enter="transition ease-out duration-200"
+        x-transition:enter-start="-translate-x-full"
+        x-transition:enter-end="translate-x-0"
+        x-transition:leave="transition ease-in duration-150"
+        x-transition:leave-start="translate-x-0"
+        x-transition:leave-end="-translate-x-full"
+        class="fixed inset-y-0 left-0 flex w-full max-w-sm flex-col bg-paper"
+    >
+        <div class="flex items-center justify-between bg-navy-950 px-6 py-5">
+            <a href="/es" wire:navigate @click="mobileOpen = false">
+                <img src="/images/brand/logo.webp?v=3" alt="globus.fun" width="877" height="192" class="h-6 w-auto shrink-0">
+            </a>
+            <button type="button" @click="mobileOpen = false" class="flex size-10 items-center justify-center rounded-md border border-navy-700 text-white" aria-label="Cerrar menú">
+                <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+                </svg>
+            </button>
+        </div>
+
+        <nav class="flex flex-1 flex-col gap-1 overflow-y-auto px-4 py-6">
+            <a href="/es" wire:navigate @click="mobileOpen = false" class="rounded-md px-4 py-3 font-bold text-ink hover:bg-soft">Inicio</a>
+            <a href="/es/articles" wire:navigate @click="mobileOpen = false" class="rounded-md px-4 py-3 font-bold text-ink hover:bg-soft">Todos los artículos</a>
+
+            <p class="eyebrow mt-5 mb-2 px-4">Temas</p>
+                            <a href="/es/c/home-financing" wire:navigate @click="mobileOpen = false" class="flex items-center gap-3 rounded-md px-4 py-3 font-semibold text-body hover:bg-soft">
+                    <span class="flex size-8 items-center justify-center rounded-md bg-navy-900 text-zest-300">
+                        <svg class="shrink-0 [:where(&amp;)]:size-5 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M1 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4Zm12 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM4 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm13-1a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM1.75 14.5a.75.75 0 0 0 0 1.5c4.417 0 8.693.603 12.749 1.73 1.111.309 2.251-.512 2.251-1.696v-.784a.75.75 0 0 0-1.5 0v.784a.272.272 0 0 1-.35.25A49.043 49.043 0 0 0 1.75 14.5Z" clip-rule="evenodd"/>
+</svg>
+
+                            </span>
+                    Financiación de vivienda
+                </a>
+                            <a href="/es/c/property-management" wire:navigate @click="mobileOpen = false" class="flex items-center gap-3 rounded-md px-4 py-3 font-semibold text-body hover:bg-soft">
+                    <span class="flex size-8 items-center justify-center rounded-md bg-navy-900 text-zest-300">
+                        <svg class="shrink-0 [:where(&amp;)]:size-5 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M1 2.75A.75.75 0 0 1 1.75 2h10.5a.75.75 0 0 1 0 1.5H12v13.75a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 0-.75-.75h-2.5a.75.75 0 0 0-.75.75v2.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5H2v-13h-.25A.75.75 0 0 1 1 2.75ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM8 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM8.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM14.25 6a.75.75 0 0 0-.75.75V17a1 1 0 0 0 1 1h3.75a.75.75 0 0 0 0-1.5H18v-9h.25a.75.75 0 0 0 0-1.5h-4Zm.5 3.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm.5 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" clip-rule="evenodd"/>
+</svg>
+
+                            </span>
+                    Administración de propiedades
+                </a>
+                            <a href="/es/c/home-repair-services" wire:navigate @click="mobileOpen = false" class="flex items-center gap-3 rounded-md px-4 py-3 font-semibold text-body hover:bg-soft">
+                    <span class="flex size-8 items-center justify-center rounded-md bg-navy-900 text-zest-300">
+                        <svg class="shrink-0 [:where(&amp;)]:size-5 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M14.5 10a4.5 4.5 0 0 0 4.284-5.882c-.105-.324-.51-.391-.752-.15L15.34 6.66a.454.454 0 0 1-.493.11 3.01 3.01 0 0 1-1.618-1.616.455.455 0 0 1 .11-.494l2.694-2.692c.24-.241.174-.647-.15-.752a4.5 4.5 0 0 0-5.873 4.575c.055.873-.128 1.808-.8 2.368l-7.23 6.024a2.724 2.724 0 1 0 3.837 3.837l6.024-7.23c.56-.672 1.495-.855 2.368-.8.096.007.193.01.291.01ZM5 16a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" clip-rule="evenodd"/>
+  <path d="M14.5 11.5c.173 0 .345-.007.514-.022l3.754 3.754a2.5 2.5 0 0 1-3.536 3.536l-4.41-4.41 2.172-2.607c.052-.063.147-.138.342-.196.202-.06.469-.087.777-.067.128.008.257.012.387.012ZM6 4.586l2.33 2.33a.452.452 0 0 1-.08.09L6.8 8.214 4.586 6H3.309a.5.5 0 0 1-.447-.276l-1.7-3.402a.5.5 0 0 1 .093-.577l.49-.49a.5.5 0 0 1 .577-.094l3.402 1.7A.5.5 0 0 1 6 3.31v1.277Z"/>
+</svg>
+
+                            </span>
+                    Reparaciones del hogar
+                </a>
+                            <a href="/es/c/home-contractors" wire:navigate @click="mobileOpen = false" class="flex items-center gap-3 rounded-md px-4 py-3 font-semibold text-body hover:bg-soft">
+                    <span class="flex size-8 items-center justify-center rounded-md bg-navy-900 text-zest-300">
+                        <svg class="shrink-0 [:where(&amp;)]:size-5 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M18 5.25a2.25 2.25 0 0 0-2.012-2.238A2.25 2.25 0 0 0 13.75 1h-1.5a2.25 2.25 0 0 0-2.238 2.012c-.875.092-1.6.686-1.884 1.488H11A2.5 2.5 0 0 1 13.5 7v7h2.25A2.25 2.25 0 0 0 18 11.75v-6.5ZM12.25 2.5a.75.75 0 0 0-.75.75v.25h3v-.25a.75.75 0 0 0-.75-.75h-1.5Z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M3 6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H3Zm6.874 4.166a.75.75 0 1 0-1.248-.832l-2.493 3.739-.853-.853a.75.75 0 0 0-1.06 1.06l1.5 1.5a.75.75 0 0 0 1.154-.114l3-4.5Z" clip-rule="evenodd"/>
+</svg>
+
+                            </span>
+                    Contratistas para el hogar
+                </a>
+            
+            <p class="eyebrow mt-5 mb-2 px-4">Acerca de</p>
+            <a href="/es/our-team" wire:navigate @click="mobileOpen = false" class="rounded-md px-4 py-3 font-semibold text-body hover:bg-soft">Nuestro equipo</a>
+            <a href="/es/contact" wire:navigate @click="mobileOpen = false" class="rounded-md px-4 py-3 font-semibold text-body hover:bg-soft">Contacto</a>
+
+            <div class="mt-6 px-4">
+                <div class="inline-flex rounded-md bg-navy-950 p-1.5">
+                    <div class="flex items-center gap-1" role="group" aria-label="Idioma">
+            <a
+            href="/p/how-home-insurance-rates-are-calculated-in-high-risk-zones"
+            hreflang="en"
+            lang="en"
+            title="English"
+            aria-label="English"
+                        class="flex items-center justify-center rounded-md p-1.5 transition opacity-60 hover:bg-navy-800 hover:opacity-100"
+        >
+                            <svg class="h-3.5 w-5 overflow-hidden rounded-[2px] ring-1 ring-white/20" viewBox="0 0 60 30" aria-hidden="true">
+                    <rect width="60" height="30" fill="#012169" />
+                    <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6" />
+                    <path d="M0,0 L30,15 M60,0 L30,15 M60,30 L30,15 M0,30 L30,15" stroke="#C8102E" stroke-width="2" />
+                    <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10" />
+                    <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6" />
+                </svg>
+                    </a>
+            <a
+            href="/es/p/how-home-insurance-rates-are-calculated-in-high-risk-zones"
+            hreflang="es"
+            lang="es"
+            title="Español"
+            aria-label="Español"
+             aria-current="true"             class="flex items-center justify-center rounded-md p-1.5 transition bg-navy-700"
+        >
+                            <svg class="h-3.5 w-5 overflow-hidden rounded-[2px] ring-1 ring-white/20" viewBox="0 0 30 20" aria-hidden="true">
+                    <rect width="30" height="20" fill="#AA151B" />
+                    <rect y="5" width="30" height="10" fill="#F1BF00" />
+                </svg>
+                    </a>
+            <a
+            href="/fr/p/how-home-insurance-rates-are-calculated-in-high-risk-zones"
+            hreflang="fr"
+            lang="fr"
+            title="Français"
+            aria-label="Français"
+                        class="flex items-center justify-center rounded-md p-1.5 transition opacity-60 hover:bg-navy-800 hover:opacity-100"
+        >
+                            <svg class="h-3.5 w-5 overflow-hidden rounded-[2px] ring-1 ring-white/20" viewBox="0 0 30 20" aria-hidden="true">
+                    <rect width="30" height="20" fill="#FFFFFF" />
+                    <rect width="10" height="20" fill="#002654" />
+                    <rect x="20" width="10" height="20" fill="#CE1126" />
+                </svg>
+                    </a>
+    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+        <main>
+                
+    <section class="relative overflow-hidden bg-navy-900 text-white">
+        <div class="pointer-events-none absolute inset-0 bg-[linear-gradient(var(--color-navy-800)_1px,transparent_1px),linear-gradient(90deg,var(--color-navy-800)_1px,transparent_1px)] [background-size:32px_32px] [mask-image:linear-gradient(to_left,black,transparent_75%)]"></div>
+
+        <div class="relative mx-auto max-w-6xl px-6 pt-8 lg:px-8 pb-40 lg:pb-52">
+            <nav class="flex flex-wrap items-center gap-2 text-sm text-navy-300" aria-label="Ruta de navegación">
+                <a href="/es" wire:navigate class="flex items-center gap-1.5 font-semibold hover:text-white">
+                    <svg class="shrink-0 [:where(&amp;)]:size-4 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z"/>
+</svg>
+
+         Inicio
+                </a>
+                <svg class="shrink-0 [:where(&amp;)]:size-4 size-3.5 text-navy-500" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M6.22 4.22a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06l-3.25 3.25a.75.75 0 0 1-1.06-1.06L8.94 8 6.22 5.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
+</svg>
+
+                        <a href="/es/c/home-financing" wire:navigate class="font-semibold hover:text-white">Financiación de vivienda</a>
+            </nav>
+
+            <a href="/es/c/home-financing" wire:navigate class="mt-10 inline-flex items-center gap-2 rounded bg-brand-500 px-2.5 py-1 text-[10px] font-extrabold tracking-[0.14em] text-white uppercase">
+                <svg class="shrink-0 [:where(&amp;)]:size-4 size-3.5" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3Zm9 3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM11.5 6A.75.75 0 1 1 13 6a.75.75 0 0 1-1.5 0Z" clip-rule="evenodd"/>
+  <path d="M13 11.75a.75.75 0 0 0-1.5 0v.179c0 .15-.138.28-.306.255A65.277 65.277 0 0 0 1.75 11.5a.75.75 0 0 0 0 1.5c3.135 0 6.215.228 9.227.668A1.764 1.764 0 0 0 13 11.928v-.178Z"/>
+</svg>
+
+                        Financiación de vivienda
+            </a>
+
+            <h1 class="mt-5 max-w-4xl font-display text-4xl leading-[1.05] font-extrabold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+                Cómo se Calculan las Tarifas del Seguro de Vivienda en Zonas de Alto Riesgo
+            </h1>
+
+            <div class="mt-9 flex flex-wrap items-center gap-x-8 gap-y-4 text-sm">
+                <a href="/es/our-team" wire:navigate class="flex items-center gap-3">
+                    <img
+        src="/images/team/julian-vinter.webp"
+        alt="Julian Vinter"
+        loading="lazy"
+        decoding="async"
+        class="size-12 text-sm !ring-navy-700 shrink-0 rounded-full object-cover ring-2 ring-surface"
+    />
+                    <span>
+                        <span class="block font-bold text-white hover:text-zest-300">Julian Vinter</span>
+                        <span class="text-navy-300">Especialista en reparaciones estructurales y exteriores</span>
+                    </span>
+                </a>
+                <span class="flex items-center gap-2 text-navy-300">
+                    <svg class="shrink-0 [:where(&amp;)]:size-5 size-4 text-zest-400" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z" clip-rule="evenodd"/>
+</svg>
+
+                            <time datetime="2026-06-04">4 de junio de 2026</time>
+                </span>
+                <span class="flex items-center gap-2 text-navy-300">
+                    <svg class="shrink-0 [:where(&amp;)]:size-5 size-4 text-zest-400" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-13a.75.75 0 0 0-1.5 0v5c0 .414.336.75.75.75h4a.75.75 0 0 0 0-1.5h-3.25V5Z" clip-rule="evenodd"/>
+</svg>
+
+                            11 min de lectura
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <article class="mx-auto max-w-6xl px-6 lg:px-8">
+        
+                    <div class="relative -mt-28 overflow-hidden rounded-xl border-4 border-surface shadow-2xl shadow-navy-950/20 lg:-mt-40">
+                <img src="/images/articles/how-home-insurance-rates-are-calculated-in-high-risk-zones.webp" alt="Cómo se Calculan las Tarifas del Seguro de Vivienda en Zonas de Alto Riesgo" class="aspect-[21/9] w-full object-cover" />
+            </div>
+        
+        
+        <div class="grid gap-12 pt-12 pb-16 lg:grid-cols-12">
+            
+                            <aside class="lg:col-span-4">
+                    <nav class="rounded-xl border border-line bg-surface p-5 lg:sticky lg:top-36" aria-label="En este artículo" x-data="{ open: false }">
+                        <button type="button" class="flex w-full items-center justify-between text-left lg:pointer-events-none" @click="open = ! open">
+                            <span class="eyebrow">En este artículo</span>
+                            <svg class="shrink-0 [:where(&amp;)]:size-5 size-4 text-muted transition lg:hidden" :class="open && 'rotate-180'" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/>
+</svg>
+
+                                </button>
+                        <ol class="mt-4 hidden max-h-[60vh] overflow-y-auto border-l-2 border-line text-sm lg:block" :class="open && '!block'">
+                                                            <li>
+                                    <a href="#que-hace-que-un-area-sea-de-alto-riesgo" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">¿Qué Hace que un Área Sea de Alto Riesgo?</a>
+                                </li>
+                                                            <li>
+                                    <a href="#la-ubicacion-es-uno-de-los-factores-mas-importantes" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">La Ubicación Es Uno de los Factores Más Importantes</a>
+                                </li>
+                                                            <li>
+                                    <a href="#como-el-riesgo-de-incendios-forestales-puede-afectar-las-primas" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Cómo el Riesgo de Incendios Forestales Puede Afectar las Primas</a>
+                                </li>
+                                                            <li>
+                                    <a href="#como-el-riesgo-de-viento-y-huracanes-afecta-las-tarifas" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Cómo el Riesgo de Viento y Huracanes Afecta las Tarifas</a>
+                                </li>
+                                                            <li>
+                                    <a href="#el-riesgo-de-inundacion-generalmente-se-maneja-de-manera-diferente" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">El Riesgo de Inundación Generalmente Se Maneja de Manera Diferente</a>
+                                </li>
+                                                            <li>
+                                    <a href="#el-costo-de-reconstruccion-importa" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">El Costo de Reconstrucción Importa</a>
+                                </li>
+                                                            <li>
+                                    <a href="#edad-del-techo-y-materiales-de-construccion" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Edad del Techo y Materiales de Construcción</a>
+                                </li>
+                                                            <li>
+                                    <a href="#los-deducibles-pueden-cambiar-la-prima" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Los Deducibles Pueden Cambiar la Prima</a>
+                                </li>
+                                                            <li>
+                                    <a href="#el-historial-de-reclamos-puede-afectar-los-costos-del-seguro" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">El Historial de Reclamos Puede Afectar los Costos del Seguro</a>
+                                </li>
+                                                            <li>
+                                    <a href="#las-puntuaciones-de-seguro-basadas-en-credito-pueden-importar" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Las Puntuaciones de Seguro Basadas en Crédito Pueden Importar</a>
+                                </li>
+                                                            <li>
+                                    <a href="#las-mejoras-de-reduccion-de-riesgo-pueden-ayudar" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Las Mejoras de Reducción de Riesgo Pueden Ayudar</a>
+                                </li>
+                                                            <li>
+                                    <a href="#por-que-las-tarifas-pueden-subir-incluso-sin-un-reclamo" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Por Qué las Tarifas Pueden Subir Incluso Sin un Reclamo</a>
+                                </li>
+                                                            <li>
+                                    <a href="#como-comparar-el-seguro-en-un-area-de-alto-riesgo" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Cómo Comparar el Seguro en un Área de Alto Riesgo</a>
+                                </li>
+                                                            <li>
+                                    <a href="#consideraciones-finales" @click="open = false" class="-ml-0.5 block border-l-2 border-transparent py-2 pl-4 leading-snug text-body transition hover:border-brand-500 hover:text-ink">Consideraciones Finales</a>
+                                </li>
+                                                    </ol>
+                    </nav>
+                </aside>
+            
+            <div class="min-w-0 lg:col-span-8">
+                <div class="article-body">
+    <p>Los propietarios en áreas expuestas a incendios forestales, huracanes, vientos severos, inundaciones, terremotos u otros peligros naturales pueden pagar primas de seguro significativamente diferentes a las de los propietarios en ubicaciones de menor riesgo. Las aseguradoras consideran la probabilidad y el costo potencial de un reclamo al establecer las primas, junto con las características de la vivienda, la cobertura seleccionada, el deducible y el historial del asegurado.</p>
+<p>La Oficina de Responsabilidad Gubernamental (GAO) informa que las aseguradoras generalmente calculan las primas del seguro de vivienda usando una tarifa base y luego la ajustan utilizando factores de calificación relacionados con el riesgo de la propiedad y la cobertura seleccionada. Esos factores pueden variar según la aseguradora y el estado.</p>
+<p>Entender cómo funcionan estos factores puede ayudar a los propietarios a comparar pólizas, evaluar las brechas de cobertura e identificar mejoras que puedan afectar los costos del seguro.</p>
+<h2 id="que-hace-que-un-area-sea-de-alto-riesgo">¿Qué Hace que un Área Sea de Alto Riesgo?</h2>
+<p>Un área puede considerarse de alto riesgo cuando las propiedades tienen una mayor probabilidad de experimentar pérdidas costosas por un peligro particular.</p>
+<p>Los ejemplos comunes incluyen:</p>
+<ul>
+<li>Áreas costeras expuestas a huracanes y tormentas de viento</li>
+<li>Áreas propensas a incendios forestales</li>
+<li>Ubicaciones vulnerables a inundaciones</li>
+<li>Regiones expuestas a granizo severo o tornados</li>
+<li>Áreas con exposición a terremotos</li>
+<li>Ubicaciones con tasas más altas de delincuencia o robo</li>
+</ul>
+<p>El riesgo puede variar considerablemente incluso dentro del mismo estado. Dos viviendas en el mismo condado pueden tener una exposición diferente dependiendo de su distancia de la costa, la vegetación, la elevación, la construcción, la protección contra incendios u otras características.</p>
+<p>Las aseguradoras usan cada vez más modelos de catástrofes para evaluar las pérdidas potenciales de eventos severos. La Asociación Nacional de Comisionados de Seguros (NAIC) explica que los modelos de catástrofes pueden simular miles de eventos potenciales e incorporar factores como el peligro, la vulnerabilidad, la exposición de la propiedad, los términos de la póliza y las pérdidas financieras esperadas.</p>
+<h2 id="la-ubicacion-es-uno-de-los-factores-mas-importantes">La Ubicación Es Uno de los Factores Más Importantes</h2>
+<p>La ubicación de una vivienda puede afectar su tarifa de seguro porque las aseguradoras evalúan los peligros que rodean la propiedad.</p>
+<p>Por ejemplo, una vivienda en un área costera puede enfrentar mayor exposición a viento o marejada ciclónica que una propiedad interior similar. Una vivienda rodeada de vegetación en una región propensa a incendios forestales puede tener un perfil de riesgo diferente al de una vivienda en un vecindario densamente urbanizado con menos materiales combustibles cercanos.</p>
+<p>La ubicación también puede afectar la disponibilidad y el costo de los servicios de emergencia.</p>
+<p>La distancia de un hidrante contra incendios y la calidad de la protección contra incendios local pueden influir en las tarifas del seguro de vivienda. Los reguladores estatales de seguros identifican la protección contra incendios local como uno de los factores que las aseguradoras pueden considerar al fijar el precio de la cobertura.</p>
+<h2 id="como-el-riesgo-de-incendios-forestales-puede-afectar-las-primas">Cómo el Riesgo de Incendios Forestales Puede Afectar las Primas</h2>
+<p>La exposición a incendios forestales se ha convertido en un factor cada vez más importante en la fijación de precios del seguro de vivienda en partes de los Estados Unidos.</p>
+<p>Las aseguradoras pueden considerar características como el peligro de incendio forestal en el área circundante, la vegetación, los materiales de construcción, las características del techo y otras características que afectan la posible gravedad de una pérdida.</p>
+<p>La GAO informa que las aseguradoras generalmente cobran primas más altas para las propiedades en áreas con riesgo de incendio forestal severo o extremo. También encontró que las primas de seguro han aumentado más rápidamente en algunas regiones propensas a desastres.</p>
+<p>Es posible que los propietarios puedan reducir parte del riesgo a nivel de propiedad mediante medidas como materiales resistentes al fuego, mejoras del espacio defendible o otras características de mitigación. Si esas medidas producen un descuento en el seguro depende de la aseguradora y las reglas estatales aplicables.</p>
+<h2 id="como-el-riesgo-de-viento-y-huracanes-afecta-las-tarifas">Cómo el Riesgo de Viento y Huracanes Afecta las Tarifas</h2>
+<p>Las propiedades costeras y propensas a huracanes pueden enfrentar costos de seguro más altos porque los eventos de viento severo pueden generar grandes cantidades de reclamos costosos al mismo tiempo.</p>
+<p>Las aseguradoras pueden evaluar:</p>
+<ul>
+<li>Distancia de la costa</li>
+<li>Pérdidas históricas por tormentas</li>
+<li>Exposición al viento</li>
+<li>Edad y construcción del techo</li>
+<li>Materiales del techo</li>
+<li>Características resistentes a tormentas</li>
+<li>Protección de aberturas</li>
+<li>Estándares de construcción locales</li>
+<li>Límites de cobertura y deducibles</li>
+</ul>
+<p>La GAO encontró que las primas del seguro de vivienda en áreas costeras del sur con alto riesgo de viento aumentaron un 25% o más entre 2019 y 2024.</p>
+<p>Una prima más alta no significa necesariamente que la aseguradora considere que la vivienda individual está mal mantenida. La exposición regional a catástrofes puede afectar el mercado de seguros subyacente incluso cuando un propietario en particular nunca ha presentado un reclamo.</p>
+<h2 id="el-riesgo-de-inundacion-generalmente-se-maneja-de-manera-diferente">El Riesgo de Inundación Generalmente Se Maneja de Manera Diferente</h2>
+<p>Las inundaciones son una distinción especialmente importante porque <strong>el seguro de vivienda estándar generalmente no cubre el daño por inundación</strong>.</p>
+<p>El seguro de inundación típicamente se compra por separado a través del Programa Nacional de Seguro contra Inundaciones (NFIP) o una aseguradora privada.</p>
+<p>El precio del NFIP también difiere del seguro de vivienda tradicional. Bajo el Risk Rating 2.0, las primas del seguro de inundación están diseñadas para reflejar el riesgo de inundación individual a nivel de propiedad usando factores como la frecuencia de inundación, la distancia al agua, los costos de reconstrucción y diferentes tipos de exposición a inundaciones.</p>
+<p>Por lo tanto, el riesgo de inundación de la propiedad puede afectar tanto los costos del seguro como los requisitos hipotecarios.</p>
+<p>Para ciertos préstamos hipotecarios regulados o asegurados federalmente en áreas designadas de alto riesgo de inundación, los prestamistas pueden requerir un seguro de inundación.</p>
+<h2 id="el-costo-de-reconstruccion-importa">El Costo de Reconstrucción Importa</h2>
+<p>El seguro generalmente se centra en el costo estimado de reconstruir la estructura asegurada en lugar de simplemente el valor de mercado de la vivienda.</p>
+<p>La NAIC señala que el costo de reemplazo es diferente del precio de compra porque el precio de compra incluye el valor del terreno. Los materiales de construcción, la mano de obra, el tamaño de la vivienda, el diseño y otras características pueden influir en la cantidad requerida para reconstruir.</p>
+<p>Esto se vuelve particularmente importante en áreas propensas a desastres.</p>
+<p>Después de una catástrofe importante, la demanda de mano de obra y materiales de construcción puede aumentar drásticamente. Los modelos de catástrofes pueden tener en cuenta este tipo de &quot;aumento de demanda&quot; al estimar las posibles pérdidas aseguradas.</p>
+<p>Como resultado, los propietarios deben revisar periódicamente su cobertura de vivienda en lugar de asumir que el límite de la póliza original siempre será suficiente.</p>
+<h2 id="edad-del-techo-y-materiales-de-construccion">Edad del Techo y Materiales de Construcción</h2>
+<p>Las características físicas de una casa pueden tener un efecto sustancial en la fijación de precios del seguro.</p>
+<p>Las aseguradoras pueden considerar:</p>
+<ul>
+<li>Edad del techo</li>
+<li>Material del techo</li>
+<li>Construcción exterior</li>
+<li>Cimentación</li>
+<li>Pies cuadrados</li>
+<li>Número de pisos</li>
+<li>Edad de la vivienda</li>
+<li>Condición de los sistemas principales</li>
+<li>Estructuras adjuntas y separadas</li>
+</ul>
+<p>La GAO identifica el tipo de construcción, la edad y condición, el tipo y edad del techo, los pies cuadrados, el costo de reemplazo y el uso de la propiedad entre los factores de calificación comunes.</p>
+<p>Por ejemplo, reemplazar un techo envejecido con un sistema más nuevo diseñado para resistir los peligros locales puede afectar el perfil de suscripción de la propiedad. El efecto exacto depende de la aseguradora y las características de la mejora.</p>
+<h2 id="los-deducibles-pueden-cambiar-la-prima">Los Deducibles Pueden Cambiar la Prima</h2>
+<p>El deducible es la cantidad que el propietario generalmente paga por una pérdida cubierta antes de que la aseguradora pague el monto elegible restante.</p>
+<p>Un deducible más alto típicamente resulta en una prima más baja, mientras que un deducible más bajo generalmente cuesta más.</p>
+<p>Las propiedades de alto riesgo pueden tener estructuras de deducible adicionales para peligros específicos.</p>
+<p>Por ejemplo, una póliza puede tener un deducible separado por viento, huracán o tormenta con nombre en lugar de aplicar un deducible estándar único a cada pérdida cubierta.</p>
+<p>Los propietarios deben entender si se aplica un deducible porcentual. Un deducible del 2%, por ejemplo, puede representar una cantidad de bolsillo sustancialmente mayor en una propiedad muy asegurada que un deducible en dólares fijos.</p>
+<h2 id="el-historial-de-reclamos-puede-afectar-los-costos-del-seguro">El Historial de Reclamos Puede Afectar los Costos del Seguro</h2>
+<p>Las compañías de seguros pueden considerar tanto el historial de reclamos del propietario como, en algunos casos, el historial de reclamos asociado con la propiedad.</p>
+<p>El Departamento de Seguros de Texas señala que las aseguradoras pueden revisar los historiales de reclamos a través de bases de datos como el Comprehensive Loss Underwriting Exchange (CLUE), que puede contener información de reclamos tanto de personas como de propiedades.</p>
+<p>Por lo tanto, un historial de reclamos repetidos por agua, incendio, tormenta u otros puede afectar la suscripción o el precio.</p>
+<p>El tratamiento de los reclamos varía entre las aseguradoras y las regulaciones estatales, por lo que los propietarios deben preguntar cómo afectarán las pérdidas anteriores a una nueva cotización.</p>
+<h2 id="las-puntuaciones-de-seguro-basadas-en-credito-pueden-importar">Las Puntuaciones de Seguro Basadas en Crédito Pueden Importar</h2>
+<p>En los estados donde está permitido, las aseguradoras pueden usar información crediticia o una puntuación de seguro basada en el crédito como uno de los factores para determinar la elegibilidad o el precio del seguro de vivienda.</p>
+<p>La NAIC explica que las puntuaciones de seguro basadas en el crédito están diseñadas para ayudar a las aseguradoras a estimar la probabilidad de un reclamo de seguro; son diferentes de las puntuaciones de crédito que usan los prestamistas para evaluar el reembolso de préstamos.</p>
+<p>Sin embargo, el uso de la información crediticia varía según el estado. Los propietarios deben verificar las regulaciones de seguros de su estado en lugar de asumir que el crédito tendrá el mismo efecto en todas partes.</p>
+<h2 id="las-mejoras-de-reduccion-de-riesgo-pueden-ayudar">Las Mejoras de Reducción de Riesgo Pueden Ayudar</h2>
+<p>Las mejoras del hogar a veces pueden afectar el precio del seguro cuando reducen la probabilidad o gravedad de una pérdida cubierta.</p>
+<p>Los ejemplos potenciales incluyen:</p>
+<ul>
+<li>Techado resistente a impactos</li>
+<li>Materiales exteriores resistentes al fuego</li>
+<li>Contraventanas para tormentas</li>
+<li>Sistemas de seguridad</li>
+<li>Alarmas de humo e incendio</li>
+<li>Rociadores automáticos</li>
+<li>Plomería actualizada</li>
+<li>Sistemas automáticos de cierre de agua</li>
+<li>Sistemas eléctricos modernizados</li>
+</ul>
+<p>El Departamento de Seguros de Idaho señala que las mejoras de gestión de riesgos, como los sistemas de seguridad, los rociadores automáticos, los sistemas de cierre de agua y las mejoras a los sistemas principales de la vivienda, pueden afectar las primas.</p>
+<p>Sin embargo, los propietarios no deben asumir que toda renovación producirá un descuento. Pregunte a la aseguradora qué mejoras califican y si se requiere documentación, inspecciones o certificación.</p>
+<h2 id="por-que-las-tarifas-pueden-subir-incluso-sin-un-reclamo">Por Qué las Tarifas Pueden Subir Incluso Sin un Reclamo</h2>
+<p>La prima de un propietario puede aumentar incluso cuando nunca ha presentado un reclamo de seguro.</p>
+<p>El precio del seguro refleja el riesgo general y las condiciones del mercado, no solo el historial de pérdidas de un individuo. Los costos de construcción más altos, el aumento de las pérdidas por catástrofes, la inflación, los modelos de catástrofes cambiantes, los costos de reaseguro y los cambios en el riesgo regional pueden afectar las primas.</p>
+<p>La Oficina del Comisionado de Seguros del Estado de Washington señala que las primas pueden aumentar cuando aumenta el costo de reparar o reemplazar viviendas, porque las aseguradoras pueden enfrentar gastos de reclamos más altos.</p>
+<p>Esto significa que un propietario puede experimentar un aumento de prima incluso cuando la propiedad en sí no ha cambiado.</p>
+<h2 id="como-comparar-el-seguro-en-un-area-de-alto-riesgo">Cómo Comparar el Seguro en un Área de Alto Riesgo</h2>
+<p>Los propietarios en ubicaciones de alto riesgo deben comparar las pólizas según <strong>el precio y la cobertura</strong>.</p>
+<p>Al solicitar cotizaciones, compare:</p>
+<ol>
+<li>Límite de cobertura de la vivienda</li>
+<li>Cobertura de propiedad personal</li>
+<li>Límites de responsabilidad civil</li>
+<li>Deducibles</li>
+<li>Deducibles por viento o huracán</li>
+<li>Cobertura de incendios forestales</li>
+<li>Cobertura de reflujo de agua o alcantarillado</li>
+<li>Disposiciones de costo de reemplazo</li>
+<li>Exclusiones y limitaciones de cobertura</li>
+<li>Requisitos separados de seguro de inundación o terremoto</li>
+</ol>
+<p>Dos pólizas con primas diferentes pueden no proporcionar una protección equivalente. La NAIC recomienda comparar la cobertura, los deducibles, los límites y las características de la póliza en lugar de simplemente seleccionar la prima cotizada más baja.</p>
+<h2 id="consideraciones-finales">Consideraciones Finales</h2>
+<p>Las tarifas del seguro de vivienda en zonas de alto riesgo generalmente se construyen en torno a la probabilidad y el costo esperados de las pérdidas. La ubicación, la exposición a incendios forestales o vientos, el riesgo de inundación, los materiales de construcción, la condición del techo, el costo de reemplazo, el historial de reclamos, los deducibles, los límites de cobertura y las características disponibles de mitigación de riesgos pueden influir en la prima final.</p>
+<p>Los propietarios de alto riesgo también deben prestar mucha atención a las brechas de cobertura. El daño por inundación y terremoto, por ejemplo, puede requerir un seguro separado en lugar de depender de una póliza de vivienda estándar.</p>
+<p>Para los propietarios que consideran una compra, renovación, reemplazo de techo, mejora de HVAC u otra mejora importante de la propiedad, los costos del seguro deben incluirse en el costo general de ser propietario de la propiedad. Comparar varias aseguradoras y preguntar cómo las mejoras específicas o las medidas de mitigación afectan la suscripción puede proporcionar una imagen más clara del gasto de seguro a largo plazo.</p>
+
+</div>
+
+                
+                <div class="mt-16 overflow-hidden rounded-xl border border-line bg-surface">
+                    <div class="flex items-center gap-4 bg-navy-900 p-6 sm:px-8">
+                        <img
+        src="/images/team/julian-vinter.webp"
+        alt="Julian Vinter"
+        loading="lazy"
+        decoding="async"
+        class="size-16 text-lg !ring-navy-700 shrink-0 rounded-full object-cover ring-2 ring-surface"
+    />
+                        <div>
+                            <p class="text-[11px] font-extrabold tracking-[0.22em] text-zest-400 uppercase">Escrito por</p>
+                            <p class="mt-1 font-display text-2xl font-bold text-white">Julian Vinter</p>
+                            <p class="text-sm text-navy-300">Especialista en reparaciones estructurales y exteriores</p>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:px-8">
+                                                    <p class="leading-relaxed text-body">Julian tiene experiencia práctica en construcción exterior y restauración de daños por tormentas. Se centra en el desgaste estructural, techos y revestimientos, reparaciones exteriores, materiales de construcción duraderos, daños por tormentas y proyectos de restauración relacionados con seguros.</p>
+                                                <a href="/es/our-team" wire:navigate class="btn-ghost mt-6">Conozca a los editores</a>
+                    </div>
+                </div>
+
+                <p class="mt-8 flex gap-3 rounded-lg bg-soft p-5 text-sm leading-relaxed text-muted">
+                    <svg class="shrink-0 [:where(&amp;)]:size-5 size-5 shrink-0 text-brand-500" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/>
+</svg>
+
+                            <span>
+                        <span class="font-bold text-body">Contenido exclusivamente educativo.</span>
+                        Este artículo ofrece información general y no constituye asesoramiento financiero, legal, fiscal ni de construcción personalizado.
+                    </span>
+                </p>
+            </div>
+        </div>
+    </article>
+
+    
+            <section class="border-t border-line bg-surface">
+            <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+                <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+                    <div>
+                        <span class="eyebrow">Siga aprendiendo</span>
+                        <h2 class="mt-3 font-display text-3xl font-extrabold text-ink">Más en Financiación de vivienda</h2>
+                    </div>
+                    <a href="/es/c/home-financing" wire:navigate class="link-underline text-sm font-semibold text-ink">Ver todo</a>
+                </div>
+                <div class="mt-10 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+                                            <a href="/es/p/reverse-mortgages-for-seniors-pros-cons-and-eligibility" wire:navigate class="group flex flex-col">
+        <div class="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl">
+            <img
+        src="/images/articles/reverse-mortgages-for-seniors-pros-cons-and-eligibility.webp"
+        alt="Hipotecas Inversas para Personas Mayores: Ventajas, Desventajas y Elegibilidad"
+        loading="lazy"
+        decoding="async"
+        class="absolute inset-0 size-full object-cover transition duration-500 group-hover:scale-105"
+    />
+            <span class="tag absolute bottom-3 left-3">Financiación de vivienda</span>
+        </div>
+        <div class="flex flex-1 flex-col pt-5">
+            <p class="flex items-center gap-2 text-xs font-semibold text-muted">
+                <time datetime="2026-09-16">16 sep. 2026</time>
+                <span class="size-1 rotate-45 bg-zest-400"></span>
+                10 min de lectura
+            </p>
+            <h3 class="mt-2.5 font-display text-xl leading-snug font-bold text-balance text-ink decoration-zest-400 decoration-[3px] underline-offset-4 group-hover:underline">
+                Hipotecas Inversas para Personas Mayores: Ventajas, Desventajas y Elegibilidad
+            </h3>
+            <p class="mt-3 line-clamp-2 text-sm leading-relaxed text-muted">Una hipoteca inversa puede permitir a los propietarios de mayor edad acceder a parte del capital acumulado en su vivienda (home equity) sin vender la propiedad ni hacer l...</p>
+            <div class="mt-auto flex items-center gap-2 pt-5 text-xs">
+                <img
+        src="/images/team/chloe-dubois.webp"
+        alt="Chloe Dubois"
+        loading="lazy"
+        decoding="async"
+        class="size-7 text-[10px] shrink-0 rounded-full object-cover ring-2 ring-surface"
+    />
+                <span class="truncate font-bold text-body">Chloe Dubois</span>
+            </div>
+        </div>
+    </a>
+                                            <a href="/es/p/how-to-lower-your-monthly-mortgage-payment-through-recasting" wire:navigate class="group flex flex-col">
+        <div class="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl">
+            <img
+        src="/images/articles/how-to-lower-your-monthly-mortgage-payment-through-recasting.webp"
+        alt="Cómo Reducir Su Pago Hipotecario Mensual Mediante el Recast"
+        loading="lazy"
+        decoding="async"
+        class="absolute inset-0 size-full object-cover transition duration-500 group-hover:scale-105"
+    />
+            <span class="tag absolute bottom-3 left-3">Financiación de vivienda</span>
+        </div>
+        <div class="flex flex-1 flex-col pt-5">
+            <p class="flex items-center gap-2 text-xs font-semibold text-muted">
+                <time datetime="2026-09-12">12 sep. 2026</time>
+                <span class="size-1 rotate-45 bg-zest-400"></span>
+                13 min de lectura
+            </p>
+            <h3 class="mt-2.5 font-display text-xl leading-snug font-bold text-balance text-ink decoration-zest-400 decoration-[3px] underline-offset-4 group-hover:underline">
+                Cómo Reducir Su Pago Hipotecario Mensual Mediante el Recast
+            </h3>
+            <p class="mt-3 line-clamp-2 text-sm leading-relaxed text-muted">El recast hipotecario (mortgage recasting) puede reducir el pago mensual de capital e intereses de un propietario sin reemplazar la hipoteca existente. En lugar de refina...</p>
+            <div class="mt-auto flex items-center gap-2 pt-5 text-xs">
+                <img
+        src="/images/team/maya-patel.webp"
+        alt="Maya Patel"
+        loading="lazy"
+        decoding="async"
+        class="size-7 text-[10px] shrink-0 rounded-full object-cover ring-2 ring-surface"
+    />
+                <span class="truncate font-bold text-body">Maya Patel</span>
+            </div>
+        </div>
+    </a>
+                                            <a href="/es/p/investment-property-mortgages-down-payments-and-interest-rates" wire:navigate class="group flex flex-col">
+        <div class="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl">
+            <img
+        src="/images/articles/investment-property-mortgages-down-payments-and-interest-rates.webp"
+        alt="Hipotecas para propiedades de inversión: pagos iniciales y tasas de interés"
+        loading="lazy"
+        decoding="async"
+        class="absolute inset-0 size-full object-cover transition duration-500 group-hover:scale-105"
+    />
+            <span class="tag absolute bottom-3 left-3">Financiación de vivienda</span>
+        </div>
+        <div class="flex flex-1 flex-col pt-5">
+            <p class="flex items-center gap-2 text-xs font-semibold text-muted">
+                <time datetime="2026-09-11">11 sep. 2026</time>
+                <span class="size-1 rotate-45 bg-zest-400"></span>
+                16 min de lectura
+            </p>
+            <h3 class="mt-2.5 font-display text-xl leading-snug font-bold text-balance text-ink decoration-zest-400 decoration-[3px] underline-offset-4 group-hover:underline">
+                Hipotecas para propiedades de inversión: pagos iniciales y tasas de interés
+            </h3>
+            <p class="mt-3 line-clamp-2 text-sm leading-relaxed text-muted">Comprar una propiedad de inversión requiere una estrategia de financiamiento diferente a la de comprar una residencia principal. Los prestamistas generalmente ven las pro...</p>
+            <div class="mt-auto flex items-center gap-2 pt-5 text-xs">
+                <img
+        src="/images/team/chloe-dubois.webp"
+        alt="Chloe Dubois"
+        loading="lazy"
+        decoding="async"
+        class="size-7 text-[10px] shrink-0 rounded-full object-cover ring-2 ring-surface"
+    />
+                <span class="truncate font-bold text-body">Chloe Dubois</span>
+            </div>
+        </div>
+    </a>
+                                    </div>
+            </div>
+        </section>
+            </main>
+
+        <footer class="bg-navy-950 text-navy-300">
+    
+    <div class="border-b border-navy-800">
+        <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-6 py-12 md:flex-row md:items-center lg:px-8">
+            <div class="max-w-2xl">
+                <p class="font-display text-3xl leading-tight font-bold text-white">Compra, repara y financia, con un plan claro.</p>
+                <p class="mt-2 text-navy-300">Guías prácticas para propietarios, arrendadores y compradores, actualizadas por nuestros editores.</p>
+            </div>
+            <a href="/es/articles" wire:navigate class="btn-zest shrink-0">
+                Ver todas las guías
+                <svg class="shrink-0 [:where(&amp;)]:size-5 size-4" data-flux-icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+  <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"/>
+</svg>
+
+                    </a>
+        </div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 pt-14 pb-10 lg:px-8">
+        <div class="grid gap-12 lg:grid-cols-12">
+            <div class="lg:col-span-4">
+                <a href="/es" wire:navigate aria-label="Inicio de Contractor-Mag">
+                    <img src="/images/brand/logo.webp?v=3" alt="globus.fun" width="877" height="192" class="h-8 w-auto shrink-0">
+                </a>
+                <p class="mt-5 max-w-sm text-sm leading-relaxed">
+                    Guías independientes y bien documentadas sobre financiación de vivienda, administración de propiedades, reparaciones y contratación de contratistas.
+                </p>
+            </div>
+
+            <div class="grid gap-10 sm:grid-cols-3 lg:col-span-8">
+                <div>
+                    <p class="text-[11px] font-extrabold tracking-[0.22em] text-zest-400 uppercase">Temas</p>
+                    <ul class="mt-5 space-y-3 text-sm">
+                                                    <li><a href="/es/c/home-financing" wire:navigate class="transition hover:text-white">Financiación de vivienda</a></li>
+                                                    <li><a href="/es/c/property-management" wire:navigate class="transition hover:text-white">Administración de propiedades</a></li>
+                                                    <li><a href="/es/c/home-repair-services" wire:navigate class="transition hover:text-white">Reparaciones del hogar</a></li>
+                                                    <li><a href="/es/c/home-contractors" wire:navigate class="transition hover:text-white">Contratistas para el hogar</a></li>
+                                            </ul>
+                </div>
+                <div>
+                    <p class="text-[11px] font-extrabold tracking-[0.22em] text-zest-400 uppercase">Contractor-Mag</p>
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li><a href="/es/articles" wire:navigate class="transition hover:text-white">Todos los artículos</a></li>
+                        <li><a href="/es/our-team" wire:navigate class="transition hover:text-white">Nuestro equipo editorial</a></li>
+                        <li><a href="/es/contact" wire:navigate class="transition hover:text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-[11px] font-extrabold tracking-[0.22em] text-zest-400 uppercase">Legal</p>
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li><a href="/es/privacy-policy" wire:navigate class="transition hover:text-white">Política de privacidad</a></li>
+                        <li><a href="/es/terms-of-use" wire:navigate class="transition hover:text-white">Términos de uso</a></li>
+                        <li><a href="/es/disclaimer" wire:navigate class="transition hover:text-white">Aviso legal</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+                <div class="mt-14 space-y-3 border-t border-navy-800 pt-8 text-xs leading-relaxed text-navy-400">
+            <p>
+                <span class="font-bold text-navy-300">Aviso legal:</span>
+                El contenido de Contractor-Mag.com tiene fines exclusivamente informativos y educativos y no debe interpretarse como asesoramiento profesional financiero, legal, fiscal o de construcción. Contractor-Mag.com no es un prestamista, un bufete de abogados ni una empresa contratista, y nuestros artículos no sustituyen el asesoramiento de un profesional con licencia que pueda revisar su situación concreta.
+            </p>
+            <p>Las condiciones de los préstamos, las tasas, los costos y las normas varían según el prestamista, la ubicación y la propiedad. Antes de tomar cualquier decisión de financiación, inmobiliaria o de reparación, investiga por tu cuenta y consulta a un profesional cualificado y con licencia que conozca tu situación concreta.</p>
+            <p>Contractor-Mag.com no ofrece declaraciones ni garantías sobre la exactitud, integridad o idoneidad de la información aquí contenida, y no asume ninguna responsabilidad por pérdidas o daños derivados del uso de este contenido.</p>
+        </div>
+
+        <div class="mt-8 flex flex-col items-center justify-between gap-3 text-xs text-navy-400 sm:flex-row">
+            <p>&copy; 2026 Contractor-Mag. Todos los derechos reservados.</p>
+            <p>contractor-mag.com</p>
+        </div>
+    </div>
+</footer>
+
+        <div x-persist="toast">
+            <ui-toast-group x-data x-on:toast-show.document="$el.showToast($event.detail)" popover="manual" position="bottom end"  wire:ignore>
+    <ui-toast x-data x-on:toast-show.document="! $el.closest('ui-toast-group') && $el.showToast($event.detail)" popover="manual" position="bottom end" wire:ignore>
+    <template>
+        <div class="group/toast max-w-sm in-[ui-toast-group]:max-w-auto in-[ui-toast-group]:w-xs sm:in-[ui-toast-group]:w-sm" data-variant=""  data-flux-toast-dialog>
+            <div class="p-2 flex rounded-xl shadow-lg bg-white border border-zinc-200 border-b-zinc-300/80 dark:bg-zinc-700 dark:border-zinc-600 group-data-invert/toast:bg-zinc-800 group-data-invert/toast:border-zinc-700 dark:group-data-invert/toast:bg-white dark:group-data-invert/toast:border-zinc-200 dark:group-data-invert/toast:border-b-zinc-300/80">
+                <div class="flex-1 flex items-start gap-4 has-data-flux-toast-action:gap-2 overflow-hidden">
+                    <div class="flex-1 py-1.5 ps-2.5 flex gap-2">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="hidden [[data-flux-toast-dialog][data-variant=success]_&]:block shrink-0 mt-0.5 size-4 text-lime-600 dark:text-lime-400">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm3.844-8.791a.75.75 0 0 0-1.188-.918l-3.7 4.79-1.649-1.833a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.15-.043l4.25-5.5Z" clip-rule="evenodd" />
+                        </svg>
+
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="hidden [[data-flux-toast-dialog][data-variant=warning]_&]:block shrink-0 mt-0.5 size-4 text-amber-500 dark:text-amber-400">
+                            <path fill-rule="evenodd" d="M6.701 2.25c.577-1 2.02-1 2.598 0l5.196 9a1.5 1.5 0 0 1-1.299 2.25H2.804a1.5 1.5 0 0 1-1.3-2.25l5.197-9ZM8 4a.75.75 0 0 1 .75.75v3a.75.75 0 1 1-1.5 0v-3A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd" />
+                        </svg>
+
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="hidden [[data-flux-toast-dialog][data-variant=info]_&]:block shrink-0 mt-0.5 size-4 text-cyan-500 dark:text-cyan-400">
+                            <path fill-rule="evenodd" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0ZM9 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6.75 8a.75.75 0 0 0 0 1.5h.75v1.75a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 8.25 8h-1.5Z" clip-rule="evenodd" />
+                        </svg>
+
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="hidden [[data-flux-toast-dialog][data-variant=danger]_&]:block shrink-0 mt-0.5 size-4 text-rose-500 dark:text-rose-400">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14ZM8 4a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd" />
+                        </svg>
+
+                        <div>
+                            
+                            <div class="font-medium text-sm text-zinc-800 dark:text-white group-data-invert/toast:text-white dark:group-data-invert/toast:text-zinc-800 [&:not(:empty)+div]:font-normal [&:not(:empty)+div]:text-zinc-500 [&:not(:empty)+div]:dark:text-zinc-300 group-data-invert/toast:[&:not(:empty)+div]:text-zinc-300 dark:group-data-invert/toast:[&:not(:empty)+div]:text-zinc-500 [&:not(:empty)]:pb-2"><slot name="heading"></slot></div>
+
+                            
+                            <div class="font-medium text-sm text-zinc-800 dark:text-white group-data-invert/toast:text-white dark:group-data-invert/toast:text-zinc-800"><slot name="text"></slot></div>
+
+                            
+                            <template name="link">
+                                <a class="block mt-2 font-medium text-sm text-[var(--color-accent-content)] decoration-[color-mix(in_oklab,var(--color-accent-content),transparent_80%)] underline underline-offset-[6px] hover:decoration-current group-data-invert/toast:text-white group-data-invert/toast:decoration-white/20 dark:group-data-invert/toast:text-zinc-800 dark:group-data-invert/toast:decoration-zinc-800/20"><slot name="text"></slot></a>
+                            </template>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-1">
+                        
+                        <template name="action">
+                            <div class="flex items-center" data-flux-toast-action>
+                                <button type="button" data-flux-toast-action-button class="relative inline-flex h-8 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-zinc-800/5 px-3 text-sm font-medium text-zinc-800 hover:bg-zinc-800/10 data-loading:pointer-events-none dark:bg-white/10 dark:text-white dark:hover:bg-white/20 group-data-invert/toast:bg-white/10 group-data-invert/toast:text-white group-data-invert/toast:hover:bg-white/20 dark:group-data-invert/toast:bg-zinc-800/5 dark:group-data-invert/toast:text-zinc-800 dark:group-data-invert/toast:hover:bg-zinc-800/10 [&[data-loading]_[data-flux-toast-action-label]]:opacity-0 [&[data-loading]_[data-flux-loading-indicator]]:opacity-100">
+                                    <span class="transition-opacity" data-flux-toast-action-label></span>
+                                    <span class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity" data-flux-loading-indicator>
+                                        <svg class="size-4 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+                                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 0 1 8-8V0C5.373 0 0 5.373 0 12h4Z"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+
+                                <a data-flux-toast-action-link class="inline-flex h-8 items-center justify-center gap-2 whitespace-nowrap rounded-md bg-zinc-800/5 px-3 text-sm font-medium text-zinc-800 hover:bg-zinc-800/10 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 group-data-invert/toast:bg-white/10 group-data-invert/toast:text-white group-data-invert/toast:hover:bg-white/20 dark:group-data-invert/toast:bg-zinc-800/5 dark:group-data-invert/toast:text-zinc-800 dark:group-data-invert/toast:hover:bg-zinc-800/10">
+                                    <span data-flux-toast-action-label></span>
+                                </a>
+                            </div>
+                        </template>
+
+                        
+                        <ui-close class="flex items-center">
+                            <button type="button" class="inline-flex items-center font-medium justify-center gap-2 truncate disabled:opacity-50 dark:disabled:opacity-75 disabled:cursor-default h-8 text-sm rounded-md w-8 bg-transparent hover:bg-zinc-800/5 dark:hover:bg-white/15 text-zinc-400 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-white group-data-invert/toast:hover:bg-white/15 group-data-invert/toast:hover:text-white dark:group-data-invert/toast:hover:bg-zinc-800/5 dark:group-data-invert/toast:hover:text-zinc-800" as="button">
+                                <div>
+                                    <svg class="[:where(&)]:size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                        <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                        </ui-close>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</ui-toast>
+</ui-toast-group>
+        </div>
+
+        <script src="/flux/flux.min.js?id=c60bf509" data-navigate-once></script>
+    <script src="/livewire-f85bb9e3/livewire.js?id=0ae8dee3"   data-csrf="VyLfRBNZLX8ihyVyWD6bqwnQQcatuSidjMM3TQqP" data-module-url="/livewire-f85bb9e3" data-update-uri="/livewire-f85bb9e3/update" data-navigate-once="true"></script>
+</body>
+</html>
