@@ -13,7 +13,7 @@ No. A standard electrical box designed only for a light fixture may not be suita
 
 Fans create dynamic loads because the motor and blades rotate. The supporting box and mounting system therefore need to be designed for fan installation and securely attached to the building structure.
 
-The National Electrical Code requires outlet boxes used to support ceiling-suspended paddle fans to be listed for that purpose and marked with their maximum supported weight. The exact installation requirements can also depend on the type of box and support arrangement. ([nfpa.org](https://www.nfpa.org/news-and-research/publications-and-media/press-room/reporters-guide-to-fire-and-life-safety/ceiling-fans?utm_source=chatgpt.com))
+The National Electrical Code requires outlet boxes used to support ceiling-suspended paddle fans to be listed for that purpose and marked with their maximum supported weight. The exact installation requirements can also depend on the type of box and support arrangement. ([nfpa.org](https://www.nfpa.org/news-and-research/publications-and-media/press-room/reporters-guide-to-fire-and-life-safety/ceiling-fans))
 
 Before installing a fan, inspect the existing box rather than assuming it can support one.
 
@@ -48,7 +48,7 @@ The most important step in electrical installation is disconnecting power before
 
 Do not assume that turning off the wall switch is sufficient. Turn off the appropriate circuit breaker and verify that the circuit is de-energized with an appropriate tester before touching conductors.
 
-The U.S. Consumer Product Safety Commission recommends turning off power at the circuit breaker or fuse before working on electrical equipment and emphasizes using qualified professionals for electrical work when appropriate. ([cpsc.gov](https://www.cpsc.gov/s3fs-public/pdfs/513.pdf?utm_source=chatgpt.com))
+The U.S. Consumer Product Safety Commission recommends turning off power at the circuit breaker or fuse before working on electrical equipment and emphasizes using qualified professionals for electrical work when appropriate. ([cpsc.gov](https://www.cpsc.gov/s3fs-public/pdfs/513.pdf))
 
 If you cannot confidently identify the correct breaker or verify that power is off, stop and contact an electrician.
 

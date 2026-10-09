@@ -13,7 +13,7 @@ Non. Un boîtier électrique standard conçu uniquement pour un luminaire peut n
 
 Les ventilateurs créent des charges dynamiques, car le moteur et les pales tournent. Le boîtier de support et le système de fixation doivent donc être conçus pour l'installation d'un ventilateur et solidement fixés à la structure du bâtiment.
 
-Le National Electrical Code exige que les boîtiers de prise utilisés pour soutenir des ventilateurs à pales suspendus au plafond soient homologués à cet effet et indiquent leur poids maximal supporté. Les exigences d'installation exactes peuvent également dépendre du type de boîtier et du dispositif de support. ([nfpa.org](https://www.nfpa.org/news-and-research/publications-and-media/press-room/reporters-guide-to-fire-and-life-safety/ceiling-fans?utm_source=chatgpt.com))
+Le National Electrical Code exige que les boîtiers de prise utilisés pour soutenir des ventilateurs à pales suspendus au plafond soient homologués à cet effet et indiquent leur poids maximal supporté. Les exigences d'installation exactes peuvent également dépendre du type de boîtier et du dispositif de support. ([nfpa.org](https://www.nfpa.org/news-and-research/publications-and-media/press-room/reporters-guide-to-fire-and-life-safety/ceiling-fans))
 
 Avant d'installer un ventilateur, inspectez le boîtier existant plutôt que de supposer qu'il peut en supporter un.
 
@@ -48,7 +48,7 @@ L'étape la plus importante d'une installation électrique consiste à couper le
 
 Ne présumez pas qu'éteindre l'interrupteur mural suffit. Coupez le disjoncteur du circuit approprié et vérifiez que le circuit est hors tension à l'aide d'un vérificateur adapté avant de toucher les conducteurs.
 
-La U.S. Consumer Product Safety Commission recommande de couper le courant au disjoncteur ou au fusible avant de travailler sur un équipement électrique, et souligne l'importance de faire appel à des professionnels qualifiés pour les travaux électriques lorsque cela est approprié. ([cpsc.gov](https://www.cpsc.gov/s3fs-public/pdfs/513.pdf?utm_source=chatgpt.com))
+La U.S. Consumer Product Safety Commission recommande de couper le courant au disjoncteur ou au fusible avant de travailler sur un équipement électrique, et souligne l'importance de faire appel à des professionnels qualifiés pour les travaux électriques lorsque cela est approprié. ([cpsc.gov](https://www.cpsc.gov/s3fs-public/pdfs/513.pdf))
 
 Si vous ne pouvez pas identifier avec certitude le bon disjoncteur ou vérifier que le courant est coupé, arrêtez-vous et contactez un électricien.
 

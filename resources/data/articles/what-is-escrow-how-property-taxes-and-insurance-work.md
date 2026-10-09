@@ -22,7 +22,7 @@ The most common expenses paid from escrow are:
 
 The mortgage servicer collects a portion of these expected expenses with each monthly mortgage payment and later uses the funds to pay the bills when they come due.
 
-The Consumer Financial Protection Bureau (CFPB) explains that many mortgage payments include money for property taxes and homeowners insurance in addition to principal and interest. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/?utm_source=chatgpt.com))
+The Consumer Financial Protection Bureau (CFPB) explains that many mortgage payments include money for property taxes and homeowners insurance in addition to principal and interest. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/))
 
 ## How Escrow Changes Your Monthly Mortgage Payment
 Consider a homeowner with the following annual expenses:
@@ -122,7 +122,7 @@ The total payment could therefore rise to approximately:
 
 The mortgage interest rate did not change. The escrow requirement did.
 
-The CFPB notes that property taxes and homeowners insurance are among the costs that can cause the total mortgage payment to change. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-can-my-monthly-mortgage-payment-change-en-1943/?utm_source=chatgpt.com))
+The CFPB notes that property taxes and homeowners insurance are among the costs that can cause the total mortgage payment to change. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-can-my-monthly-mortgage-payment-change-en-1943/))
 
 ## What Is an Escrow Shortage?
 An **escrow shortage** occurs when the amount currently in the escrow account is less than the amount needed to cover expected future bills and the required minimum balance.
@@ -142,7 +142,7 @@ The opposite situation is an **escrow surplus**.
 
 If the account contains more money than required after the servicer's analysis, the homeowner may be entitled to a refund depending on the applicable rules and the size of the surplus.
 
-Federal rules governing escrow accounts establish requirements for how servicers calculate and handle shortages and surpluses. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/?utm_source=chatgpt.com))
+Federal rules governing escrow accounts establish requirements for how servicers calculate and handle shortages and surpluses. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/))
 
 The servicer generally provides an annual escrow statement explaining the account's activity and projected expenses.
 
@@ -167,7 +167,7 @@ If taxes and insurance remain relatively stable, the change may be small. If eit
 ## Why Does an Escrow Cushion Exist?
 Mortgage servicers generally maintain a reserve, or **cushion**, in the escrow account to help cover unexpected increases in bills or timing differences.
 
-Federal regulations generally allow a servicer to maintain a cushion up to one-sixth of the estimated annual escrow disbursements, or approximately two months of estimated escrow payments, subject to applicable rules and loan documents. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/?utm_source=chatgpt.com))
+Federal regulations generally allow a servicer to maintain a cushion up to one-sixth of the estimated annual escrow disbursements, or approximately two months of estimated escrow payments, subject to applicable rules and loan documents. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/))
 
 The purpose is to reduce the risk that the account becomes underfunded when a tax or insurance bill is higher than expected.
 
@@ -178,7 +178,7 @@ Whether escrow is required depends on the mortgage, lender, loan type, property,
 
 Some borrowers may be allowed to waive escrow under certain circumstances, while other loans or transactions can require an escrow account.
 
-For example, federal rules impose escrow requirements for certain higher-priced mortgage loans secured by first liens on a principal dwelling, subject to specified exceptions. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1026/35/?utm_source=chatgpt.com))
+For example, federal rules impose escrow requirements for certain higher-priced mortgage loans secured by first liens on a principal dwelling, subject to specified exceptions. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1026/35/))
 
 Even when escrow is optional, homeowners should consider whether they are comfortable managing large tax and insurance bills themselves.
 
@@ -189,7 +189,7 @@ Homeowners should notify their mortgage servicer if they change insurance compan
 
 If the servicer does not receive evidence of adequate coverage, it may purchase insurance on the property under certain circumstances. This is commonly called **force-placed insurance**.
 
-Force-placed coverage can be significantly more expensive and may provide less protection than a homeowner's regular policy. The CFPB advises borrowers to maintain required homeowners insurance and provide updated policy information to their servicer when necessary. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-181/?utm_source=chatgpt.com))
+Force-placed coverage can be significantly more expensive and may provide less protection than a homeowner's regular policy. The CFPB advises borrowers to maintain required homeowners insurance and provide updated policy information to their servicer when necessary. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-181/))
 
 When switching insurers, coordinate the effective dates carefully so there is no lapse in coverage.
 
@@ -272,7 +272,7 @@ However, they must also budget for large payments themselves.
 Neither structure is automatically appropriate for every borrower.
 
 ## Final Considerations
-An escrow account is essentially a budgeting and payment mechanism connected to a mortgage. Instead of paying property taxes and homeowners insurance directly when the bills arrive, many homeowners contribute toward those expenses every month and the mortgage servicer makes the payments from the escrow account. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/?utm_source=chatgpt.com))
+An escrow account is essentially a budgeting and payment mechanism connected to a mortgage. Instead of paying property taxes and homeowners insurance directly when the bills arrive, many homeowners contribute toward those expenses every month and the mortgage servicer makes the payments from the escrow account. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/))
 
 The most important point to remember is that a fixed-rate mortgage does not necessarily mean a fixed **total** monthly payment. Property taxes and insurance premiums can change, causing the escrow portion—and therefore the total mortgage payment—to increase or decrease.
 

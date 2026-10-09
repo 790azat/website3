@@ -4,7 +4,7 @@ section: home-financing
 author: maya-patel
 date: 2026-04-06
 ---
-Votre score de crédit peut influencer à la fois votre capacité à vous qualifier pour un prêt hypothécaire et le taux d'intérêt qu'un prêteur offre. En général, les emprunteurs avec des profils de crédit plus solides ont tendance à recevoir une tarification hypothécaire plus favorable, tandis que les emprunteurs avec des scores plus bas peuvent faire face à des taux plus élevés, des exigences supplémentaires, ou moins d'options de prêt. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+Votre score de crédit peut influencer à la fois votre capacité à vous qualifier pour un prêt hypothécaire et le taux d'intérêt qu'un prêteur offre. En général, les emprunteurs avec des profils de crédit plus solides ont tendance à recevoir une tarification hypothécaire plus favorable, tandis que les emprunteurs avec des scores plus bas peuvent faire face à des taux plus élevés, des exigences supplémentaires, ou moins d'options de prêt. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
 La tarification hypothécaire n'est pas fondée uniquement sur le score de crédit. Les prêteurs peuvent aussi tenir compte du ratio prêt-valeur (LTV, loan-to-value), du type de prêt, de la propriété, du ratio dette-revenu (DTI, debt-to-income), de la durée du prêt, de l'occupation, des actifs, et d'autres caractéristiques.
 
@@ -13,25 +13,25 @@ Comprendre comment les scores de crédit s'intègrent dans la tarification hypot
 ## Qu'est-ce qu'un score de crédit hypothécaire ?
 Un score de crédit est une représentation numérique dérivée des informations contenues dans vos rapports de crédit. Différents modèles de notation peuvent produire différents scores pour le même emprunteur.
 
-Les prêteurs hypothécaires peuvent utiliser des modèles de notation de crédit spécialisés et des informations provenant de plusieurs sociétés de rapport de crédit. Le CFPB note que la plupart des prêteurs hypothécaires ont historiquement examiné les scores d'Equifax, d'Experian, et de TransUnion lors de l'évaluation des demandes hypothécaires, bien que les modèles de notation utilisés dans le prêt hypothécaire évoluent. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+Les prêteurs hypothécaires peuvent utiliser des modèles de notation de crédit spécialisés et des informations provenant de plusieurs sociétés de rapport de crédit. Le CFPB note que la plupart des prêteurs hypothécaires ont historiquement examiné les scores d'Equifax, d'Experian, et de TransUnion lors de l'évaluation des demandes hypothécaires, bien que les modèles de notation utilisés dans le prêt hypothécaire évoluent. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
-Le Selling Guide 2026 de Fannie Mae reflète aussi des changements dans les modèles de score de crédit approuvés, y compris l'ajout de VantageScore 4.0 et de FICO Score 10T pour certaines livraisons et implémentations. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/selling-policy-communications?utm_source=chatgpt.com))
+Le Selling Guide 2026 de Fannie Mae reflète aussi des changements dans les modèles de score de crédit approuvés, y compris l'ajout de VantageScore 4.0 et de FICO Score 10T pour certaines livraisons et implémentations. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/selling-policy-communications))
 
 Cela signifie que le score que vous voyez via une demande de carte de crédit grand public ou un site Web de finances personnelles n'est pas nécessairement le score exact qu'un prêteur hypothécaire utilise.
 
 ## Comment les scores de crédit affectent la tarification hypothécaire
 Les prêteurs hypothécaires utilisent une tarification basée sur le risque, ce qui signifie que les conditions de prêt peuvent varier selon des caractéristiques associées au risque de remboursement.
 
-Le CFPB indique que des scores de crédit plus élevés rendent généralement les emprunteurs admissibles à des taux d'intérêt plus bas, bien que le score de crédit ne soit qu'une composante de la décision du prêteur. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+Le CFPB indique que des scores de crédit plus élevés rendent généralement les emprunteurs admissibles à des taux d'intérêt plus bas, bien que le score de crédit ne soit qu'une composante de la décision du prêteur. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
-Pour les prêts conventionnels vendus à Fannie Mae, le score de crédit peut aussi affecter les **ajustements de prix au niveau du prêt (LLPA, loan-level price adjustments)**. Ces ajustements font partie du cadre de tarification que les prêteurs utilisent pour déterminer le coût des prêts admissibles. L'ajustement applicable peut dépendre du score de crédit et d'autres caractéristiques, y compris le LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/document/pdf/selling-guide-march-6-2024?utm_source=chatgpt.com))
+Pour les prêts conventionnels vendus à Fannie Mae, le score de crédit peut aussi affecter les **ajustements de prix au niveau du prêt (LLPA, loan-level price adjustments)**. Ces ajustements font partie du cadre de tarification que les prêteurs utilisent pour déterminer le coût des prêts admissibles. L'ajustement applicable peut dépendre du score de crédit et d'autres caractéristiques, y compris le LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/document/pdf/selling-guide-march-6-2024))
 
 Par conséquent, deux emprunteurs qui font une demande pour des prêts hypothécaires par ailleurs similaires peuvent recevoir une tarification différente.
 
 ## Paliers de score de crédit typiques
 Il n'existe pas d'ensemble universel de paliers de taux d'intérêt hypothécaire utilisé par chaque prêteur.
 
-Cependant, le CFPB fournit des directives générales sur la façon dont les fourchettes de crédit peuvent affecter la tarification hypothécaire. Ses directives aux consommateurs indiquent que les emprunteurs avec des scores dans la fourchette **700 moyen-élevé ou plus** reçoivent généralement les taux les plus bas, tandis que les emprunteurs dans la fourchette **680–740** paient typiquement des taux quelque peu plus élevés. Les emprunteurs dans la fourchette **620–680** font généralement face à des taux plus élevés et moins de choix, tandis que des scores en dessous de 620 peuvent rendre la qualification plus difficile selon le type de prêt et le prêteur. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/?utm_source=chatgpt.com))
+Cependant, le CFPB fournit des directives générales sur la façon dont les fourchettes de crédit peuvent affecter la tarification hypothécaire. Ses directives aux consommateurs indiquent que les emprunteurs avec des scores dans la fourchette **700 moyen-élevé ou plus** reçoivent généralement les taux les plus bas, tandis que les emprunteurs dans la fourchette **680–740** paient typiquement des taux quelque peu plus élevés. Les emprunteurs dans la fourchette **620–680** font généralement face à des taux plus élevés et moins de choix, tandis que des scores en dessous de 620 peuvent rendre la qualification plus difficile selon le type de prêt et le prêteur. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/))
 
 Ces fourchettes sont utiles pour comprendre la relation générale, mais elles ne devraient pas être traitées comme des paliers de taux fixes de l'industrie.
 
@@ -50,7 +50,7 @@ Considérez deux emprunteurs qui ont tous deux un score de crédit de 740. Leurs
   - Une durée de prêt plus courte
   - Un programme de prêt différent
 
-Le ratio prêt-valeur est particulièrement important dans la tarification hypothécaire conventionnelle. La matrice de tarification de Fannie Mae intègre à la fois le score de crédit et le LTV lors de la détermination des ajustements de prix applicables au niveau du prêt. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ&utm_source=chatgpt.com))
+Le ratio prêt-valeur est particulièrement important dans la tarification hypothécaire conventionnelle. La matrice de tarification de Fannie Mae intègre à la fois le score de crédit et le LTV lors de la détermination des ajustements de prix applicables au niveau du prêt. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ))
 
 Par conséquent, améliorer votre score de crédit n'est qu'une façon potentielle d'améliorer votre tarification hypothécaire.
 
@@ -75,7 +75,7 @@ LTV : 80 %
 
 Les deux emprunteurs pourraient avoir le même score de crédit, mais les caractéristiques de leur prêt sont différentes.
 
-Les matrices de tarification conventionnelles peuvent appliquer différents ajustements selon la combinaison du score de crédit et du LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ&utm_source=chatgpt.com))
+Les matrices de tarification conventionnelles peuvent appliquer différents ajustements selon la combinaison du score de crédit et du LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ))
 
 C'est pourquoi un emprunteur ne devrait pas évaluer la tarification hypothécaire en se basant uniquement sur le score de crédit.
 
@@ -91,7 +91,7 @@ Lorsque vous comparez des offres, examinez le taux d'intérêt, l'assurance hypo
 ## De combien un score de crédit peut-il changer votre coût hypothécaire ?
 Même une différence relativement petite dans la tarification hypothécaire peut affecter les intérêts totaux payés sur une longue durée de prêt.
 
-Le CFPB fournit un exemple montrant comment le changement du score de crédit de 625 à 700 peut produire différentes fourchettes d'offres hypothécaires et des coûts d'intérêt potentiels significativement différents selon ses hypothèses hypothétiques. Le CFPB souligne que les offres réelles dépendent des circonstances de l'emprunteur et des conditions du marché. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/explore-rates/?utm_source=chatgpt.com))
+Le CFPB fournit un exemple montrant comment le changement du score de crédit de 625 à 700 peut produire différentes fourchettes d'offres hypothécaires et des coûts d'intérêt potentiels significativement différents selon ses hypothèses hypothétiques. Le CFPB souligne que les offres réelles dépendent des circonstances de l'emprunteur et des conditions du marché. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/explore-rates/))
 
 Considérez un exemple illustratif :
 
@@ -128,14 +128,14 @@ L'utilisation du crédit — le montant de crédit renouvelable que vous utilise
 ### Évitez les nouveaux crédits inutiles
 Ouvrir de nouveaux comptes de crédit peut affecter votre profil de crédit et générer des demandes de renseignements dures (hard inquiries).
 
-Le CFPB recommande d'éviter les nouvelles demandes de crédit inutiles lors de la préparation d'une demande hypothécaire. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-happens-when-a-mortgage-lender-checks-my-credit-en-2005/?utm_source=chatgpt.com))
+Le CFPB recommande d'éviter les nouvelles demandes de crédit inutiles lors de la préparation d'une demande hypothécaire. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-happens-when-a-mortgage-lender-checks-my-credit-en-2005/))
 
 ### Vérifiez vos rapports de crédit
 Examinez vos rapports de crédit pour des informations inexactes avant de faire une demande.
 
 Un paiement en retard incorrect, un compte de recouvrement, ou une autre erreur pourrait affecter négativement votre score et potentiellement augmenter le coût de l'emprunt.
 
-Le CFPB recommande de vérifier les rapports de crédit et de contester les informations inexactes. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+Le CFPB recommande de vérifier les rapports de crédit et de contester les informations inexactes. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
 ## Ne fermez pas d'anciens comptes sans considérer l'effet
 Fermer un ancien compte de crédit peut parfois affecter votre profil de crédit.
@@ -149,7 +149,7 @@ L'objectif n'est pas simplement d'avoir moins de comptes, mais de maintenir un p
 ## Le magasinage de taux hypothécaires n'exige généralement pas d'éviter toutes les demandes de renseignements de crédit
 Magasiner pour un prêt hypothécaire implique effectivement des demandes de renseignements de crédit, mais les consommateurs ne devraient généralement pas éviter de comparer les prêteurs simplement parce qu'ils s'inquiètent de multiples demandes hypothécaires.
 
-Le CFPB indique que plusieurs vérifications de crédit hypothécaire effectuées dans une **fenêtre de 45 jours** sont généralement enregistrées comme une seule demande aux fins de notation. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/?utm_source=chatgpt.com))
+Le CFPB indique que plusieurs vérifications de crédit hypothécaire effectuées dans une **fenêtre de 45 jours** sont généralement enregistrées comme une seule demande aux fins de notation. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/))
 
 Cela donne aux emprunteurs l'occasion de comparer les offres hypothécaires sans traiter chaque demande de prêteur comme un événement de notation distinct.
 
@@ -160,7 +160,7 @@ Lorsque vous comparez des offres hypothécaires, ne regardez pas seulement le ta
 
 Le **taux d'intérêt** représente le coût de l'emprunt exprimé en pourcentage.
 
-Le **taux annuel effectif global (TAEG, APR)** intègre le taux d'intérêt ainsi que certains points, frais, et autres charges du prêt, fournissant une mesure plus large du coût de l'emprunt. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-mortgage-interest-rate-and-an-apr-en-135/?utm_source=chatgpt.com))
+Le **taux annuel effectif global (TAEG, APR)** intègre le taux d'intérêt ainsi que certains points, frais, et autres charges du prêt, fournissant une mesure plus large du coût de l'emprunt. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-mortgage-interest-rate-and-an-apr-en-135/))
 
 Par exemple, un prêteur pourrait offrir :
 
@@ -177,7 +177,7 @@ Comparez les estimations de prêt (Loan Estimates) plutôt que de vous fier à u
 ## Les prêts gouvernementaux peuvent-ils fonctionner différemment ?
 Les exigences de score de crédit et la tarification peuvent différer substantiellement entre les prêts hypothécaires conventionnels et ceux garantis par le gouvernement.
 
-Les programmes FHA, VA, et USDA ont leurs propres structures d'admissibilité et de souscription. Le CFPB note que les programmes gouvernementaux peuvent fournir des options pour certains emprunteurs qui pourraient avoir de la difficulté à se qualifier pour un financement conventionnel, particulièrement ceux ayant des scores de crédit plus bas ou des mises de fonds plus petites. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/?utm_source=chatgpt.com))
+Les programmes FHA, VA, et USDA ont leurs propres structures d'admissibilité et de souscription. Le CFPB note que les programmes gouvernementaux peuvent fournir des options pour certains emprunteurs qui pourraient avoir de la difficulté à se qualifier pour un financement conventionnel, particulièrement ceux ayant des scores de crédit plus bas ou des mises de fonds plus petites. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/))
 
 Cependant, une exigence de score de crédit plus basse ne signifie pas automatiquement qu'un prêt hypothécaire garanti par le gouvernement aura un coût total plus bas.
 
@@ -210,13 +210,13 @@ Comparez :
 
 Utiliser le même montant de prêt, la même mise de fonds, le même type de propriété, la même durée, et les mêmes points ou crédits rend les comparaisons plus significatives.
 
-Le CFPB recommande de comparer les offres de prêt et de comprendre comment les points et les crédits du prêteur affectent le taux d'intérêt et les coûts initiaux. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/?utm_source=chatgpt.com))
+Le CFPB recommande de comparer les offres de prêt et de comprendre comment les points et les crédits du prêteur affectent le taux d'intérêt et les coûts initiaux. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/))
 
 ## Considérations finales
 Le score de crédit peut jouer un rôle important dans la détermination de l'admissibilité et de la tarification hypothécaires, mais il n'existe pas un seul ensemble national de paliers de taux d'intérêt qui s'applique à chaque emprunteur.
 
-En général, des scores de crédit plus élevés sont associés à une tarification hypothécaire plus favorable, tandis que des scores plus bas peuvent entraîner des taux plus élevés, des exigences supplémentaires, ou moins d'options de prêt. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/?utm_source=chatgpt.com))
+En général, des scores de crédit plus élevés sont associés à une tarification hypothécaire plus favorable, tandis que des scores plus bas peuvent entraîner des taux plus élevés, des exigences supplémentaires, ou moins d'options de prêt. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/))
 
-Pour les prêts hypothécaires conventionnels, le score de crédit peut interagir avec des facteurs tels que le LTV lors de la détermination des ajustements de tarification au niveau du prêt. D'autres caractéristiques — y compris le type de prêt, le type de propriété, le DTI, la durée du prêt, l'occupation, et la tarification du prêteur — peuvent aussi affecter l'offre finale. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ&utm_source=chatgpt.com))
+Pour les prêts hypothécaires conventionnels, le score de crédit peut interagir avec des facteurs tels que le LTV lors de la détermination des ajustements de tarification au niveau du prêt. D'autres caractéristiques — y compris le type de prêt, le type de propriété, le DTI, la durée du prêt, l'occupation, et la tarification du prêteur — peuvent aussi affecter l'offre finale. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ))
 
 Avant de faire une demande, examinez vos rapports de crédit, évitez les nouvelles dettes inutiles, et comparez les offres de plusieurs prêteurs. Lorsque vous évaluez les options finales, regardez au-delà du taux d'intérêt et comparez le TAEG, les points, les crédits du prêteur, l'assurance hypothécaire, les frais de clôture, et le coût total attendu du prêt.

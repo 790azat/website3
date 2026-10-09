@@ -6,16 +6,16 @@ date: 2026-06-15
 ---
 Les gouttières sont l'une des composantes les plus simples du système de drainage d'une maison, mais elles jouent un rôle important dans le contrôle de la destination du ruissellement de toiture. Lorsque les gouttières deviennent obstruées, endommagées, ou désolidarisées, l'eau peut se déverser directement à côté de la fondation, plutôt que d'être évacuée loin du bâtiment.
 
-Ce ruissellement concentré peut contribuer à l'humidité du sous-sol, à l'érosion du sol, aux infiltrations dans la fondation, et à d'autres problèmes liés à l'eau. L'Extension de l'Université du Minnesota identifie les gouttières défectueuses, les descentes pluviales manquantes, un mauvais nivellement, et un drainage inadéquat comme des causes courantes de problèmes d'humidité au sous-sol. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+Ce ruissellement concentré peut contribuer à l'humidité du sous-sol, à l'érosion du sol, aux infiltrations dans la fondation, et à d'autres problèmes liés à l'eau. L'Extension de l'Université du Minnesota identifie les gouttières défectueuses, les descentes pluviales manquantes, un mauvais nivellement, et un drainage inadéquat comme des causes courantes de problèmes d'humidité au sous-sol. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 L'entretien régulier des gouttières vise donc moins à les garder propres visuellement qu'à maintenir le fonctionnement adéquat de l'ensemble du système de drainage de la toiture.
 
 ## Pourquoi l'entretien des gouttières compte pour les fondations
 Une toiture recueille une grande quantité d'eau de pluie et la concentre le long des rebords du toit. Sans gouttières et descentes pluviales fonctionnelles, cette eau peut tomber directement à côté de la fondation.
 
-L'Extension de l'Université du Minnesota note que, lors d'une pluie de 1 pouce, une toiture de 2 000 pieds carrés peut recevoir environ 1 250 gallons d'eau. Sans gouttières, descentes pluviales, et nivellement appropriés, une partie de cette eau peut se déplacer vers la fondation. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+L'Extension de l'Université du Minnesota note que, lors d'une pluie de 1 pouce, une toiture de 2 000 pieds carrés peut recevoir environ 1 250 gallons d'eau. Sans gouttières, descentes pluviales, et nivellement appropriés, une partie de cette eau peut se déplacer vers la fondation. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
-Les directives de l'EPA (Environmental Protection Agency) en matière de contrôle de l'humidité recommandent de même de maintenir un drainage positif autour des bâtiments et de diriger l'eau de toiture loin des fondations. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+Les directives de l'EPA (Environmental Protection Agency) en matière de contrôle de l'humidité recommandent de même de maintenir un drainage positif autour des bâtiments et de diriger l'eau de toiture loin des fondations. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 L'objectif est simple :
 
@@ -37,7 +37,7 @@ Au minimum, inspectez le système régulièrement et portez une attention partic
   - Lorsque les gouttières commencent à déborder
   - Lorsque de l'eau apparaît à côté de la fondation
 
-Les directives de l'EPA recommandent d'inspecter les conditions de drainage extérieures semestriellement, ainsi qu'après de fortes pluies ou une fonte rapide des neiges. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+Les directives de l'EPA recommandent d'inspecter les conditions de drainage extérieures semestriellement, ainsi qu'après de fortes pluies ou une fonte rapide des neiges. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 Pour les propriétés locatives, ajouter les inspections de gouttières au calendrier d'entretien régulier de la propriété peut éviter que cette tâche ne soit négligée.
 
@@ -100,14 +100,14 @@ Vérifiez que chaque descente pluviale :
   - Ne se déverse pas directement à côté de la fondation
   - Dispose d'une extension ou d'un raccordement de drainage approprié
 
-L'Extension de l'Université du Minnesota avertit spécifiquement qu'une descente pluviale sans extension ni dalle de dispersion peut concentrer un grand volume de ruissellement de toiture près de la fondation. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+L'Extension de l'Université du Minnesota avertit spécifiquement qu'une descente pluviale sans extension ni dalle de dispersion peut concentrer un grand volume de ruissellement de toiture près de la fondation. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
-Les directives de l'EPA recommandent de même de raccorder les descentes pluviales à des conduits inclinés qui acheminent l'eau loin de la fondation, sous réserve des exigences locales applicables. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+Les directives de l'EPA recommandent de même de raccorder les descentes pluviales à des conduits inclinés qui acheminent l'eau loin de la fondation, sous réserve des exigences locales applicables. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 ## Prolongez les descentes pluviales loin de la fondation
 L'une des améliorations de drainage les plus simples consiste à prolonger le point de déversement de la descente pluviale plus loin du bâtiment.
 
-La distance appropriée dépend des conditions du site, du nivellement, des exigences locales, et du système de drainage de la propriété. Les directives de l'EPA en matière de contrôle de l'humidité donnent des exemples de conduits de descente pluviale dirigés à au moins 10 pieds de la fondation avec une pente appropriée, tandis que d'autres directives de construction utilisent des distances plus courtes sous des conditions spécifiques. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+La distance appropriée dépend des conditions du site, du nivellement, des exigences locales, et du système de drainage de la propriété. Les directives de l'EPA en matière de contrôle de l'humidité donnent des exemples de conduits de descente pluviale dirigés à au moins 10 pieds de la fondation avec une pente appropriée, tandis que d'autres directives de construction utilisent des distances plus courtes sous des conditions spécifiques. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 Le principe important est que l'eau ne devrait pas simplement être déposée au mur de fondation.
 
@@ -128,9 +128,9 @@ Inspectez la zone autour de la fondation après une pluie. Recherchez :
   - De l'eau s'écoulant vers les fenêtres de sous-sol
   - Des zones de déversement de descente pluviale qui restent humides
 
-L'EPA recommande de maintenir un drainage positif du site afin que l'eau soit évacuée loin des bâtiments et ne stagne pas dans les zones basses. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+L'EPA recommande de maintenir un drainage positif du site afin que l'eau soit évacuée loin des bâtiments et ne stagne pas dans les zones basses. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
-L'Extension de l'Université du Minnesota recommande de même de corriger les problèmes de nivellement et de gouttières/descentes pluviales avant de passer à des solutions de drainage souterrain plus étendues. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+L'Extension de l'Université du Minnesota recommande de même de corriger les problèmes de nivellement et de gouttières/descentes pluviales avant de passer à des solutions de drainage souterrain plus étendues. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 ## Réparer les gouttières affaissées ou qui fuient
 Une gouttière affaissée peut ne plus avoir la bonne inclinaison.
@@ -146,7 +146,7 @@ Les protège-gouttières peuvent réduire la quantité de feuilles et de gros d�
 
 De petits débris, des graines, des granules de toiture, et de la matière organique peuvent tout de même s'accumuler sur ou sous certains systèmes de protection. Des protections mal choisies ou mal installées peuvent également nuire à l'écoulement de l'eau.
 
-Les documents de l'EPA sur les systèmes d'eaux pluviales soulignent que les écrans anti-feuilles et les dispositifs de filtration similaires nécessitent un nettoyage régulier pour rester efficaces. ([US EPA](https://19january2021snapshot.epa.gov/sites/static/files/2017-02/documents/npdesinspect-group2.pdf?utm_source=chatgpt.com))
+Les documents de l'EPA sur les systèmes d'eaux pluviales soulignent que les écrans anti-feuilles et les dispositifs de filtration similaires nécessitent un nettoyage régulier pour rester efficaces. ([US EPA](https://19january2021snapshot.epa.gov/sites/static/files/2017-02/documents/npdesinspect-group2.pdf))
 
 Si des protège-gouttières sont installés, incluez-les dans le calendrier d'inspection plutôt que de présumer qu'ils éliminent l'entretien.
 
@@ -166,7 +166,7 @@ Recherchez :
   - De l'eau stagnante persistante
   - Des zones humides autour des fenêtres de sous-sol
 
-L'EPA recommande d'inspecter les zones de fondation pour détecter les infiltrations, les taches d'eau, l'efflorescence, la croissance de moisissure, et les changements dans les fissures, dans le cadre de l'entretien de contrôle de l'humidité. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT&utm_source=chatgpt.com))
+L'EPA recommande d'inspecter les zones de fondation pour détecter les infiltrations, les taches d'eau, l'efflorescence, la croissance de moisissure, et les changements dans les fissures, dans le cadre de l'entretien de contrôle de l'humidité. ([EPA NEPIS](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100HF07.TXT))
 
 Ces symptômes ne signifient pas nécessairement que la fondation elle-même est en défaillance structurelle. Ils indiquent que le système de gestion de l'eau de la propriété mérite d'être examiné.
 
@@ -187,7 +187,7 @@ Envisagez d'embaucher un entrepreneur ou un spécialiste du drainage lorsque :
 
 Un professionnel peut avoir besoin d'évaluer les gouttières, les descentes pluviales, le nivellement, le drainage souterrain, l'étanchéité de la fondation, ou d'autres composants comme un système unique.
 
-L'Extension de l'Université du Minnesota recommande de traiter les gouttières, les descentes pluviales, et le nivellement de surface avant de présumer qu'un système de drainage souterrain étendu est nécessaire. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+L'Extension de l'Université du Minnesota recommande de traiter les gouttières, les descentes pluviales, et le nivellement de surface avant de présumer qu'un système de drainage souterrain étendu est nécessaire. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 ## Liste de vérification pour l'entretien des gouttières
 Utilisez cette liste de vérification lors des inspections de routine :
@@ -223,7 +223,7 @@ Pour les propriétés locatives, photographiez les défauts et les réparations 
 ## Considérations finales
 Le nettoyage des gouttières est une tâche d'entretien relativement simple, mais son objectif dépasse le simple fait de garder la ligne de toit soignée. L'objectif plus large est de contrôler le ruissellement de la toiture et d'empêcher l'eau concentrée de s'accumuler à côté de la fondation.
 
-Des gouttières propres, des descentes pluviales fonctionnelles, des emplacements de déversement appropriés, et un nivellement positif fonctionnent ensemble comme un système de drainage. Les directives de l'EPA et des services de vulgarisation universitaires soulignent toutes deux l'importance de diriger l'eau loin du bâtiment et de maintenir les composants de drainage qui accomplissent cela. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions?utm_source=chatgpt.com))
+Des gouttières propres, des descentes pluviales fonctionnelles, des emplacements de déversement appropriés, et un nivellement positif fonctionnent ensemble comme un système de drainage. Les directives de l'EPA et des services de vulgarisation universitaires soulignent toutes deux l'importance de diriger l'eau loin du bâtiment et de maintenir les composants de drainage qui accomplissent cela. ([University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/moisture-in-basements-causes-and-solutions))
 
 Pour les propriétaires et les propriétaires bailleurs, une routine d'entretien pratique consiste à inspecter les gouttières au moins deux fois par an et après des tempêtes importantes, avec un nettoyage plus fréquent lorsque des arbres génèrent des débris substantiels. Traitez les fuites, les sections affaissées, les descentes pluviales bloquées, et les mauvais emplacements de déversement avant qu'ils ne deviennent des problèmes d'humidité plus importants.
 

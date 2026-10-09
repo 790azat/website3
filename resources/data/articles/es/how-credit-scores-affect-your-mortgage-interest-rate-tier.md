@@ -4,7 +4,7 @@ section: home-financing
 author: maya-patel
 date: 2026-04-06
 ---
-Su puntuación de crédito puede influir tanto en su capacidad para calificar para una hipoteca como en la tasa de interés que le ofrece un prestamista. En general, los prestatarios con perfiles crediticios más sólidos tienden a recibir precios hipotecarios más favorables, mientras que los prestatarios con puntuaciones más bajas pueden enfrentar tasas más altas, requisitos adicionales o menos opciones de préstamo. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+Su puntuación de crédito puede influir tanto en su capacidad para calificar para una hipoteca como en la tasa de interés que le ofrece un prestamista. En general, los prestatarios con perfiles crediticios más sólidos tienden a recibir precios hipotecarios más favorables, mientras que los prestatarios con puntuaciones más bajas pueden enfrentar tasas más altas, requisitos adicionales o menos opciones de préstamo. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
 La fijación de precios hipotecarios no se basa únicamente en la puntuación de crédito. Los prestamistas también pueden considerar la relación préstamo-valor (LTV), el tipo de préstamo, la propiedad, la relación deuda-ingresos (DTI), el plazo del préstamo, la ocupación, los activos y otras características.
 
@@ -13,25 +13,25 @@ Comprender cómo encajan las puntuaciones de crédito en la fijación de precios
 ## ¿Qué Es una Puntuación de Crédito Hipotecaria?
 Una puntuación de crédito es una representación numérica derivada de la información en sus informes de crédito. Diferentes modelos de puntuación pueden producir puntuaciones diferentes para el mismo prestatario.
 
-Los prestamistas hipotecarios pueden usar modelos de puntuación de crédito especializados e información de múltiples empresas de informes de crédito. El CFPB señala que la mayoría de los prestamistas hipotecarios históricamente han observado las puntuaciones de Equifax, Experian y TransUnion al evaluar las solicitudes hipotecarias, aunque los modelos de puntuación usados en los préstamos hipotecarios están evolucionando. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+Los prestamistas hipotecarios pueden usar modelos de puntuación de crédito especializados e información de múltiples empresas de informes de crédito. El CFPB señala que la mayoría de los prestamistas hipotecarios históricamente han observado las puntuaciones de Equifax, Experian y TransUnion al evaluar las solicitudes hipotecarias, aunque los modelos de puntuación usados en los préstamos hipotecarios están evolucionando. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
-La Guía de Venta 2026 de Fannie Mae también refleja cambios en los modelos de puntuación de crédito aprobados, incluyendo la incorporación de VantageScore 4.0 y FICO Score 10T para ciertas entregas e implementaciones. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/selling-policy-communications?utm_source=chatgpt.com))
+La Guía de Venta 2026 de Fannie Mae también refleja cambios en los modelos de puntuación de crédito aprobados, incluyendo la incorporación de VantageScore 4.0 y FICO Score 10T para ciertas entregas e implementaciones. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/selling-policy-communications))
 
 Esto significa que la puntuación que ve a través de una solicitud de tarjeta de crédito de consumo o un sitio web de finanzas personales no es necesariamente la puntuación exacta que usa un prestamista hipotecario.
 
 ## Cómo Afectan las Puntuaciones de Crédito la Fijación de Precios Hipotecarios
 Los prestamistas hipotecarios usan una fijación de precios basada en el riesgo, lo que significa que los términos del préstamo pueden variar según las características asociadas con el riesgo de reembolso.
 
-El CFPB indica que las puntuaciones de crédito más altas generalmente hacen que los prestatarios sean elegibles para tasas de interés más bajas, aunque la puntuación de crédito es solo un componente de la decisión del prestamista. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+El CFPB indica que las puntuaciones de crédito más altas generalmente hacen que los prestatarios sean elegibles para tasas de interés más bajas, aunque la puntuación de crédito es solo un componente de la decisión del prestamista. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
-Para los préstamos convencionales vendidos a Fannie Mae, la puntuación de crédito también puede afectar los **ajustes de precio a nivel de préstamo (LLPA, por sus siglas en inglés)**. Estos ajustes son parte del marco de precios que usan los prestamistas al determinar el costo de los préstamos elegibles. El ajuste aplicable puede depender de la puntuación de crédito y otras características, incluyendo el LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/document/pdf/selling-guide-march-6-2024?utm_source=chatgpt.com))
+Para los préstamos convencionales vendidos a Fannie Mae, la puntuación de crédito también puede afectar los **ajustes de precio a nivel de préstamo (LLPA, por sus siglas en inglés)**. Estos ajustes son parte del marco de precios que usan los prestamistas al determinar el costo de los préstamos elegibles. El ajuste aplicable puede depender de la puntuación de crédito y otras características, incluyendo el LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/document/pdf/selling-guide-march-6-2024))
 
 Como resultado, dos prestatarios que solicitan hipotecas por lo demás similares pueden recibir precios diferentes.
 
 ## Niveles Típicos de Puntuación de Crédito
 No existe un conjunto universal de niveles de tasa de interés hipotecaria usado por todos los prestamistas.
 
-Sin embargo, el CFPB proporciona una guía general sobre cómo los rangos de crédito pueden afectar la fijación de precios hipotecarios. Su guía para el consumidor indica que los prestatarios con puntuaciones en el rango de **700 medio a alto o superior** generalmente reciben las tasas más bajas, mientras que los prestatarios en el rango de **680–740** típicamente pagan tasas algo más altas. Los prestatarios en el rango de **620–680** generalmente enfrentan tasas más altas y menos opciones, mientras que las puntuaciones por debajo de 620 pueden dificultar la calificación dependiendo del tipo de préstamo y el prestamista. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/?utm_source=chatgpt.com))
+Sin embargo, el CFPB proporciona una guía general sobre cómo los rangos de crédito pueden afectar la fijación de precios hipotecarios. Su guía para el consumidor indica que los prestatarios con puntuaciones en el rango de **700 medio a alto o superior** generalmente reciben las tasas más bajas, mientras que los prestatarios en el rango de **680–740** típicamente pagan tasas algo más altas. Los prestatarios en el rango de **620–680** generalmente enfrentan tasas más altas y menos opciones, mientras que las puntuaciones por debajo de 620 pueden dificultar la calificación dependiendo del tipo de préstamo y el prestamista. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/))
 
 Estos rangos son útiles para entender la relación general, pero no deben tratarse como niveles de tasa fijos de la industria.
 
@@ -50,7 +50,7 @@ Considere a dos prestatarios que tienen ambos una puntuación de crédito de 740
   - Un plazo de préstamo más corto
   - Un programa de préstamo diferente
 
-La relación préstamo-valor es particularmente importante en la fijación de precios de las hipotecas convencionales. La matriz de precios de Fannie Mae incorpora tanto la puntuación de crédito como el LTV al determinar los ajustes de precio a nivel de préstamo aplicables. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ&utm_source=chatgpt.com))
+La relación préstamo-valor es particularmente importante en la fijación de precios de las hipotecas convencionales. La matriz de precios de Fannie Mae incorpora tanto la puntuación de crédito como el LTV al determinar los ajustes de precio a nivel de préstamo aplicables. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ))
 
 Por lo tanto, mejorar su puntuación de crédito es solo una posible forma de mejorar la fijación de precios de su hipoteca.
 
@@ -75,7 +75,7 @@ LTV: 80%
 
 Ambos prestatarios podrían tener la misma puntuación de crédito, pero las características de su préstamo son diferentes.
 
-Las matrices de precios convencionales pueden aplicar diferentes ajustes según la combinación de puntuación de crédito y LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ&utm_source=chatgpt.com))
+Las matrices de precios convencionales pueden aplicar diferentes ajustes según la combinación de puntuación de crédito y LTV. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ))
 
 Por eso un prestatario no debe evaluar la fijación de precios hipotecarios basándose únicamente en la puntuación de crédito.
 
@@ -91,7 +91,7 @@ Al comparar ofertas, observe la tasa de interés, el seguro hipotecario, las tar
 ## ¿Cuánto Puede Cambiar una Puntuación de Crédito el Costo de su Hipoteca?
 Incluso una diferencia relativamente pequeña en la fijación de precios hipotecarios puede afectar el interés total pagado durante un plazo de préstamo largo.
 
-El CFPB proporciona un ejemplo que muestra cómo cambiar la puntuación de crédito de 625 a 700 puede producir diferentes rangos de ofertas hipotecarias y costos de interés potenciales significativamente diferentes bajo sus supuestos hipotéticos. El CFPB enfatiza que las ofertas reales dependen de las circunstancias del prestatario y las condiciones del mercado. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/explore-rates/?utm_source=chatgpt.com))
+El CFPB proporciona un ejemplo que muestra cómo cambiar la puntuación de crédito de 625 a 700 puede producir diferentes rangos de ofertas hipotecarias y costos de interés potenciales significativamente diferentes bajo sus supuestos hipotéticos. El CFPB enfatiza que las ofertas reales dependen de las circunstancias del prestatario y las condiciones del mercado. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/explore-rates/))
 
 Considere un ejemplo ilustrativo:
 
@@ -128,14 +128,14 @@ La utilización de crédito, es decir, la cantidad de crédito rotativo que est�
 ### Evite Crédito Nuevo Innecesario
 Abrir nuevas cuentas de crédito puede afectar su perfil crediticio y generar consultas de crédito exhaustivas (hard inquiries).
 
-El CFPB recomienda evitar solicitudes de crédito nuevas innecesarias al prepararse para una hipoteca. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-happens-when-a-mortgage-lender-checks-my-credit-en-2005/?utm_source=chatgpt.com))
+El CFPB recomienda evitar solicitudes de crédito nuevas innecesarias al prepararse para una hipoteca. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-happens-when-a-mortgage-lender-checks-my-credit-en-2005/))
 
 ### Revise sus Informes de Crédito
 Revise sus informes de crédito en busca de información inexacta antes de solicitar.
 
 Un pago atrasado incorrecto, una cuenta de cobranza u otro error podría afectar negativamente su puntuación y potencialmente aumentar el costo del endeudamiento.
 
-El CFPB recomienda revisar los informes de crédito y disputar la información inexacta. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/?utm_source=chatgpt.com))
+El CFPB recomienda revisar los informes de crédito y disputar la información inexacta. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/does-my-credit-score-affect-my-ability-to-get-a-mortgage-loan-or-the-mortgage-rate-i-pay-en-319/))
 
 ## No Cierre Cuentas Antiguas sin Considerar el Efecto
 Cerrar una cuenta de crédito antigua a veces puede afectar su perfil crediticio.
@@ -149,7 +149,7 @@ El objetivo no es simplemente tener menos cuentas, sino mantener un perfil credi
 ## Comparar Tasas Hipotecarias Generalmente No Requiere Evitar Todas las Consultas de Crédito
 Buscar una hipoteca sí implica consultas de crédito, pero los consumidores generalmente no deben evitar comparar prestamistas simplemente porque les preocupan múltiples consultas hipotecarias.
 
-El CFPB indica que múltiples verificaciones de crédito hipotecario realizadas dentro de una **ventana de 45 días** generalmente se registran como una sola consulta a efectos de puntuación. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/?utm_source=chatgpt.com))
+El CFPB indica que múltiples verificaciones de crédito hipotecario realizadas dentro de una **ventana de 45 días** generalmente se registran como una sola consulta a efectos de puntuación. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/))
 
 Esto les da a los prestatarios la oportunidad de comparar ofertas hipotecarias sin tratar cada consulta de un prestamista como un evento de puntuación separado.
 
@@ -160,7 +160,7 @@ Al comparar ofertas hipotecarias, no observe únicamente la tasa de interés anu
 
 La **tasa de interés** representa el costo del endeudamiento expresado como un porcentaje.
 
-La **tasa de porcentaje anual (APR)** incorpora la tasa de interés junto con ciertos puntos, tarifas y otros cargos del préstamo, proporcionando una medida más amplia del costo del endeudamiento. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-mortgage-interest-rate-and-an-apr-en-135/?utm_source=chatgpt.com))
+La **tasa de porcentaje anual (APR)** incorpora la tasa de interés junto con ciertos puntos, tarifas y otros cargos del préstamo, proporcionando una medida más amplia del costo del endeudamiento. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-mortgage-interest-rate-and-an-apr-en-135/))
 
 Por ejemplo, un prestamista podría ofrecer:
 
@@ -177,7 +177,7 @@ Compare las Estimaciones de Préstamo (Loan Estimates) en lugar de depender de u
 ## ¿Pueden los Préstamos Gubernamentales Funcionar de Manera Diferente?
 Los requisitos de puntuación de crédito y la fijación de precios pueden diferir sustancialmente entre las hipotecas convencionales y las respaldadas por el gobierno.
 
-Los programas FHA, VA y USDA tienen sus propias estructuras de elegibilidad y suscripción. El CFPB señala que los programas gubernamentales pueden proporcionar opciones para algunos prestatarios que pueden tener dificultades para calificar para el financiamiento convencional, particularmente aquellos con puntuaciones de crédito más bajas o pagos iniciales más pequeños. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/?utm_source=chatgpt.com))
+Los programas FHA, VA y USDA tienen sus propias estructuras de elegibilidad y suscripción. El CFPB señala que los programas gubernamentales pueden proporcionar opciones para algunos prestatarios que pueden tener dificultades para calificar para el financiamiento convencional, particularmente aquellos con puntuaciones de crédito más bajas o pagos iniciales más pequeños. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/))
 
 Sin embargo, un requisito de puntuación de crédito más bajo no significa automáticamente que una hipoteca respaldada por el gobierno tendrá un costo total más bajo.
 
@@ -210,13 +210,13 @@ Compare:
 
 Usar el mismo monto de préstamo, pago inicial, tipo de propiedad, plazo y puntos o créditos hace que las comparaciones sean más significativas.
 
-El CFPB recomienda comparar las ofertas de préstamo y entender cómo los puntos y los créditos del prestamista afectan la tasa de interés y los costos iniciales. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/?utm_source=chatgpt.com))
+El CFPB recomienda comparar las ofertas de préstamo y entender cómo los puntos y los créditos del prestamista afectan la tasa de interés y los costos iniciales. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/))
 
 ## Consideraciones Finales
 La puntuación de crédito puede desempeñar un papel importante en la determinación de la elegibilidad y la fijación de precios hipotecarios, pero no existe un único conjunto nacional de niveles de tasa de interés que se aplique a todos los prestatarios.
 
-En general, las puntuaciones de crédito más altas se asocian con una fijación de precios hipotecarios más favorable, mientras que las puntuaciones más bajas pueden resultar en tasas más altas, requisitos adicionales o menos opciones de préstamo. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/?utm_source=chatgpt.com))
+En general, las puntuaciones de crédito más altas se asocian con una fijación de precios hipotecarios más favorable, mientras que las puntuaciones más bajas pueden resultar en tasas más altas, requisitos adicionales o menos opciones de préstamo. ([consumerfinance.gov](https://www.consumerfinance.gov/owning-a-home/prepare/get-your-money-situation-in-order/))
 
-Para las hipotecas convencionales, la puntuación de crédito puede interactuar con factores como el LTV al determinar los ajustes de precio a nivel de préstamo. Otras características, incluyendo el tipo de préstamo, el tipo de propiedad, el DTI, el plazo del préstamo, la ocupación y la fijación de precios del prestamista, también pueden afectar la oferta final. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ&utm_source=chatgpt.com))
+Para las hipotecas convencionales, la puntuación de crédito puede interactuar con factores como el LTV al determinar los ajustes de precio a nivel de préstamo. Otras características, incluyendo el tipo de préstamo, el tipo de propiedad, el DTI, el plazo del préstamo, la ocupación y la fijación de precios del prestamista, también pueden afectar la oferta final. ([singlefamily.fanniemae.com](https://singlefamily.fanniemae.com/media/9391/display?mibextid=Zxz2cZ))
 
 Antes de solicitar, revise sus informes de crédito, evite deuda nueva innecesaria y compare ofertas de múltiples prestamistas. Al evaluar las opciones finales, mire más allá de la tasa de interés y compare el APR, los puntos, los créditos del prestamista, el seguro hipotecario, los costos de cierre y el costo total esperado del préstamo.
