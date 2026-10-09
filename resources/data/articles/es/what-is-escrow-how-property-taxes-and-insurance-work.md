@@ -22,7 +22,7 @@ Los gastos más comunes pagados desde el escrow son:
 
 El administrador de la hipoteca recolecta una parte de estos gastos esperados con cada pago hipotecario mensual y luego usa los fondos para pagar las facturas cuando vencen.
 
-La Oficina de Protección Financiera del Consumidor (CFPB, Consumer Financial Protection Bureau) explica que muchos pagos hipotecarios incluyen dinero para impuestos a la propiedad y seguro de vivienda además del capital e interés. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/))
+La Oficina de Protección Financiera del Consumidor (CFPB, Consumer Financial Protection Bureau) explica que muchos pagos hipotecarios incluyen dinero para impuestos a la propiedad y seguro de vivienda además del capital e interés. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/?utm_source=chatgpt.com))
 
 ## Cómo el Escrow Cambia Su Pago Hipotecario Mensual
 Considere un propietario con los siguientes gastos anuales:
@@ -122,7 +122,7 @@ Por lo tanto, el pago total podría subir a aproximadamente:
 
 La tasa de interés de la hipoteca no cambió. El requisito de escrow sí.
 
-La CFPB señala que los impuestos a la propiedad y el seguro de vivienda están entre los costos que pueden hacer que el pago hipotecario total cambie. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-can-my-monthly-mortgage-payment-change-en-1943/))
+La CFPB señala que los impuestos a la propiedad y el seguro de vivienda están entre los costos que pueden hacer que el pago hipotecario total cambie. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/how-can-my-monthly-mortgage-payment-change-en-1943/?utm_source=chatgpt.com))
 
 ## ¿Qué Es un Déficit de Escrow (Escrow Shortage)?
 Un **déficit de escrow** ocurre cuando la cantidad actualmente en la cuenta de escrow es menor que la cantidad necesaria para cubrir las facturas futuras esperadas y el saldo mínimo requerido.
@@ -142,7 +142,7 @@ La situación opuesta es un **superávit de escrow**.
 
 Si la cuenta contiene más dinero del requerido después del análisis del administrador, el propietario puede tener derecho a un reembolso dependiendo de las reglas aplicables y el tamaño del superávit.
 
-Las normas federales que rigen las cuentas de escrow establecen requisitos sobre cómo los administradores calculan y manejan los déficits y superávits. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/))
+Las normas federales que rigen las cuentas de escrow establecen requisitos sobre cómo los administradores calculan y manejan los déficits y superávits. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/?utm_source=chatgpt.com))
 
 El administrador generalmente proporciona un estado de cuenta de escrow anual que explica la actividad de la cuenta y los gastos proyectados.
 
@@ -167,7 +167,7 @@ Si los impuestos y el seguro permanecen relativamente estables, el cambio puede 
 ## ¿Por Qué Existe un Colchón de Escrow (Escrow Cushion)?
 Los administradores de hipotecas generalmente mantienen una reserva, o **colchón**, en la cuenta de escrow para ayudar a cubrir aumentos inesperados en las facturas o diferencias de tiempo.
 
-Las regulaciones federales generalmente permiten que un administrador mantenga un colchón de hasta un sexto de los desembolsos anuales estimados de escrow, o aproximadamente dos meses de pagos de escrow estimados, sujeto a las reglas aplicables y los documentos del préstamo. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/))
+Las regulaciones federales generalmente permiten que un administrador mantenga un colchón de hasta un sexto de los desembolsos anuales estimados de escrow, o aproximadamente dos meses de pagos de escrow estimados, sujeto a las reglas aplicables y los documentos del préstamo. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1024/17/?utm_source=chatgpt.com))
 
 El propósito es reducir el riesgo de que la cuenta quede subfinanciada cuando una factura de impuestos o seguro es más alta de lo esperado.
 
@@ -178,7 +178,7 @@ Si se requiere el escrow depende de la hipoteca, el prestamista, el tipo de pré
 
 A algunos prestatarios se les puede permitir renunciar al escrow bajo ciertas circunstancias, mientras que otros préstamos o transacciones pueden requerir una cuenta de escrow.
 
-Por ejemplo, las normas federales imponen requisitos de escrow para ciertos préstamos hipotecarios de precio más alto garantizados por primeros gravámenes sobre una vivienda principal, sujeto a excepciones específicas. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1026/35/))
+Por ejemplo, las normas federales imponen requisitos de escrow para ciertos préstamos hipotecarios de precio más alto garantizados por primeros gravámenes sobre una vivienda principal, sujeto a excepciones específicas. ([consumerfinance.gov](https://www.consumerfinance.gov/rules-policy/regulations/1026/35/?utm_source=chatgpt.com))
 
 Incluso cuando el escrow es opcional, los propietarios deben considerar si se sienten cómodos manejando ellos mismos grandes facturas de impuestos y seguro.
 
@@ -189,7 +189,7 @@ Los propietarios deben notificar a su administrador de hipoteca si cambian de co
 
 Si el administrador no recibe evidencia de cobertura adecuada, puede comprar un seguro sobre la propiedad bajo ciertas circunstancias. Esto se llama comúnmente **seguro impuesto por el prestamista (force-placed insurance)**.
 
-La cobertura impuesta por el prestamista puede ser significativamente más costosa y puede proporcionar menos protección que la póliza regular de un propietario. La CFPB aconseja a los prestatarios mantener el seguro de vivienda requerido y proporcionar información actualizada de la póliza a su administrador cuando sea necesario. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-181/))
+La cobertura impuesta por el prestamista puede ser significativamente más costosa y puede proporcionar menos protección que la póliza regular de un propietario. La CFPB aconseja a los prestatarios mantener el seguro de vivienda requerido y proporcionar información actualizada de la póliza a su administrador cuando sea necesario. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-force-placed-insurance-en-181/?utm_source=chatgpt.com))
 
 Al cambiar de aseguradora, coordine cuidadosamente las fechas de vigencia para que no haya una interrupción en la cobertura.
 
@@ -272,7 +272,7 @@ Sin embargo, también deben presupuestar ellos mismos para los pagos grandes.
 Ninguna estructura es automáticamente apropiada para cada prestatario.
 
 ## Consideraciones Finales
-Una cuenta de escrow es esencialmente un mecanismo de presupuesto y pago conectado a una hipoteca. En lugar de pagar los impuestos a la propiedad y el seguro de vivienda directamente cuando llegan las facturas, muchos propietarios contribuyen hacia esos gastos cada mes y el administrador de la hipoteca hace los pagos desde la cuenta de escrow. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/))
+Una cuenta de escrow es esencialmente un mecanismo de presupuesto y pago conectado a una hipoteca. En lugar de pagar los impuestos a la propiedad y el seguro de vivienda directamente cuando llegan las facturas, muchos propietarios contribuyen hacia esos gastos cada mes y el administrador de la hipoteca hace los pagos desde la cuenta de escrow. ([consumerfinance.gov](https://www.consumerfinance.gov/ask-cfpb/what-is-an-escrow-account-en-138/?utm_source=chatgpt.com))
 
 El punto más importante para recordar es que una hipoteca de tasa fija no necesariamente significa un pago mensual **total** fijo. Los impuestos a la propiedad y las primas de seguro pueden cambiar, causando que la porción de escrow, y por lo tanto el pago hipotecario total, aumente o disminuya.
 

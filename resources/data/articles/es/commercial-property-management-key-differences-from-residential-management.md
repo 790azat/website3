@@ -191,7 +191,7 @@ Las propiedades comerciales pueden estar sujetas a numerosos requisitos de const
 
 Las reglas aplicables dependen del tipo de propiedad, la jurisdicción, las características del edificio y las actividades del inquilino.
 
-Por ejemplo, la Americans with Disabilities Act (Ley de Estadounidenses con Discapacidades, o ADA) establece requisitos de accesibilidad para muchos lugares de acceso público y establecimientos comerciales. El Departamento de Justicia explica que el Título III se aplica a los lugares de acceso público y establecimientos comerciales de operación privada y establece requisitos de accesibilidad para las propiedades cubiertas. ([ada.gov](https://www.ada.gov/topics/title-iii/))
+Por ejemplo, la Americans with Disabilities Act (Ley de Estadounidenses con Discapacidades, o ADA) establece requisitos de accesibilidad para muchos lugares de acceso público y establecimientos comerciales. El Departamento de Justicia explica que el Título III se aplica a los lugares de acceso público y establecimientos comerciales de operación privada y establece requisitos de accesibilidad para las propiedades cubiertas. ([ada.gov](https://www.ada.gov/topics/title-iii/?utm_source=chatgpt.com))
 
 Por lo tanto, los administradores comerciales deben coordinar con profesionales calificados cuando surjan preguntas de cumplimiento especializadas.
 

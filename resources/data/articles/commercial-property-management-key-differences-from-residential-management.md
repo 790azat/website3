@@ -191,7 +191,7 @@ Commercial properties can be subject to numerous building, fire, environmental, 
 
 The applicable rules depend on the property type, jurisdiction, building characteristics, and tenant activities.
 
-For example, the Americans with Disabilities Act establishes accessibility requirements for many places of public accommodation and commercial facilities. The Department of Justice explains that Title III applies to privately operated places of public accommodation and commercial facilities and establishes accessibility requirements for covered properties. ([ada.gov](https://www.ada.gov/topics/title-iii/))
+For example, the Americans with Disabilities Act establishes accessibility requirements for many places of public accommodation and commercial facilities. The Department of Justice explains that Title III applies to privately operated places of public accommodation and commercial facilities and establishes accessibility requirements for covered properties. ([ada.gov](https://www.ada.gov/topics/title-iii/?utm_source=chatgpt.com))
 
 Commercial managers should therefore coordinate with qualified professionals when specialized compliance questions arise.
 
